@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c83cce6-4ca9-44cf-ae74-eb771ccb9d39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spotify_manager_flask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/configs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/configs/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/helpers/db_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/helpers/spotify_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/logging_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/routes/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/routes/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/services/db_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/app/services/spotify_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/example.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotifyFlaskApp/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
+    <list default="true" id="0c83cce6-4ca9-44cf-ae74-eb771ccb9d39" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +45,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -115,11 +95,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717591669866</updated>
-      <workItem from="1717591671507" duration="264000" />
+      <workItem from="1717591671507" duration="1241000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1717592019020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592019020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
