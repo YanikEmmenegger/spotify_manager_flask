@@ -1,10 +1,12 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 from app.configs.config import Config
 from app.logging_config import configure_logging
+import os
 
 
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder="../static/dist", static_url_path="/")
+
     app.config.from_object(Config)
 
     configure_logging()
@@ -16,6 +18,10 @@ def create_app():
 
     @app.route('/')
     def index():
-        return 'Hello, World!'
+        return send_from_directory(app.static_folder, 'index.html')
+
+    @app.route('/<path:path>')
+    def static_proxy(path):
+        return send_from_directory(app.static_folder, path)
 
     return app

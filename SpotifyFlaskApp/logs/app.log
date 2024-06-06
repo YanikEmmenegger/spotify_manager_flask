@@ -3173,3 +3173,17 @@
 [32m2024-06-06 15:53:28 - INFO:  * Debugger PIN: 257-693-699[0m
 [32m2024-06-06 15:53:29 - INFO: 127.0.0.1 - - [06/Jun/2024 15:53:29] "[32mGET /api/auth HTTP/1.1[0m" 308 -[0m
 [32m2024-06-06 15:53:29 - INFO: 127.0.0.1 - - [06/Jun/2024 15:53:29] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-06 16:08:43 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-06 16:08:43 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-06 16:08:43 - INFO:  * Restarting with stat[0m
+[33m2024-06-06 16:08:44 - WARNING:  * Debugger is active![0m
+[32m2024-06-06 16:08:44 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-06 16:08:45 - INFO: 127.0.0.1 - - [06/Jun/2024 16:08:45] "[33mGET / HTTP/1.1[0m" 404 -[0m
+[32m2024-06-06 16:08:45 - INFO: 127.0.0.1 - - [06/Jun/2024 16:08:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -[0m
+[32m2024-06-06 16:08:58 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-06 16:08:58 - INFO:  * Restarting with stat[0m
+[33m2024-06-06 16:08:59 - WARNING:  * Debugger is active![0m
+[32m2024-06-06 16:08:59 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-06 16:08:59 - INFO: 127.0.0.1 - - [06/Jun/2024 16:08:59] "[33mGET / HTTP/1.1[0m" 404 -[0m
+[32m2024-06-06 16:09:00 - INFO: 127.0.0.1 - - [06/Jun/2024 16:09:00] "[33mGET / HTTP/1.1[0m" 404 -[0m
