@@ -41,3 +41,6 @@ class SpotifyService:
 
     def replace_tracks_in_playlist(self, access_token, playlist_id, track_ids):
         return replace_tracks_in_playlist(access_token, playlist_id, track_ids)
+
+    def get_artist_by_id(self, access_token, artist_id):
+        return get_artist_by_id(access_token, artist_id)

@@ -17,18 +17,6 @@ class Config:
     POSTGRES_DB = os.getenv("POSTGRES_DB")
     POSTGRES_PORT = os.getenv("POSTGRES_PORT", 5432)
 
-    @staticmethod
-    def print_config():
-        print(f"SPOTIPY_CLIENT_ID: {Config.SPOTIPY_CLIENT_ID}")
-        print(f"SPOTIPY_CLIENT_SECRET: {Config.SPOTIPY_CLIENT_SECRET}")
-        print(f"SPOTIPY_REDIRECT_URI: {Config.SPOTIPY_REDIRECT_URI}")
-        print(f"SPOTIPY_SCOPES: {Config.SPOTIPY_SCOPES}")
-        print(f"POSTGRESQL_URL: {Config.POSTGRES_URL}")
-        print(f"POSTGRESQL_USER: {Config.POSTGRES_USER}")
-        print(f"POSTGRESQL_PASS: {Config.POSTGRES_PASSWORD}")
-        print(f"POSTGRESQL_DB: {Config.POSTGRES_DB}")
-        print(f"POSTGRESQL_PORT: {Config.POSTGRES_PORT}")
-
 
 # Call this method to print the configuration for debugging
 # Config.print_config()

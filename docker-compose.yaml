@@ -6,9 +6,6 @@ services:
       context: ./SpotifyFlaskApp
       dockerfile: Dockerfile
     ports:
-      - "80:5000"
+      - "81:5000"
     volumes:
       - ./logs:/app/logs
-#    environment:
-#      - FLASK_ENV=development
-#    command: ["gunicorn", "-w", "3", "-b", "0.0.0.0:5000", "run:app"]
