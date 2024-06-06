@@ -154,3 +154,60 @@
 [32m2024-06-05 16:49:59 - INFO: Recent already in database - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
 [32m2024-06-05 16:49:59 - INFO: Recent already in database - Verschwendete Zeit - for User: spotifyyanik[0m
 [32m2024-06-05 16:50:00 - INFO: Recent already in database - wie du manchmal fehlst - for User: spotifyyanik[0m
+[32m2024-06-06 17:51:42 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-06 17:51:42 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-06 17:51:42 - INFO:  * Restarting with stat[0m
+[33m2024-06-06 17:51:42 - WARNING:  * Debugger is active![0m
+[32m2024-06-06 17:51:42 - INFO:  * Debugger PIN: 516-213-283[0m
+[32m2024-06-06 17:53:51 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-06 17:53:51 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:51 - INFO: Recent inserted successfully - 9 bis 9 - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Jung & dumm - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Hauseingang - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Perfekt (feat. Sofiane) - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Right Round - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Ysl - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent already in database - CL500 - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:52 - INFO: Recent already in database - Avant - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Augenmaß (feat. Pashanim) - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Punto - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Evergreen - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - BIRDS OF A FEATHER - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Tempo - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:53 - INFO: Recent already in database - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Durstlöscher - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Cotton Candy Sky - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - petit frère - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Millionär - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:54 - INFO: Recent already in database - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - Onizuka - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - wie du manchmal fehlst - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - Fieber - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:55 - INFO: Recent already in database - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Lieder - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Cardio - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - OLYMPIA - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:56 - INFO: Recent already in database - Spacecar - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:57 - INFO: Recent already in database - mietfrei - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:57 - INFO: Recent already in database - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-06 17:53:57 - INFO: Recent already in database - Mittelmeer - for User: spotifyyanik[0m
