@@ -1,2 +1,6 @@
 # Ignore the .env file in the SpotifyFlaskApp directory
-SpotifyFlaskApp/.env
+*.env
+*.cache
+*.venv
+*.pyc
+*.idea
