@@ -108,3 +108,24 @@ def update_artists():
                 {"error": f"Error in update_artists (update_artist): {update_artist_response['error']}"}), 500
 
         return jsonify({"message": "Artists updated successfully"}), 200
+
+
+@bp.route('/update/tracks', methods=['GET'])
+def update_tracks():
+    # Get first active user
+    active_users_response = db_service.get_active_users(1)
+    if not active_users_response['success']:
+        return jsonify({"error": f"Error in update_artists (get_active_users): {active_users_response['error']}"}), 500
+    active_user = active_users_response['data'][0]
+
+    access_token_response = spotify_service.exchange_refresh_token(active_user['spotify_key'])
+    if not access_token_response['success']:
+        return jsonify({
+            "error": f"Error in save_spotify_data (exchange_refresh_token): {access_token_response['error']}"}), 500
+    access_token = access_token_response['access_token']
+    incomplete_tracks_response = db_service.get_incomplete_tracks()
+    if not incomplete_tracks_response['success']:
+        return jsonify(
+            {"error": f"Error in update_tracks (get_incomplete_tracks): {incomplete_tracks_response['error']}"}), 500
+    incomplete_tracks = incomplete_tracks_response['data']
+    return jsonify({"message": incomplete_tracks}), 200

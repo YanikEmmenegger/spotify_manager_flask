@@ -172,10 +172,11 @@ class DBService:
         except Exception as e:
             return {'success': False, 'error': f"Error occurred in get_listened_to while getting songs: {e}"}
 
-    def get_incomplete_artists(self):
+    def get_incomplete_artists(self, limit=1000):
         try:
             result = self.db.execute(
-                text("SELECT aid FROM artists WHERE complete = FALSE")
+                text("SELECT aid FROM artists WHERE complete = FALSE LIMIT :limit"),
+                {'limit': limit}
             )
             incomplete_artists = [dict(row) for row in result.mappings()]
             logging.info(f"Incomplete artists retrieved successfully - {len(incomplete_artists)}")
@@ -220,3 +221,17 @@ class DBService:
             if "duplicate key value violates unique constraint" in str(e):
                 return {'success': True, 'message': 'Artist already in database'}
             return {'success': False, 'error': f"Error occurred in update_artist while updating artist: {e}"}
+
+    def get_incomplete_tracks(self, limit=1000):
+        try:
+            result = self.db.execute(
+                text("SELECT tid FROM tracks where complete = FALSE LIMIT :limit"),
+                {'limit': limit}
+
+            )
+            incomplete_tracks = [dict(row) for row in result.mappings()]
+            logging.info(f"Incomplete tracks retrieved successfully - {len(incomplete_tracks)}")
+            return {'success': True, 'message': 'Incomplete tracks retrieved successfully', 'data': incomplete_tracks}
+        except Exception as e:
+            return {'success': False,
+                    'error': f"Error occurred in get_incomplete_tracks while getting incomplete tracks: {e}"}
