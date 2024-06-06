@@ -9,9 +9,9 @@ SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1"
 
 def handle_rate_limit(response, func, *args, **kwargs):
     if response.status_code == 429:
-        wait = int(response.headers.get('Retry-After', '5'))
-        logging.warning(f"Rate limit exceeded. Waiting for {wait} seconds.")
-        time.sleep(wait)
+        retry_after = response.headers.get('Retry-After', 30)
+        logging.warning(f"Rate limited. Retrying after {retry_after} seconds")
+        time.sleep(int(retry_after))
         return func(*args, **kwargs)
     return {'success': False, 'error': f"Failed: {response.reason}"}
 
@@ -46,7 +46,12 @@ def make_spotify_api_request(access_token, endpoint, method='GET', data=None, pa
 
         if response.status_code in [200, 201]:
             return {'success': True, 'data': response.json()}
-        return handle_rate_limit(response, make_spotify_api_request, access_token, endpoint, method, data, params)
+
+        if response.status_code == 429:
+            logging.debug(f"Headers: {response.headers}")
+            return handle_rate_limit(response, make_spotify_api_request, access_token, endpoint, method, data, params)
+
+        return {'success': False, 'error': f"Failed: {response.reason}"}
     except Exception as e:
         return {'success': False, 'error': f"Error occurred while making Spotify API request: {e}"}
 
@@ -110,3 +115,8 @@ def create_sorted_collection(tracks, limit):
 
 def get_artist_by_id(access_token, artist_id):
     return make_spotify_api_request(access_token, f"artists/{artist_id}")
+
+
+def get_track_details(access_token, track_id):
+    # audio-features/{id}
+    return make_spotify_api_request(access_token, f"audio-features/{track_id}")

@@ -235,3 +235,21 @@ class DBService:
         except Exception as e:
             return {'success': False,
                     'error': f"Error occurred in get_incomplete_tracks while getting incomplete tracks: {e}"}
+
+    def update_track(self, track_id, danceability, energy, key, loudness, mode, speechiness, acousticness,
+                     instrumentalness, liveness, valence, tempo):
+        try:
+            self.db.execute(
+                text(
+                    "UPDATE tracks SET danceability = :danceability, energy = :energy, key = :key, loudness = :loudness, mode = :mode, speechiness = :speechiness, acousticness = :acousticness, instrumentalness = :instrumentalness, liveness = :liveness, valence = :valence, tempo = :tempo, complete = TRUE WHERE tid = :tid"
+                ),
+                {'danceability': danceability, 'energy': energy, 'key': key, 'loudness': loudness, 'mode': mode,
+                 'speechiness': speechiness, 'acousticness': acousticness, 'instrumentalness': instrumentalness,
+                 'liveness': liveness, 'valence': valence, 'tempo': tempo, 'tid': track_id}
+            )
+            self.db.commit()
+            logging.info(f"Track updated successfully - {track_id}")
+            return {'success': True, 'message': 'Track updated successfully'}
+        except Exception as e:
+            return {'success': False,
+                    'error': f"Error occurred in update_track while update track: {e}"}

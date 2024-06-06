@@ -12,7 +12,7 @@ def create_app():
     with app.app_context():
         from app.routes import api, auth
         app.register_blueprint(api.bp, url_prefix='/api')
-        app.register_blueprint(auth.bp, url_prefix='/auth')
+        app.register_blueprint(auth.bp, url_prefix='/api/auth')
 
     @app.route('/')
     def index():

@@ -44,3 +44,6 @@ class SpotifyService:
 
     def get_artist_by_id(self, access_token, artist_id):
         return get_artist_by_id(access_token, artist_id)
+
+    def get_track_details(self, access_token, track_id):
+        return get_track_details(access_token, track_id)
