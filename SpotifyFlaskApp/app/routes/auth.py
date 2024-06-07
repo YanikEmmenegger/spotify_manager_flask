@@ -18,8 +18,10 @@ def auth_index():
 def callback():
     code = request.args.get('code')
     token_info = spotify_service.get_access_token(code)
-    user_profile = spotify_service.get_user_profile(token_info['access_token'])
+    if not token_info:
+        return 'Failed to get access token', 500
 
+    user_profile = spotify_service.get_user_profile(token_info['access_token'])
     if user_profile['success']:
         user = user_profile['data']
         insert_response = db_service.insert_user(user['id'], user['display_name'], True, token_info['refresh_token'])

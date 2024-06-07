@@ -13,6 +13,8 @@ def handle_rate_limit(response, func, *args, **kwargs):
         logging.warning(f"Rate limited. Retrying after {retry_after} seconds")
         time.sleep(int(retry_after))
         return func(*args, **kwargs)
+    if response.status_code == 404:
+        return {'success': False, 'error': "Not Found"}
     return {'success': False, 'error': f"Failed: {response.reason}"}
 
 

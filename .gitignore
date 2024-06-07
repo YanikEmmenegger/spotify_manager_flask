@@ -3,4 +3,5 @@
 *.cache
 *.venv
 *.pyc
-*.idea
+*./idea
+*./db_dump/*
