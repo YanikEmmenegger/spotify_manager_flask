@@ -5,3 +5,4 @@
 *.pyc
 *./idea
 *./db_dump/*
+*./node_modules/*

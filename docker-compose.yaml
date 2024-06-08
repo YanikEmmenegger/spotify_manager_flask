@@ -9,4 +9,3 @@ services:
       - "80:5000"
     volumes:
       - ./logs:/app/logs
-      - ./SpotifyViteApp/dist:/app/static
