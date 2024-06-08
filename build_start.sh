@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+# docker compose down first
+echo "Stopping Docker containers..."
+docker-compose down
+
 # Define source and destination directories
 SOURCE_DIR="SpotifyViteApp/dist"
 DEST_DIR="SpotifyFlaskApp/app/static"
