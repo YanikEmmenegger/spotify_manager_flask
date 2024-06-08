@@ -211,3 +211,138 @@
 [32m2024-06-06 17:53:57 - INFO: Recent already in database - mietfrei - for User: spotifyyanik[0m
 [32m2024-06-06 17:53:57 - INFO: Recent already in database - SURVIE - for User: spotifyyanik[0m
 [32m2024-06-06 17:53:57 - INFO: Recent already in database - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-07 07:00:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-07 07:00:08 - INFO: Incomplete tracks retrieved successfully - 1[0m
+[32m2024-06-07 07:01:57 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-07 07:01:57 - INFO: Incomplete tracks retrieved successfully - 1[0m
+[33m2024-06-07 07:01:57 - WARNING: Rate limited. Retrying after 30 seconds[0m
+[32m2024-06-07 07:03:29 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-07 07:03:39 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-07 07:04:42 - ERROR: Exception on /api/auth/callback [GET][0m
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 578, in refresh_access_token
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://accounts.spotify.com/api/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/app/app/routes/auth.py", line 20, in callback
+    token_info = spotify_service.get_access_token(code)
+  File "/app/app/services/spotify_service.py", line 16, in get_access_token
+    return self.auth_manager.get_access_token(code)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 515, in get_access_token
+    token_info = self.validate_token(self.cache_handler.get_cached_token())
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 371, in validate_token
+    token_info = self.refresh_access_token(
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 586, in refresh_access_token
+    self._handle_oauth_error(http_error)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 139, in _handle_oauth_error
+    raise SpotifyOauthError(
+spotipy.oauth2.SpotifyOauthError: error: invalid_client, error_description: Invalid client
+[31m2024-06-07 07:05:04 - ERROR: Exception on /api/auth/callback [GET][0m
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 578, in refresh_access_token
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://accounts.spotify.com/api/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/app/app/routes/auth.py", line 20, in callback
+    token_info = spotify_service.get_access_token(code)
+  File "/app/app/services/spotify_service.py", line 16, in get_access_token
+    return self.auth_manager.get_access_token(code)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 515, in get_access_token
+    token_info = self.validate_token(self.cache_handler.get_cached_token())
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 371, in validate_token
+    token_info = self.refresh_access_token(
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 586, in refresh_access_token
+    self._handle_oauth_error(http_error)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 139, in _handle_oauth_error
+    raise SpotifyOauthError(
+spotipy.oauth2.SpotifyOauthError: error: invalid_client, error_description: Invalid client
+[31m2024-06-07 07:05:05 - ERROR: Exception on /api/auth/callback [GET][0m
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 578, in refresh_access_token
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://accounts.spotify.com/api/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/app/app/routes/auth.py", line 20, in callback
+    token_info = spotify_service.get_access_token(code)
+  File "/app/app/services/spotify_service.py", line 16, in get_access_token
+    return self.auth_manager.get_access_token(code)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 515, in get_access_token
+    token_info = self.validate_token(self.cache_handler.get_cached_token())
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 371, in validate_token
+    token_info = self.refresh_access_token(
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 586, in refresh_access_token
+    self._handle_oauth_error(http_error)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 139, in _handle_oauth_error
+    raise SpotifyOauthError(
+spotipy.oauth2.SpotifyOauthError: error: invalid_client, error_description: Invalid client
+[31m2024-06-07 07:06:08 - ERROR: Exception on /api/auth/callback [GET][0m
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 578, in refresh_access_token
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://accounts.spotify.com/api/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/app/app/routes/auth.py", line 20, in callback
+    token_info = spotify_service.get_access_token(code)
+  File "/app/app/services/spotify_service.py", line 16, in get_access_token
+    return self.auth_manager.get_access_token(code)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 515, in get_access_token
+    token_info = self.validate_token(self.cache_handler.get_cached_token())
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 371, in validate_token
+    token_info = self.refresh_access_token(
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 586, in refresh_access_token
+    self._handle_oauth_error(http_error)
+  File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 139, in _handle_oauth_error
+    raise SpotifyOauthError(
+spotipy.oauth2.SpotifyOauthError: error: invalid_client, error_description: Invalid client

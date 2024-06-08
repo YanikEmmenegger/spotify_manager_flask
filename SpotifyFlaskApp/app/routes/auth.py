@@ -1,6 +1,6 @@
-from flask import Blueprint, redirect, request
-from app.services.spotify_service import SpotifyService
-from app.services.db_service import DBService
+# app/routes/auth.py
+from flask import Blueprint, redirect, request, jsonify
+from app.services import SpotifyService, DBService
 
 bp = Blueprint('auth', __name__)
 
@@ -10,21 +10,43 @@ db_service = DBService()
 
 @bp.route('/')
 def auth_index():
-    auth_url = spotify_service.auth_manager.get_authorize_url()
-    return redirect(auth_url)
+    """
+    Redirect to Spotify's authorization URL.
+    """
+    try:
+        auth_url = spotify_service.auth_manager.get_authorize_url()
+        return redirect(auth_url)
+    except Exception as e:
+        return jsonify({"error": f"Error during auth_index: {e}"}), 500
 
 
 @bp.route('/callback')
 def callback():
-    code = request.args.get('code')
-    token_info = spotify_service.get_access_token(code)
-    if not token_info:
-        return 'Failed to get access token', 500
+    """
+    Callback route to handle Spotify's response with authorization code.
+    """
+    try:
+        code = request.args.get('code')
+        if not code:
+            return jsonify({"error": "Missing authorization code"}), 400
 
-    user_profile = spotify_service.get_user_profile(token_info['access_token'])
-    if user_profile['success']:
-        user = user_profile['data']
-        insert_response = db_service.insert_user(user['id'], user['display_name'], True, token_info['refresh_token'])
-        if insert_response['success']:
-            return 'User profile retrieved successfully! - please close this tab'
-    return 'Sorry, there was an error. Please try again.'
+        token_info = spotify_service.get_access_token(code)
+        if not token_info:
+            return jsonify({"error": "Failed to get access token"}), 500
+
+        user_profile = spotify_service.get_user_profile(token_info['access_token'])
+        if user_profile['success']:
+            user = user_profile['data']
+            insert_response = db_service.insert_user(user['id'], user['display_name'], True,
+                                                     token_info['refresh_token'])
+            if insert_response['success']:
+                # Create cookies with refresh_token and spotify_uuid
+                response = jsonify({"message": "User profile retrieved successfully! - please close this tab"})
+                response.set_cookie('refresh_token', token_info['refresh_token'], httponly=True, secure=True)
+                response.set_cookie('spotify_uuid', user['id'], httponly=True, secure=True)
+                return response
+
+        return jsonify({"error": "Failed to retrieve user profile"}), 500
+
+    except Exception as e:
+        return jsonify({"error": f"Error during callback: {e}"}), 500

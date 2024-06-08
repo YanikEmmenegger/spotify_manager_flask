@@ -1,7 +1,8 @@
+# app/__init__.py
 from flask import Flask, send_from_directory
-from app.configs.config import Config
+from app.configs import Config
 from app.logging_config import configure_logging
-import os
+from app.routes import api_bp, auth_bp  # Ensure these imports are correct
 
 
 def create_app():
@@ -12,9 +13,8 @@ def create_app():
     configure_logging()
 
     with app.app_context():
-        from app.routes import api, auth
-        app.register_blueprint(api.bp, url_prefix='/api')
-        app.register_blueprint(auth.bp, url_prefix='/api/auth')
+        app.register_blueprint(api_bp, url_prefix='/api')
+        app.register_blueprint(auth_bp, url_prefix='/api/auth')
 
     @app.route('/')
     def index():

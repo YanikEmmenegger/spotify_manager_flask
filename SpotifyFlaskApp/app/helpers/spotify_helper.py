@@ -1,17 +1,21 @@
+# app/helpers/spotify_helper.py
 import logging
 import time
 import requests
 from spotipy import SpotifyOAuth
-from app.configs.config import Config
+from app.configs import Config
 
 SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1"
 
 
 def handle_rate_limit(response, func, *args, **kwargs):
+    """
+    Handle Spotify API rate limiting by retrying after the specified wait time.
+    """
     if response.status_code == 429:
-        retry_after = response.headers.get('Retry-After', 30)
+        retry_after = int(response.headers.get('Retry-After', 30))
         logging.warning(f"Rate limited. Retrying after {retry_after} seconds")
-        time.sleep(int(retry_after))
+        time.sleep(retry_after)
         return func(*args, **kwargs)
     if response.status_code == 404:
         return {'success': False, 'error': "Not Found"}
@@ -19,6 +23,9 @@ def handle_rate_limit(response, func, *args, **kwargs):
 
 
 def exchange_refresh_token(refresh_token):
+    """
+    Exchange the refresh token for a new access token.
+    """
     try:
         auth_manager = SpotifyOAuth(
             client_id=Config.SPOTIPY_CLIENT_ID,
@@ -30,13 +37,19 @@ def exchange_refresh_token(refresh_token):
         access_token = auth_manager.get_access_token(as_dict=False)
         return {'success': True, 'access_token': access_token}
     except Exception as e:
+        logging.error(f"Error exchanging refresh token: {e}")
         return {'success': False, 'error': f"Error occurred while exchanging refresh token: {e}"}
 
 
 def make_spotify_api_request(access_token, endpoint, method='GET', data=None, params=None):
+    """
+    Make a request to the Spotify API.
+    """
     try:
         url = f"{SPOTIFY_API_BASE_URL}/{endpoint}"
         headers = {"Authorization": f"Bearer {access_token}"}
+        response = None
+
         if method == 'GET':
             response = requests.get(url, headers=headers, params=params)
         elif method == 'POST':
@@ -55,18 +68,28 @@ def make_spotify_api_request(access_token, endpoint, method='GET', data=None, pa
 
         return {'success': False, 'error': f"Failed: {response.reason}"}
     except Exception as e:
+        logging.error(f"Error making Spotify API request: {e}")
         return {'success': False, 'error': f"Error occurred while making Spotify API request: {e}"}
 
 
 def get_current_user_profile(access_token):
+    """
+    Get the current user's profile information from Spotify.
+    """
     return make_spotify_api_request(access_token, 'me')
 
 
 def get_recently_played_songs(access_token):
+    """
+    Get the current user's recently played songs from Spotify.
+    """
     return make_spotify_api_request(access_token, 'me/player/recently-played', params={'limit': 50})
 
 
 def get_users_playlists(access_token, limit=50, offset=0):
+    """
+    Get the current user's playlists from Spotify.
+    """
     playlists = []
     while True:
         response = make_spotify_api_request(access_token, 'me/playlists', params={'limit': limit, 'offset': offset})
@@ -81,6 +104,9 @@ def get_users_playlists(access_token, limit=50, offset=0):
 
 
 def get_playlist_id_by_name(access_token, playlist_name):
+    """
+    Get the ID of a playlist by its name.
+    """
     playlists = get_users_playlists(access_token)
     if playlists['success']:
         for playlist in playlists['data']:
@@ -93,21 +119,29 @@ def get_playlist_id_by_name(access_token, playlist_name):
 
 
 def create_playlist(access_token, playlist_name, spotify_uuid):
+    """
+    Create a new playlist for the user.
+    """
     data = {
         "name": playlist_name,
         "description": "Topmix playlist",
         "public": False
     }
-    response = make_spotify_api_request(access_token, f"users/{spotify_uuid}/playlists", method='POST', data=data)
-    return response
+    return make_spotify_api_request(access_token, f"users/{spotify_uuid}/playlists", method='POST', data=data)
 
 
 def replace_tracks_in_playlist(access_token, playlist_id, track_ids):
+    """
+    Replace tracks in a playlist with a new set of tracks.
+    """
     data = {"uris": track_ids}
     return make_spotify_api_request(access_token, f"playlists/{playlist_id}/tracks", method='PUT', data=data)
 
 
 def create_sorted_collection(tracks, limit):
+    """
+    Create a sorted collection of tracks based on their frequency.
+    """
     import collections
     track_counts = collections.Counter(entry['tid'] for entry in tracks)
     sorted_track_ids = [track_id for track_id, _ in track_counts.most_common(limit)]
@@ -116,9 +150,14 @@ def create_sorted_collection(tracks, limit):
 
 
 def get_artist_by_id(access_token, artist_id):
+    """
+    Get details of an artist by their ID.
+    """
     return make_spotify_api_request(access_token, f"artists/{artist_id}")
 
 
 def get_track_details(access_token, track_id):
-    # audio-features/{id}
+    """
+    Get audio features for a track by its ID.
+    """
     return make_spotify_api_request(access_token, f"audio-features/{track_id}")

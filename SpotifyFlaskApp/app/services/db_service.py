@@ -1,3 +1,4 @@
+# app/services/db_service.py
 import logging
 from sqlalchemy import text
 from datetime import datetime, timedelta
@@ -36,6 +37,7 @@ class DBService:
             return {'success': True, 'message': 'User inserted/updated successfully'}
         except Exception as e:
             self.db.rollback()
+            logging.error(f"Error in insert_user: {e}")
             return {'success': False, 'error': f"Error occurred in insert_user while inserting/updating user: {e}"}
 
     def get_active_users(self, limit=100000):
@@ -51,6 +53,7 @@ class DBService:
             logging.info(f"Active users retrieved successfully - {len(active_users)}")
             return {'success': True, 'message': 'Active users retrieved successfully', 'data': active_users}
         except Exception as e:
+            logging.error(f"Error in get_active_users: {e}")
             return {'success': False, 'error': f"Error occurred in get_active_users while getting active users: {e}"}
 
     def insert_artist(self, artist):
@@ -64,6 +67,7 @@ class DBService:
             return {'success': True, 'message': 'Artist inserted successfully'}
         except Exception as e:
             self.db.rollback()
+            logging.error(f"Error in insert_artist: {e}")
             return {'success': False, 'error': f"Error occurred in insert_artist while inserting artist: {e}"}
 
     def insert_track(self, track):
@@ -89,22 +93,17 @@ class DBService:
             return {'success': True, 'message': 'Track inserted successfully'}
         except Exception as e:
             self.db.rollback()
+            logging.error(f"Error in insert_track: {e}")
             return {'success': False, 'error': f"Error occurred in insert_track while inserting track: {e}"}
 
     def insert_track_into_recent(self, played_at, spotify_uuid, track):
         try:
-            count_track = self.db.execute(
-                text("SELECT COUNT(*) FROM tracks WHERE tid = :tid"),
-                {'tid': track['id']}
-            ).scalar()
-
-            if count_track == 0:
-                success_or_error = self.insert_track(track)
-                if not success_or_error['success']:
-                    return success_or_error
-
             self.db.execute(
-                text("INSERT INTO recent (played_at, uid, tid) VALUES (:played_at, :uid, :tid)"),
+                text("""
+                    INSERT INTO recent (played_at, uid, tid) 
+                    VALUES (:played_at, :uid, :tid) 
+                    ON CONFLICT (played_at, uid, tid) DO NOTHING
+                """),
                 {'played_at': played_at, 'uid': spotify_uuid, 'tid': track['id']}
             )
             self.db.commit()
@@ -113,10 +112,7 @@ class DBService:
                     'message': f"Recent inserted successfully - {track['name']} - for User: {spotify_uuid}"}
         except Exception as e:
             self.db.rollback()
-            if "duplicate key value violates unique constraint" in str(e):
-                logging.info(f"Recent already in database - {track['name']} - for User: {spotify_uuid}")
-                return {'success': True,
-                        'message': f"Recent already in database - {track['name']} - for User: {spotify_uuid}"}
+            logging.error(f"Error in insert_track_into_recent: {e}")
             return {'success': False,
                     'error': f"Error occurred in insert_track_into_recent while inserting recent track: {e}"}
 
@@ -139,6 +135,7 @@ class DBService:
             return {'success': True, 'message': 'Genre inserted successfully', 'data': genre_record[0]}
         except Exception as e:
             self.db.rollback()
+            logging.error(f"Error in insert_genre: {e}")
             if "duplicate key value violates unique constraint" in str(e):
                 logging.info(f"Genre already in database - {genre}")
                 return {'success': True, 'message': 'Genre already in database'}
@@ -170,6 +167,7 @@ class DBService:
             logging.info(f"Songs retrieved successfully - {len(listened_to)}")
             return {'success': True, 'message': 'Songs retrieved successfully', 'data': listened_to}
         except Exception as e:
+            logging.error(f"Error in get_listened_to: {e}")
             return {'success': False, 'error': f"Error occurred in get_listened_to while getting songs: {e}"}
 
     def get_incomplete_artists(self, limit=1000):
@@ -182,6 +180,7 @@ class DBService:
             logging.info(f"Incomplete artists retrieved successfully - {len(incomplete_artists)}")
             return {'success': True, 'message': 'Incomplete artists retrieved successfully', 'data': incomplete_artists}
         except Exception as e:
+            logging.error(f"Error in get_incomplete_artists: {e}")
             return {'success': False,
                     'error': f"Error occurred in get_incomplete_artists while getting incomplete artists: {e}"}
 
@@ -218,6 +217,7 @@ class DBService:
             return {'success': True, 'message': 'Artist updated successfully'}
         except Exception as e:
             self.db.rollback()
+            logging.error(f"Error in update_artist: {e}")
             if "duplicate key value violates unique constraint" in str(e):
                 return {'success': True, 'message': 'Artist already in database'}
             return {'success': False, 'error': f"Error occurred in update_artist while updating artist: {e}"}
@@ -233,6 +233,7 @@ class DBService:
             logging.info(f"Incomplete tracks retrieved successfully - {len(incomplete_tracks)}")
             return {'success': True, 'message': 'Incomplete tracks retrieved successfully', 'data': incomplete_tracks}
         except Exception as e:
+            logging.error(f"Error in get_incomplete_tracks: {e}")
             return {'success': False,
                     'error': f"Error occurred in get_incomplete_tracks while getting incomplete tracks: {e}"}
 
@@ -251,5 +252,7 @@ class DBService:
             logging.info(f"Track updated successfully - {track_id}")
             return {'success': True, 'message': 'Track updated successfully'}
         except Exception as e:
+            self.db.rollback()
+            logging.error(f"Error in update_track: {e}")
             return {'success': False,
-                    'error': f"Error occurred in update_track while update track: {e}"}
+                    'error': f"Error occurred in update_track while updating track: {e}"}
