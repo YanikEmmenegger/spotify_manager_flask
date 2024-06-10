@@ -1,8 +1,7 @@
-# app/__init__.py
 from flask import Flask, send_from_directory
 from app.configs import Config
 from app.logging_config import configure_logging
-from app.routes import services_bp, auth_bp, user_bp, playlist_bp  # Ensure these imports are correct
+from app.routes import services_bp, auth_bp, user_bp, playlist_bp
 from app.scheduler import start_scheduler
 
 
