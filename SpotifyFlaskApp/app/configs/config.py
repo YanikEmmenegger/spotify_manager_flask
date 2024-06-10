@@ -15,6 +15,8 @@ class Config:
     SPOTIPY_REDIRECT_URI = os.getenv("SPOTIPY_REDIRECT_URI")
     SPOTIPY_SCOPES = os.getenv("SPOTIPY_SCOPES", "").split(',')
 
+    BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:5000/")
+
     POSTGRES_URL = os.getenv("POSTGRES_URL")
     POSTGRES_USER = os.getenv("POSTGRES_USER")
     POSTGRES_PASSWORD = os.getenv("POSTGRES_PASS")

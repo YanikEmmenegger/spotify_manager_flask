@@ -1,21 +1,17 @@
-# app/routes/api.py
+# app/routes/services.py
+from datetime import datetime, timedelta
+
 from flask import Blueprint, jsonify, request
+
+from app.routes.route_helper import get_tokens_from_headers
 from app.services import SpotifyService, DBService
 
 # Define the Blueprint
-bp = Blueprint('api', __name__)
+bp = Blueprint('services', __name__)
 
 # Initialize services
 spotify_service = SpotifyService()
 db_service = DBService()
-
-
-def get_tokens_from_headers():
-    refresh_token = request.headers.get('Authorization')
-    spotify_uuid = request.headers.get('Spotify-UUID')
-    if not refresh_token or not spotify_uuid:
-        return None, None
-    return refresh_token, spotify_uuid
 
 
 @bp.route('/save', methods=['POST'])
@@ -63,18 +59,26 @@ def update_topmix():
 
         access_token = access_token_response['access_token']
 
-        topmix_exists_response = db_service.get_topmix_exceptions(spotify_uuid)
-        if not topmix_exists_response['success']:
+        topmix_exceptions_response = db_service.get_topmix_exceptions(spotify_uuid)
+        if not topmix_exceptions_response['success']:
             return jsonify(
-                {"error": f"Error in update_topmix (get_topmix_exceptions): {topmix_exists_response['error']}"}), 500
-        topmix_exceptions = topmix_exists_response['data']
+                {
+                    "error": f"Error in update_topmix (get_topmix_exceptions): {topmix_exceptions_response['error']}"
+                }), 500
+        topmix_exceptions = topmix_exceptions_response['data']
 
-        top_tracks_response = db_service.get_listened_to(None, None, spotify_uuid, None, topmix_exceptions['artists'],
-                                                         topmix_exceptions['tracks'])
+        # create start and end date for the topmix
+        # get the current date
+
+        start_date = (datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')
+        end_date = datetime.now().strftime('%Y-%m-%d')
+        top_tracks_response = db_service.get_listened_to(start_date, end_date, spotify_uuid, None,
+                                                         topmix_exceptions['artists'],
+                                                         topmix_exceptions['tracks'], None)
         if not top_tracks_response['success']:
             return jsonify({"error": f"Error in update_topmix (get_listened_to): {top_tracks_response['error']}"}), 500
 
-        top_tracks_sorted = spotify_service.create_sorted_collection(top_tracks_response['data'], 70)
+        top_tracks_sorted = spotify_service.create_sorted_collection(top_tracks_response['data'], 60)
         playlist_id_response = spotify_service.get_or_create_playlist(access_token, "TOPMIX 14 Days", spotify_uuid)
         if not playlist_id_response['success']:
             return jsonify(

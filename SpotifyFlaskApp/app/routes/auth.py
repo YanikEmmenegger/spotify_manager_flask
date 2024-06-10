@@ -37,6 +37,7 @@ def callback():
         user_profile = spotify_service.get_user_profile(token_info['access_token'])
         if user_profile['success']:
             user = user_profile['data']
+            # insert or update user in DB
             insert_response = db_service.insert_user(user['id'], user['display_name'], True,
                                                      token_info['refresh_token'])
             if insert_response['success']:

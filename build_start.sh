@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check if .env file exists
+ENV_FILE="SpotifyFlaskApp/.env"
+if [ ! -f "$ENV_FILE" ]; then
+    echo "Error: .env file not found in /SpotifyFlaskApp." >&2
+    exit 1
+fi
 
 # docker compose down first
 echo "Stopping Docker containers..."
