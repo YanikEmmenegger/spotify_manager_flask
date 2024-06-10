@@ -23,7 +23,7 @@ cp -r $SOURCE_DIR/* $DEST_DIR
 if [ $? -eq 0 ]; then
     echo "Build files copied successfully."
 else
-    echo "Error copying build files." >&2
+    echo "Error  copying build files." >&2
     exit 1
 fi
 
