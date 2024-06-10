@@ -9,7 +9,7 @@ fi
 
 # docker compose down first
 echo "Stopping Docker containers..."
-docker-compose down
+docker compose down
 
 # Define source and destination directories
 SOURCE_DIR="SpotifyViteApp/dist"
@@ -29,7 +29,7 @@ fi
 
 # Start Docker containers
 echo "Starting Docker containers..."
-docker-compose up -d --build
+docker compose up -d --build
 
 # Check if Docker started successfully
 if [ $? -eq 0 ]; then
