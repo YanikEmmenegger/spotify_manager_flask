@@ -548,3 +548,141 @@
 [32m2024-06-10 16:52:00 - INFO:  * Debugger PIN: 257-693-699[0m
 [32m2024-06-10 16:55:53 - INFO: Scheduler has been shut down[0m
 [32m2024-06-10 16:55:53 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:21:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:21:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:21:47 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:21:47 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:21:47 - INFO: Scheduler started[0m
+[32m2024-06-10 20:21:47 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:21:47 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:21:47 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:21:47 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:21:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:21:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:21:47 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:21:47 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:21:47 - INFO: Scheduler started[0m
+[32m2024-06-10 20:21:47 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:21:47 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:21:47 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-10 20:21:55 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:21:55 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:23:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:23:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:23:33 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:23:33 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:23:33 - INFO: Scheduler started[0m
+[32m2024-06-10 20:23:33 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:23:33 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:23:33 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:23:33 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:23:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:23:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:23:33 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:23:33 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:23:33 - INFO: Scheduler started[0m
+[32m2024-06-10 20:23:33 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:23:33 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:23:33 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-10 20:23:36 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:36] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 20:23:36 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:36] "[33mGET /assets/index-DiwrgTda.css HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:36 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:36] "[33mGET /assets/index-Baw6YBDo.js HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:36 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:36] "[33mGET /assets/index-CiUFSirU.css HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:40 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:40] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 20:23:40 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:40] "[33mGET /assets/index-Baw6YBDo.js HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:40 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:40] "[33mGET /assets/index-CiUFSirU.css HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:48 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:48] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 20:23:48 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:48] "[33mGET /assets/index-Baw6YBDo.js HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:23:48 - INFO: 127.0.0.1 - - [10/Jun/2024 20:23:48] "[33mGET /assets/index-CiUFSirU.css HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 20:33:23 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:33:23 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:33:24 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:33:24 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:33:24 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:33:24 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:33:24 - INFO: Scheduler started[0m
+[32m2024-06-10 20:33:24 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:33:24 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:33:24 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:33:24 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:33:24 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:33:24 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:33:24 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:33:24 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:33:24 - INFO: Scheduler started[0m
+[32m2024-06-10 20:33:24 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:33:24 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:33:24 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-10 20:33:31 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:33:32 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:38:17 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:17 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:17 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:17 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:17 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:17 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:38:17 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:38:17 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:38:17 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:38:17 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:17 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:17 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:17 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:17 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:17 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:38:17 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:38:17 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-10 20:38:30 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/run.py', reloading[0m
+[32m2024-06-10 20:38:30 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:38:30 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:38:30 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:30 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:30 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:30 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:30 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:30 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:38:31 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:38:31 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:38:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:32 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:32 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:32 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:32 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:38:32 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:38:32 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:38:46 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:38:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:47 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:47 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:47 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:47 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 20:38:47 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 20:38:47 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 20:38:47 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:38:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:47 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:38:47 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:38:47 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:38:47 - INFO: Scheduler started[0m
+[32m2024-06-10 20:38:47 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:38:47 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:38:47 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-10 20:46:20 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/routes/route_helper.py', reloading[0m
+[32m2024-06-10 20:46:20 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 20:46:21 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 20:46:21 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:46:21 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 20:46:21 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 20:46:21 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 20:46:21 - INFO: Scheduler started[0m
+[32m2024-06-10 20:46:21 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 20:46:21 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 20:46:21 - INFO:  * Debugger PIN: 720-212-121[0m

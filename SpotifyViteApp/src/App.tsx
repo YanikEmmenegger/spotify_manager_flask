@@ -17,11 +17,10 @@ function App() {
         setLoading(true)
         console.log(cookies)
 
-
         if (cookies.spotify_uuid === undefined || cookies.spotify_uuid === "" || cookies.refresh_token === undefined || cookies.refresh_token === "") {
 
             //if page is not /login redirect to /login
-            window.location.href = 'http://127.0.0.1:5000/api/auth'
+            window.location.href = 'http://localhost/api/auth'
 
         }
         setLoading(false)

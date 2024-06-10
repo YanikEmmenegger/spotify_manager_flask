@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2006b91a-96b1-4df5-b160-f1649d2fe152" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Saver.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/app/routes/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecentlyListened.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/spotify_manager_flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/spotify_manager_flask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/app/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/app/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +41,30 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2hatijSnjNpyK12LguUy2lI9Ypx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyViteApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.npm dev.executor": "Run",
-    "ts.external.directory.path": "/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyViteApp/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyViteApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyViteApp/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -112,6 +118,8 @@
       <updated>1717844144489</updated>
       <workItem from="1717844145530" duration="59000" />
       <workItem from="1717844241786" duration="3425000" />
+      <workItem from="1718043051187" duration="794000" />
+      <workItem from="1718044831819" duration="438000" />
     </task>
     <servers />
   </component>
