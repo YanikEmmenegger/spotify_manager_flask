@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed on your machine:
 ## Getting Started
 
 ### Create a Spotify Developer Account
-
+a
 To use this application, you'll need to create a Spotify Developer account and set up a new application to get the necessary credentials.
 
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).

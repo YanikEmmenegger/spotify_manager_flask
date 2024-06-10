@@ -159,38 +159,70 @@ class DBService:
             return {'success': False, 'error': f"Error occurred in insert_genre while inserting genre: {e}"}
 
     def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=50000, artist_exceptions=None,
-                        track_exceptions=None):
+                        track_exceptions=None, extended=False):
         try:
-            if start_date is None:
-                start_date = (datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')
-            if end_date is None:
-                end_date = datetime.now().strftime('%Y-%m-%d')
-
             query = """
-            SELECT recent.* FROM recent
-            JOIN tracks ON recent.tid = tracks.tid
-            WHERE recent.uid = :uid AND recent.played_at BETWEEN :start_date AND :end_date
-            """
-            params = {'uid': spotify_uuid, 'start_date': start_date, 'end_date': end_date}
+        SELECT recent.*, tracks.*{artist_fields} FROM recent
+        JOIN tracks ON recent.tid = tracks.tid
+        {join_artists}
+        WHERE recent.uid = :uid
+        {date_condition}
+        {artist_exceptions_condition}
+        {track_exceptions_condition}
+        ORDER BY recent.played_at DESC
+        {limit_condition}
+        """
+
+            params = {'uid': spotify_uuid}
+
+            if start_date and end_date:
+                date_condition = "AND recent.played_at BETWEEN :start_date AND :end_date"
+                params.update({'start_date': start_date, 'end_date': end_date})
+            else:
+                date_condition = ""
 
             if artist_exceptions:
-                query += " AND tracks.artist NOT IN :artist_exceptions"
+                artist_exceptions_condition = "AND tracks.artist NOT IN :artist_exceptions"
                 params['artist_exceptions'] = tuple(artist_exceptions)
+            else:
+                artist_exceptions_condition = ""
 
             if track_exceptions:
-                query += " AND recent.tid NOT IN :track_exceptions"
+                track_exceptions_condition = "AND recent.tid NOT IN :track_exceptions"
                 params['track_exceptions'] = tuple(track_exceptions)
+            else:
+                track_exceptions_condition = ""
 
-            query += " LIMIT :limit"
-            params['limit'] = limit
+            if extended:
+                artist_fields = ", artists.*"
+                join_artists = "JOIN artists ON tracks.artist = artists.aid"
+            else:
+                artist_fields = ""
+                join_artists = ""
 
+            if limit:
+                limit_condition = "LIMIT :limit"
+                params['limit'] = limit
+            else:
+                limit_condition = ""
+
+            query = query.format(
+                artist_fields=artist_fields,
+                join_artists=join_artists,
+                date_condition=date_condition,
+                artist_exceptions_condition=artist_exceptions_condition,
+                track_exceptions_condition=track_exceptions_condition,
+                limit_condition=limit_condition
+            )
             result = self.db.execute(text(query), params)
             listened_to = [dict(row) for row in result.mappings()]
 
             if not listened_to:
                 return {'success': False, 'error': 'No songs found'}
+
             logging.info(f"Songs retrieved successfully - {len(listened_to)}")
             return {'success': True, 'message': 'Songs retrieved successfully', 'data': listened_to}
+
         except Exception as e:
             logging.error(f"Error in get_listened_to: {e}")
             return {'success': False, 'error': f"Error occurred in get_listened_to while getting songs: {e}"}

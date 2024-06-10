@@ -1,4 +1,6 @@
 # app/routes/services.py
+from datetime import datetime, timedelta
+
 from flask import Blueprint, jsonify, request
 
 from app.routes.route_helper import get_tokens_from_headers
@@ -65,8 +67,14 @@ def update_topmix():
                 }), 500
         topmix_exceptions = topmix_exceptions_response['data']
 
-        top_tracks_response = db_service.get_listened_to(None, None, spotify_uuid, None, topmix_exceptions['artists'],
-                                                         topmix_exceptions['tracks'])
+        # create start and end date for the topmix
+        # get the current date
+
+        start_date = (datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')
+        end_date = datetime.now().strftime('%Y-%m-%d')
+        top_tracks_response = db_service.get_listened_to(start_date, end_date, spotify_uuid, None,
+                                                         topmix_exceptions['artists'],
+                                                         topmix_exceptions['tracks'], None)
         if not top_tracks_response['success']:
             return jsonify({"error": f"Error in update_topmix (get_listened_to): {top_tracks_response['error']}"}), 500
 
