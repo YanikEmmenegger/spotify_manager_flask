@@ -1,9 +1,10 @@
+import Container from "../components/Container.tsx";
 
-const Home= () => {
+const Home = () => {
     return (
-        <div className='ENTER_COMPONENT_CLASS'>
-            Home
-        </div>
+        <Container>
+            Test
+        </Container>
     );
 }
 

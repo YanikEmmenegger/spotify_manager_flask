@@ -2,7 +2,6 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home'
 import  {useEffect, useState} from "react";
 import {useCookies} from "react-cookie";
-import Saver from "./pages/Saver.tsx";
 
 function App() {
 
@@ -22,7 +21,7 @@ function App() {
         if (cookies.spotify_uuid === undefined || cookies.spotify_uuid === "" || cookies.refresh_token === undefined || cookies.refresh_token === "") {
 
             //if page is not /login redirect to /login
-            window.location.href = 'http://localhost/api/auth'
+            window.location.href = 'http://127.0.0.1:5000/api/auth'
 
         }
         setLoading(false)
@@ -41,7 +40,6 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/saver" element={<Saver/>}/>
             </Routes>
         </Router>
     )
