@@ -14,16 +14,15 @@ class DBService:
 
     def insert_user(self, spotify_uuid, name, active, spotify_key):
         try:
-            count_user = self.db.execute(
-                text("SELECT COUNT(*) FROM users WHERE spotify_uuid = :spotify_uuid"),
+            user_exists = self.db.execute(
+                text("SELECT 1 FROM users WHERE spotify_uuid = :spotify_uuid"),
                 {'spotify_uuid': spotify_uuid}
             ).scalar()
 
-            if count_user == 0:
+            if not user_exists:
                 self.db.execute(
                     text(
-                        "INSERT INTO users (spotify_uuid, name, active, spotify_key) VALUES (:spotify_uuid, :name, :active, :spotify_key)"
-                    ),
+                        "INSERT INTO users (spotify_uuid, name, active, spotify_key) VALUES (:spotify_uuid, :name, :active, :spotify_key)"),
                     {'spotify_uuid': spotify_uuid, 'name': name, 'active': active, 'spotify_key': spotify_key}
                 )
             else:
@@ -59,7 +58,7 @@ class DBService:
     def insert_artist(self, artist):
         try:
             self.db.execute(
-                text("INSERT INTO artists (aid, name) VALUES (:aid, :name)"),
+                text("INSERT INTO artists (aid, name) VALUES (:aid, :name) ON CONFLICT (aid) DO NOTHING"),
                 {'aid': artist['id'], 'name': artist['name']}
             )
             self.db.commit()
@@ -73,18 +72,10 @@ class DBService:
     def insert_track(self, track):
         try:
             artist = track['artists'][0]
-            count_artist = self.db.execute(
-                text("SELECT COUNT(*) FROM artists WHERE aid = :aid"),
-                {'aid': artist['id']}
-            ).scalar()
-
-            if count_artist == 0:
-                success_or_error = self.insert_artist(artist)
-                if not success_or_error['success']:
-                    return success_or_error
-
+            self.insert_artist(artist)
             self.db.execute(
-                text("INSERT INTO tracks (tid, name, artist, image) VALUES (:tid, :name, :artist, :image)"),
+                text(
+                    "INSERT INTO tracks (tid, name, artist, image) VALUES (:tid, :name, :artist, :image) ON CONFLICT (tid) DO NOTHING"),
                 {'tid': track['id'], 'name': track['name'], 'artist': artist['id'],
                  'image': track['album']['images'][0]['url']}
             )
@@ -99,11 +90,8 @@ class DBService:
     def insert_track_into_recent(self, played_at, spotify_uuid, track):
         try:
             self.db.execute(
-                text("""
-                    INSERT INTO recent (played_at, uid, tid) 
-                    VALUES (:played_at, :uid, :tid) 
-                    ON CONFLICT (played_at, uid, tid) DO NOTHING
-                """),
+                text(
+                    "INSERT INTO recent (played_at, uid, tid) VALUES (:played_at, :uid, :tid) ON CONFLICT (played_at, uid, tid) DO NOTHING"),
                 {'played_at': played_at, 'uid': spotify_uuid, 'tid': track['id']}
             )
             self.db.commit()
@@ -116,7 +104,25 @@ class DBService:
             return {'success': False,
                     'error': f"Error occurred in insert_track_into_recent while inserting recent track: {e}"}
 
+    def delete_topmix_exception(self, spotify_uuid, value):
+        try:
+            self.db.execute(
+                text("DELETE FROM topmix_exception WHERE spotify_uuid = :spotify_uuid AND value = :value"),
+                {'spotify_uuid': spotify_uuid, 'value': value}
+            )
+            self.db.commit()
+            logging.info(f"Exception deleted successfully - {value}")
+            return {'success': True, 'message': 'Exception deleted successfully'}
+        except Exception as e:
+            self.db.rollback()
+            logging.error(f"Error in delete_topmix_exception: {e}")
+            return {'success': False,
+                    'error': f"Error occurred in delete_topmix_exception while deleting exception: {e}"}
+
     def insert_topmix_exception(self, spotify_uuid, exception_type, value):
+        if exception_type not in ['artist', 'track']:
+            return {'success': False, 'error': 'Invalid exception type. Must be "artist" or "track"'}
+
         try:
             self.db.execute(
                 text("INSERT INTO topmix_exception (spotify_uuid, type, value) VALUES (:spotify_uuid, :type, :value)"),
@@ -140,30 +146,24 @@ class DBService:
             genre_record = result.fetchone()
             self.db.commit()
 
-            if genre_record is None:
-                result = self.db.execute(
+            if not genre_record:
+                genre_record = self.db.execute(
                     text("SELECT gid FROM genres WHERE name = :name"),
                     {'name': genre}
-                )
-                genre_record = result.fetchone()
+                ).fetchone()
             logging.info(f"Genre inserted successfully - {genre}")
             return {'success': True, 'message': 'Genre inserted successfully', 'data': genre_record[0]}
         except Exception as e:
             self.db.rollback()
             logging.error(f"Error in insert_genre: {e}")
-            if "duplicate key value violates unique constraint" in str(e):
-                logging.info(f"Genre already in database - {genre}")
-                return {'success': True, 'message': 'Genre already in database'}
             return {'success': False, 'error': f"Error occurred in insert_genre while inserting genre: {e}"}
 
     def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=50000, artist_exceptions=None,
                         track_exceptions=None):
         try:
             if start_date is None:
-                # Default to last 14 days
                 start_date = (datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')
             if end_date is None:
-                # Default to today
                 end_date = datetime.now().strftime('%Y-%m-%d')
 
             query = """
@@ -217,22 +217,15 @@ class DBService:
             )
             exceptions = [dict(row) for row in result.mappings()]
 
-            # split into two lists, artists and tracks
-            artist_exceptions = []
-            track_exceptions = []
-            for exception in exceptions:
-                if exception['type'] == 'artist':
-                    artist_exceptions.append(exception['value'])
-                elif exception['type'] == 'track':
-                    track_exceptions.append(exception['value'])
+            artist_exceptions = [exception['value'] for exception in exceptions if exception['type'] == 'artist']
+            track_exceptions = [exception['value'] for exception in exceptions if exception['type'] == 'track']
             exceptions = {'artists': artist_exceptions, 'tracks': track_exceptions}
 
             logging.info(f"Exceptions retrieved successfully - {len(exceptions)}")
             return {'success': True, 'message': 'Exceptions retrieved successfully', 'data': exceptions}
         except Exception as e:
             logging.error(f"Error in get_topmix_exceptions: {e}")
-            return {'success': False,
-                    'error': f"Error occurred in get_topmix_exceptions while getting exceptions: {e}"}
+            return {'success': False, 'error': f"Error occurred in get_topmix_exceptions while getting exceptions: {e}"}
 
     def update_artist(self, artist_id, genres, image):
         if genres is None:
@@ -244,22 +237,20 @@ class DBService:
             )
 
             for genre in genres:
-                result = self.db.execute(
+                genre_record = self.db.execute(
                     text("INSERT INTO genres (name) VALUES (:name) ON CONFLICT (name) DO NOTHING RETURNING gid"),
                     {'name': genre}
-                )
-                genre_record = result.fetchone()
-                if genre_record is None:
-                    result = self.db.execute(
+                ).fetchone()
+
+                if not genre_record:
+                    genre_record = self.db.execute(
                         text("SELECT gid FROM genres WHERE name = :name"),
                         {'name': genre}
-                    )
-                    genre_record = result.fetchone()
+                    ).fetchone()
 
-                genre_id = genre_record[0]
                 self.db.execute(
                     text("INSERT INTO artist_genre (aid, gid) VALUES (:aid, :gid) ON CONFLICT DO NOTHING"),
-                    {'aid': artist_id, 'gid': genre_id}
+                    {'aid': artist_id, 'gid': genre_record[0]}
                 )
 
             self.db.commit()
@@ -268,8 +259,6 @@ class DBService:
         except Exception as e:
             self.db.rollback()
             logging.error(f"Error in update_artist: {e}")
-            if "duplicate key value violates unique constraint" in str(e):
-                return {'success': True, 'message': 'Artist already in database'}
             return {'success': False, 'error': f"Error occurred in update_artist while updating artist: {e}"}
 
     def get_incomplete_tracks(self, limit=1000):
@@ -277,7 +266,6 @@ class DBService:
             result = self.db.execute(
                 text("SELECT tid FROM tracks where complete = FALSE LIMIT :limit"),
                 {'limit': limit}
-
             )
             incomplete_tracks = [dict(row) for row in result.mappings()]
             logging.info(f"Incomplete tracks retrieved successfully - {len(incomplete_tracks)}")
@@ -292,11 +280,12 @@ class DBService:
         try:
             self.db.execute(
                 text(
-                    "UPDATE tracks SET danceability = :danceability, energy = :energy, key = :key, loudness = :loudness, mode = :mode, speechiness = :speechiness, acousticness = :acousticness, instrumentalness = :instrumentalness, liveness = :liveness, valence = :valence, tempo = :tempo, complete = TRUE WHERE tid = :tid"
-                ),
-                {'danceability': danceability, 'energy': energy, 'key': key, 'loudness': loudness, 'mode': mode,
-                 'speechiness': speechiness, 'acousticness': acousticness, 'instrumentalness': instrumentalness,
-                 'liveness': liveness, 'valence': valence, 'tempo': tempo, 'tid': track_id}
+                    "UPDATE tracks SET danceability = :danceability, energy = :energy, key = :key, loudness = :loudness, mode = :mode, speechiness = :speechiness, acousticness = :acousticness, instrumentalness = :instrumentalness, liveness = :liveness, valence = :valence, tempo = :tempo, complete = TRUE WHERE tid = :tid"),
+                {
+                    'danceability': danceability, 'energy': energy, 'key': key, 'loudness': loudness, 'mode': mode,
+                    'speechiness': speechiness, 'acousticness': acousticness, 'instrumentalness': instrumentalness,
+                    'liveness': liveness, 'valence': valence, 'tempo': tempo, 'tid': track_id
+                }
             )
             self.db.commit()
             logging.info(f"Track updated successfully - {track_id}")
@@ -304,5 +293,4 @@ class DBService:
         except Exception as e:
             self.db.rollback()
             logging.error(f"Error in update_track: {e}")
-            return {'success': False,
-                    'error': f"Error occurred in update_track while updating track: {e}"}
+            return {'success': False, 'error': f"Error occurred in update_track while updating track: {e}"}

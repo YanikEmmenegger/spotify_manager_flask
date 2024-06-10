@@ -37,11 +37,12 @@ def callback():
         user_profile = spotify_service.get_user_profile(token_info['access_token'])
         if user_profile['success']:
             user = user_profile['data']
+            # insert or update user in DB
             insert_response = db_service.insert_user(user['id'], user['display_name'], True,
                                                      token_info['refresh_token'])
             if insert_response['success']:
                 # Create cookies with refresh_token and spotify_uuid
-                response = redirect('http://localhost:5173/')  # Redirect user to /
+                response = redirect('http://127.0.0.1:5000/')  # Redirect user to /
                 response.set_cookie('refresh_token', token_info['refresh_token'], httponly=False, secure=False)
                 response.set_cookie('spotify_uuid', user['id'], httponly=False, secure=False)
                 return response

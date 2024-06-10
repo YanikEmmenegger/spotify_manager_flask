@@ -4565,3 +4565,976 @@ LINE 5: ...D tracks.artist NOT IN ('4gxAezF8MafmWSZ0KCsRGj') LIMIT '{}'
 [32m2024-06-09 16:37:51 - INFO:  * Restarting with stat[0m
 [33m2024-06-09 16:37:52 - WARNING:  * Debugger is active![0m
 [32m2024-06-09 16:37:52 - INFO:  * Debugger PIN: 737-012-241[0m
+[32m2024-06-10 13:17:56 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 13:17:56 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 13:17:56 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:17:59 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:17:59 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:18:54 - INFO: 127.0.0.1 - - [10/Jun/2024 13:18:54] "[33mGET /auth HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:19:13 - INFO: 127.0.0.1 - - [10/Jun/2024 13:19:13] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:21:40 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 13:21:40 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 13:21:40 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:21:41 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:21:41 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:21:49 - INFO: 127.0.0.1 - - [10/Jun/2024 13:21:49] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:21:49 - INFO: 127.0.0.1 - - [10/Jun/2024 13:21:49] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:21:49 - INFO: 127.0.0.1 - - [10/Jun/2024 13:21:49] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:21:50 - INFO: 127.0.0.1 - - [10/Jun/2024 13:21:50] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:21:58 - INFO: 127.0.0.1 - - [10/Jun/2024 13:21:58] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:22:06 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 13:22:06 - INFO: 127.0.0.1 - - [10/Jun/2024 13:22:06] "GET /api/auth/callback?code=AQDZCCN0jTRTjm-eCtgFAeRPHhVP8r224Do_fsvlZS_S4H7nKJR20_e43T3DstUr-hQRqiuBjICGVZ84weLvZ5T9KftKogp2gTRR2km3Oi0EOa01tUrcZ-_4cbD6vaQrGP4eCnZeuLvs8NhX85kX2Og9KSlTgoWxI4HrMZA7CrCRprTQGyx6GMNkk_S3sy0WltwvqcmbEj_m-n5kYYZ32gXyH1DtsZf6lGXmwuhDfuqy1wIzOFfuHoQH2sGp9YQPRlW7Cn8v6pHHz0bEbWKzR4bdrNwcOG13G-NRQ02Lw4MlenW_lfZIGLPRn2tIYcVYQZrMqAP5c3-Z_L__nhl3daqGAeW2t7cu73AKcjxgKks8eFhh6UiMYgKvllqhjv7YrG8YgqDS_Ob-KMurGzAq6AhUFnZQVMnF8jzbgUIGOtD9C3LYM6shGi6jgNOwQby5l6eSI7Cws32IEMtcIHZcC4_hM970PtPHTDCgSsHE47V8Ki39fRf61a7mugXmHbgej-KJMeRHaYkvnkiXD7NzRhkB5mevqYO4Fyrwf3jc2gM3GQpYgeGDRY7Lub59cSeaXqWiGpI7liiz6qaDjLpebBcHTE61ahlgV2yXUdXZKxG5_Dh68PUS-5IIMPcpABkzfILe4qmPh1Dp_oo7c1fZ3UiZEqCS6dicQMQnk8hXXJ6ynhav-n_9 HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:22:06 - INFO: 127.0.0.1 - - [10/Jun/2024 13:22:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:22:34 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 13:22:34 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 13:22:40 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 13:22:40 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 13:22:40 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:22:43 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:22:43 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:22:45 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 13:22:45 - INFO: 127.0.0.1 - - [10/Jun/2024 13:22:45] "[32mGET /api/auth/callback?code=AQDZCCN0jTRTjm-eCtgFAeRPHhVP8r224Do_fsvlZS_S4H7nKJR20_e43T3DstUr-hQRqiuBjICGVZ84weLvZ5T9KftKogp2gTRR2km3Oi0EOa01tUrcZ-_4cbD6vaQrGP4eCnZeuLvs8NhX85kX2Og9KSlTgoWxI4HrMZA7CrCRprTQGyx6GMNkk_S3sy0WltwvqcmbEj_m-n5kYYZ32gXyH1DtsZf6lGXmwuhDfuqy1wIzOFfuHoQH2sGp9YQPRlW7Cn8v6pHHz0bEbWKzR4bdrNwcOG13G-NRQ02Lw4MlenW_lfZIGLPRn2tIYcVYQZrMqAP5c3-Z_L__nhl3daqGAeW2t7cu73AKcjxgKks8eFhh6UiMYgKvllqhjv7YrG8YgqDS_Ob-KMurGzAq6AhUFnZQVMnF8jzbgUIGOtD9C3LYM6shGi6jgNOwQby5l6eSI7Cws32IEMtcIHZcC4_hM970PtPHTDCgSsHE47V8Ki39fRf61a7mugXmHbgej-KJMeRHaYkvnkiXD7NzRhkB5mevqYO4Fyrwf3jc2gM3GQpYgeGDRY7Lub59cSeaXqWiGpI7liiz6qaDjLpebBcHTE61ahlgV2yXUdXZKxG5_Dh68PUS-5IIMPcpABkzfILe4qmPh1Dp_oo7c1fZ3UiZEqCS6dicQMQnk8hXXJ6ynhav-n_9 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:22:51 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 13:22:51 - INFO: 127.0.0.1 - - [10/Jun/2024 13:22:51] "[32mGET /api/auth/callback?code=AQDZCCN0jTRTjm-eCtgFAeRPHhVP8r224Do_fsvlZS_S4H7nKJR20_e43T3DstUr-hQRqiuBjICGVZ84weLvZ5T9KftKogp2gTRR2km3Oi0EOa01tUrcZ-_4cbD6vaQrGP4eCnZeuLvs8NhX85kX2Og9KSlTgoWxI4HrMZA7CrCRprTQGyx6GMNkk_S3sy0WltwvqcmbEj_m-n5kYYZ32gXyH1DtsZf6lGXmwuhDfuqy1wIzOFfuHoQH2sGp9YQPRlW7Cn8v6pHHz0bEbWKzR4bdrNwcOG13G-NRQ02Lw4MlenW_lfZIGLPRn2tIYcVYQZrMqAP5c3-Z_L__nhl3daqGAeW2t7cu73AKcjxgKks8eFhh6UiMYgKvllqhjv7YrG8YgqDS_Ob-KMurGzAq6AhUFnZQVMnF8jzbgUIGOtD9C3LYM6shGi6jgNOwQby5l6eSI7Cws32IEMtcIHZcC4_hM970PtPHTDCgSsHE47V8Ki39fRf61a7mugXmHbgej-KJMeRHaYkvnkiXD7NzRhkB5mevqYO4Fyrwf3jc2gM3GQpYgeGDRY7Lub59cSeaXqWiGpI7liiz6qaDjLpebBcHTE61ahlgV2yXUdXZKxG5_Dh68PUS-5IIMPcpABkzfILe4qmPh1Dp_oo7c1fZ3UiZEqCS6dicQMQnk8hXXJ6ynhav-n_9 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:23:13 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:13] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:23:13 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:13] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:23:13 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:13] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:23:17 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:17] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:23:28 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:28] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:23:31 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 13:23:31 - INFO: 127.0.0.1 - - [10/Jun/2024 13:23:31] "[32mGET /api/auth/callback?code=AQBDETNZvryeL4BGF0k8veaHgq0us4TR1OD0EkH-KerO1b9-282Qtax5OSzdI8O5edIozJO5WAEe8R_Yk0tuW3uQIVabXCjHP-wJVv-8VigNDNCEDGGKorRJSjYjMRBZwNyDqpiVS8XzuTwYxo1Vv7BKpb8Ow8ANsL7YCNS_J7pdHql0HTA8vfSDcL65VmeFZXN8TAqrGRKNcNcat-zCd_wWVeyUqUqj34VjWUzqvq3mdUnXNp5_JG6Me2SxOI3fYeXmRbFW7oaNig7gSZuymm9lyh43Sx1uoHBtBvh64SF47x1k24GGqvELKRu-jNqLx4kK8TPGyBDdDwavpPRA214HJs1sWkOFZ3qj9wz3TK_QTIuOuLdaSCEE6yym_DQ5q0t22jR_Kfe5z6q4blKic8f1IkhwQIULlHBh9amXKAzLZv1RwAG6eXbRAuQNm-GsGLgUnMNs1f-iG5x-NO0OtAuAvl_Qd4glM3M0tku8Lq5ofXFLFOw44AEiTLUL6BnBT7KltAutFFP5pMdWU9Uxpx4Wv1Ydv3ZJTjXuf88p7iNSs1Q9GJICjXV0OoXBKY5_wKOvBf4WNcgGbOMWpiYqrxKJNPITSOc7KagQn2ByUtTfOU38W9joSmx2qNhv8VcVhvqWZ2ekuvTKAnuj93b2R-cVPWDChBrL8vjGMKx2eIY_7K5Y5fLS HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:24:03 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 13:24:04 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:24:06 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:24:06 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:24:08 - INFO: 127.0.0.1 - - [10/Jun/2024 13:24:08] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:24:09 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 13:24:09 - INFO: 127.0.0.1 - - [10/Jun/2024 13:24:09] "[32mGET /api/auth/callback?code=AQBLhT81dwDjiFbPpXg1KLb_xAHWKNFQ5CbfRM7OIPQZISDowvjF6NDuezwcE_7M68l3ksgMe5VPkEi6UFGaqtFNASHCmFq_axL3crJ3s2DCp7S4_-_N2WWCDjE7LtQuC5k7znSlvOcr5-4BKaFQQwh9gacqC_1zCteYVHVfPuP5968BshgWX8HcsbMP9we1np05sukv_dOrhS5Q5q2dBHX4GR6RiDwmJyQqYTuD3Nu-1RXYAK3jYpcuHRTO-e09Xd67QCHIe8aAQ6fZ8Bvs_Af3BW67B6ZOzOGDuLwrAJv2ekKvRqXIl-VUHB7JhHYKokicwMAGlYp2nD4FHhmluAd5k0TPFrU12ki-g5_IK2rbR1kAlW6QS0k_nIY4xgKUoJJEz-6kQByeyUOT0fVg56KA_VeVIQsYFO4UdJMmgZdHSeSUMipL9YNUPfFpz1St3QwTjyin33guYdeY6mEkOWE63Qk1XkPnDuZ4a0jk81WlxLSmv71E3D2TeQheieXLphLeiBJwK1Etlo8orCOUlJ1_5W1DJl7lUER86wIpy3zlDp76D8CYrdfnb2TjrJhHisV2tD1X2VDir4gln009c6x6hYW8pNuFpQrsfcgpBzb0eJfRIeApCq4cGMiUYHQJdtRPnFPZbs0G2ZqWLn5GHZ1jED38xd6MAgcwip5fW59cU-xw-QR1 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 13:24:10 - INFO: 127.0.0.1 - - [10/Jun/2024 13:24:10] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:24:10 - INFO: 127.0.0.1 - - [10/Jun/2024 13:24:10] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:24:10 - INFO: 127.0.0.1 - - [10/Jun/2024 13:24:10] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 13:25:29 - INFO: 127.0.0.1 - - [10/Jun/2024 13:25:29] "[33mGET /api/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:25:48 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\api.py', reloading[0m
+[32m2024-06-10 13:25:49 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:26:03 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:26:03 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:26:04 - INFO: 127.0.0.1 - - [10/Jun/2024 13:26:04] "[33mGET /api/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:26:05 - INFO: 127.0.0.1 - - [10/Jun/2024 13:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:26:22 - INFO: 127.0.0.1 - - [10/Jun/2024 13:26:22] "[33mGET /api/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:27:15 - INFO: 127.0.0.1 - - [10/Jun/2024 13:27:15] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:27:23 - INFO: 127.0.0.1 - - [10/Jun/2024 13:27:23] "[33mGET /save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Altbau - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - meinen die uns - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Heute mit mir - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Für die Strasse - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - rosa rugosa - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - RS5 - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:37 - INFO: Recent inserted successfully - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - schwarzer toyota - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Loin de moi - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Balla Balla - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:38 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Shooting Stars - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Katana - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:39 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: Recent inserted successfully - Manos Al Aire - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: Recent inserted successfully - Alien - for User: spotifyyanik[0m
+[32m2024-06-10 13:27:40 - INFO: 127.0.0.1 - - [10/Jun/2024 13:27:40] "POST /api/save HTTP/1.1" 200 -[0m
+[32m2024-06-10 13:30:38 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\api.py', reloading[0m
+[32m2024-06-10 13:30:38 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:30:40 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:30:40 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:36:50 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 13:36:50 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:36:53 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:36:53 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:38:51 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 13:38:51 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:38:54 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:38:54 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:40:30 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 13:40:30 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:40:48 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:40:48 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 13:56:17 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 13:56:18 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 13:56:20 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 13:56:20 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:01:31 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-10 14:01:31 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:01:36 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:01:36 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:02:09 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-10 14:02:09 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:05:42 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 14:05:42 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 14:05:42 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:05:44 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:05:44 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:05:47 - INFO: 127.0.0.1 - - [10/Jun/2024 14:05:47] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 14:05:47 - INFO: 127.0.0.1 - - [10/Jun/2024 14:05:47] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-10 14:06:31 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 14:06:31 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 14:06:31 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:06:33 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:06:33 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:06:38 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:38] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 14:06:39 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:39] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-10 14:06:45 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:45] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 14:06:45 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:45] "[31m[1mGET /api/user/ HTTP/1.1[0m" 400 -[0m
+[32m2024-06-10 14:06:50 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:50] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 14:06:50 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:50] "[31m[1mGET /api/user/ HTTP/1.1[0m" 400 -[0m
+[32m2024-06-10 14:06:55 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:55] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 14:06:55 - INFO: 127.0.0.1 - - [10/Jun/2024 14:06:55] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-10 14:11:21 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\__init__.py', reloading[0m
+[32m2024-06-10 14:11:22 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:11:26 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:11:26 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:13:45 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 14:13:46 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:13:47 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:13:47 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:21:19 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\helpers\\spotify_helper.py', reloading[0m
+[32m2024-06-10 14:21:19 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:21:20 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:21:20 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:21:34 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\services.py', reloading[0m
+[32m2024-06-10 14:21:34 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:21:35 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:21:35 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:28:57 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\playlist.py', reloading[0m
+[32m2024-06-10 14:28:58 - INFO:  * Restarting with stat[0m
+[33m2024-06-10 14:29:06 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:29:06 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:44:10 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-10 14:44:10 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:44:12 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:44:12 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:44:12 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:44:12 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:44:12 - INFO: Scheduler started[0m
+[33m2024-06-10 14:44:12 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:44:12 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:45:53 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 14:45:53 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 14:45:53 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:45:54 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:45:54 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:45:54 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:45:54 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:45:54 - INFO: Scheduler started[0m
+[33m2024-06-10 14:45:54 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:45:54 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:46:41 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-10 14:46:41 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 14:46:41 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:47:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:47:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:47:32 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:47:32 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:47:32 - INFO: Scheduler started[0m
+[32m2024-06-10 14:47:32 - INFO: Scheduler started with hourly and daily tasks.[0m
+[32m2024-06-10 14:47:32 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 14:47:32 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 14:47:32 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:47:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:47:33 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:47:33 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:47:33 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:47:33 - INFO: Scheduler started[0m
+[32m2024-06-10 14:47:33 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-10 14:47:33 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:47:33 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:48:36 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 14:48:36 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 14:48:36 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:48:37 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 14:49:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:49:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:49:49 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:49:49 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:49:49 - INFO: Scheduler started[0m
+[32m2024-06-10 14:49:49 - INFO: Scheduler started with hourly and daily tasks.[0m
+[32m2024-06-10 14:49:49 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 14:49:49 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 14:49:49 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:49:50 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:49:50 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 14:49:50 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 14:49:50 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 14:49:50 - INFO: Scheduler started[0m
+[32m2024-06-10 14:49:50 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-10 14:49:50 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 14:49:50 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 14:50:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:51:49 CEST)" (scheduled at 2024-06-10 14:50:49.516108+02:00)[0m
+[32m2024-06-10 14:50:49 - INFO: Running hourly task...[0m
+[32m2024-06-10 14:50:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:51:49 CEST)" executed successfully[0m
+[32m2024-06-10 14:50:50 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:51:50 CEST)" (scheduled at 2024-06-10 14:50:50.776412+02:00)[0m
+[32m2024-06-10 14:50:50 - INFO: Running hourly task...[0m
+[32m2024-06-10 14:50:50 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:51:50 CEST)" executed successfully[0m
+[32m2024-06-10 14:51:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:52:49 CEST)" (scheduled at 2024-06-10 14:51:49.516108+02:00)[0m
+[32m2024-06-10 14:51:49 - INFO: Running hourly task...[0m
+[32m2024-06-10 14:51:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:52:49 CEST)" executed successfully[0m
+[32m2024-06-10 14:51:50 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:52:50 CEST)" (scheduled at 2024-06-10 14:51:50.776412+02:00)[0m
+[32m2024-06-10 14:51:50 - INFO: Running hourly task...[0m
+[32m2024-06-10 14:51:50 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 14:52:50 CEST)" executed successfully[0m
+[32m2024-06-10 14:52:12 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\saver_task.py', reloading[0m
+[32m2024-06-10 14:52:12 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 14:52:13 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 14:52:14 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:07:44 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:08:43 - INFO: Spotify Saver Task ...[0m
+[31m2024-06-10 15:08:43 - ERROR: Error in hourly_task: 'DBService' object has no attribute 'get_all_users'[0m
+[32m2024-06-10 15:09:30 - INFO: Spotify Saver Task ...[0m
+[31m2024-06-10 15:09:30 - ERROR: Error in hourly_task: 'DBService' object has no attribute 'get_all_users'[0m
+[32m2024-06-10 15:10:17 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:10:17 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:10:17 - ERROR: Error in hourly_task: 'refresh_token'[0m
+[32m2024-06-10 15:10:54 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:10:54 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:10:54 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:10:56 - ERROR: Error in hourly_task: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: //api/services/save (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027403CCA030>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))[0m
+[32m2024-06-10 15:11:42 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:11:42 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:11:42 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:11:42 - INFO: Processing user: AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA[0m
+[32m2024-06-10 15:12:22 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:12:23 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:12:23 - INFO: User: {'spotify_uuid': 'spotifyyanik', 'name': 'spotifyyanik', 'active': True, 'spotify_key': 'AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA'}[0m
+[32m2024-06-10 15:13:48 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:13:48 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:13:48 - INFO: Scheduler started[0m
+[32m2024-06-10 15:13:48 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:13:49 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:13:49 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:13:49 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:13:50 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:13:50 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:13:50 - INFO: Scheduler started[0m
+[32m2024-06-10 15:13:50 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:13:50 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:13:50 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:14:48 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:15:48 CEST)" (scheduled at 2024-06-10 15:14:48.896711+02:00)[0m
+[32m2024-06-10 15:14:48 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:14:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:14:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:14:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:15:48 CEST)" executed successfully[0m
+[32m2024-06-10 15:14:50 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:15:50 CEST)" (scheduled at 2024-06-10 15:14:50.217812+02:00)[0m
+[32m2024-06-10 15:14:50 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:14:50 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:14:50 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:14:50 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:15:50 CEST)" executed successfully[0m
+[32m2024-06-10 15:15:12 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:15:12 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:15:13 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:15:14 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:16:08 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:16:08 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:16:08 - INFO: Scheduler started[0m
+[32m2024-06-10 15:16:08 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:16:08 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:16:08 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:16:08 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:16:09 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:16:09 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:16:09 - INFO: Scheduler started[0m
+[32m2024-06-10 15:16:09 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:16:09 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:16:09 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:17:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:18:08 CEST)" (scheduled at 2024-06-10 15:17:08.039199+02:00)[0m
+[32m2024-06-10 15:17:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:17:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:17:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:17:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:17:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:17:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:17:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:18:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:17:09 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:18:09 CEST)" (scheduled at 2024-06-10 15:17:09.007759+02:00)[0m
+[32m2024-06-10 15:17:09 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:17:09 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:17:09 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:17:09 - INFO: 127.0.0.1 - - [10/Jun/2024 15:17:09] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:17:09 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:17:09 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:18:09 CEST)" executed successfully[0m
+[32m2024-06-10 15:17:30 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:17:30 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:17:30 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:17:31 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:17:31 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:17:31 - INFO: Scheduler started[0m
+[32m2024-06-10 15:17:31 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:17:31 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:17:31 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:18:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:19:08 CEST)" (scheduled at 2024-06-10 15:18:08.039199+02:00)[0m
+[32m2024-06-10 15:18:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:18:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:18:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:18:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:18:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:18:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:18:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:19:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:18:31 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:19:31 CEST)" (scheduled at 2024-06-10 15:18:31.563471+02:00)[0m
+[32m2024-06-10 15:18:31 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:18:31 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:18:31 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:18:32 - INFO: 127.0.0.1 - - [10/Jun/2024 15:18:32] "[33mGET /api/service/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:18:32 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:18:32 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:19:31 CEST)" executed successfully[0m
+[32m2024-06-10 15:18:48 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:18:48 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:18:48 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:18:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:18:49 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:18:49 - INFO: Scheduler started[0m
+[32m2024-06-10 15:18:49 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:18:49 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:18:49 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:19:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:20:08 CEST)" (scheduled at 2024-06-10 15:19:08.039199+02:00)[0m
+[32m2024-06-10 15:19:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:19:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:19:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:19:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:19:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:19:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:19:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:20:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:19:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:20:49 CEST)" (scheduled at 2024-06-10 15:19:49.950759+02:00)[0m
+[32m2024-06-10 15:19:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:19:50 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:19:50 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:19:50 - INFO: 127.0.0.1 - - [10/Jun/2024 15:19:50] "[33mGET /api/service/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:19:50 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:19:50 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:20:49 CEST)" executed successfully[0m
+[32m2024-06-10 15:20:03 - INFO: 127.0.0.1 - - [10/Jun/2024 15:20:03] "[33mGET /api/service/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 15:20:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:21:08 CEST)" (scheduled at 2024-06-10 15:20:08.039199+02:00)[0m
+[32m2024-06-10 15:20:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:20:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:20:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:20:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:20:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:20:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:20:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:21:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:20:12 - INFO: 127.0.0.1 - - [10/Jun/2024 15:20:12] "[33mGET /api/service HTTP/1.1[0m" 404 -[0m
+[32m2024-06-10 15:20:49 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:20:49 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:20:49 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:20:50 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:20:50 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:20:50 - INFO: Scheduler started[0m
+[32m2024-06-10 15:20:50 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:20:50 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:20:50 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:21:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:22:08 CEST)" (scheduled at 2024-06-10 15:21:08.039199+02:00)[0m
+[32m2024-06-10 15:21:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:21:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:21:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:21:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:21:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:21:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:21:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:22:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:21:50 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:22:50 CEST)" (scheduled at 2024-06-10 15:21:50.859484+02:00)[0m
+[32m2024-06-10 15:21:50 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:21:51 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:21:51 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:21:51 - ERROR: Error exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token[0m
+[32m2024-06-10 15:21:51 - INFO: 127.0.0.1 - - [10/Jun/2024 15:21:51] "[35m[1mPOST /api/service/save HTTP/1.1[0m" 500 -[0m
+[32m2024-06-10 15:21:51 - INFO: Response for user spotifyyanik: {'error': 'Error in save_spotify_data (exchange_refresh_token): Error occurred while exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token'}[0m
+[32m2024-06-10 15:21:51 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:22:50 CEST)" executed successfully[0m
+[32m2024-06-10 15:22:08 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:23:08 CEST)" (scheduled at 2024-06-10 15:22:08.039199+02:00)[0m
+[32m2024-06-10 15:22:08 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:22:08 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:22:08 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:22:08 - INFO: 127.0.0.1 - - [10/Jun/2024 15:22:08] "[33mGET /api/services/save HTTP/1.1[0m" 404 -[0m
+[31m2024-06-10 15:22:08 - ERROR: Error in hourly_task: Expecting value: line 1 column 1 (char 0)[0m
+[32m2024-06-10 15:22:08 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:23:08 CEST)" executed successfully[0m
+[32m2024-06-10 15:22:12 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:22:12 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:22:56 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:22:56 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:22:56 - INFO: Scheduler started[0m
+[32m2024-06-10 15:22:56 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:22:56 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:22:56 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:22:56 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:22:58 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:22:58 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:22:58 - INFO: Scheduler started[0m
+[32m2024-06-10 15:22:58 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:22:58 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:22:58 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:23:00 - INFO: Recent inserted successfully - Altbau - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:00 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - meinen die uns - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Heute mit mir - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Für die Strasse - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - rosa rugosa - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - RS5 - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - schwarzer toyota - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:01 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Loin de moi - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Balla Balla - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:02 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Shooting Stars - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Katana - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - Manos Al Aire - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:03 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:04 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:04 - INFO: Recent inserted successfully - Alien - for User: spotifyyanik[0m
+[32m2024-06-10 15:23:04 - INFO: 127.0.0.1 - - [10/Jun/2024 15:23:04] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:23:08 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:23:09 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:23:56 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:23:56 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:23:56 - INFO: Scheduler started[0m
+[32m2024-06-10 15:23:56 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:23:56 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:23:56 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:23:56 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:23:57 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:23:57 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:23:57 - INFO: Scheduler started[0m
+[32m2024-06-10 15:23:57 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:23:57 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:23:57 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:24:56 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:25:56 CEST)" (scheduled at 2024-06-10 15:24:56.920031+02:00)[0m
+[32m2024-06-10 15:24:56 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:24:57 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:24:57 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:24:57 - ERROR: Error exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token[0m
+[32m2024-06-10 15:24:57 - INFO: 127.0.0.1 - - [10/Jun/2024 15:24:57] "[35m[1mPOST /api/service/save HTTP/1.1[0m" 500 -[0m
+[32m2024-06-10 15:24:57 - INFO: Response for user spotifyyanik: {'error': 'Error in save_spotify_data (exchange_refresh_token): Error occurred while exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token'}[0m
+[32m2024-06-10 15:24:57 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:25:56 CEST)" executed successfully[0m
+[32m2024-06-10 15:24:57 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:25:57 CEST)" (scheduled at 2024-06-10 15:24:57.885149+02:00)[0m
+[32m2024-06-10 15:24:57 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:24:58 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:24:58 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:24:58 - ERROR: Error exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token[0m
+[32m2024-06-10 15:24:58 - INFO: 127.0.0.1 - - [10/Jun/2024 15:24:58] "[35m[1mPOST /api/service/save HTTP/1.1[0m" 500 -[0m
+[32m2024-06-10 15:24:58 - INFO: Response for user spotifyyanik: {'error': 'Error in save_spotify_data (exchange_refresh_token): Error occurred while exchanging refresh token: error: invalid_grant, error_description: Invalid refresh token'}[0m
+[32m2024-06-10 15:24:58 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:25:57 CEST)" executed successfully[0m
+[32m2024-06-10 15:25:11 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:25:11 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:25:11 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:25:18 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:25:19 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:25:19 - INFO: Scheduler started[0m
+[32m2024-06-10 15:25:19 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:25:19 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:25:19 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:25:25 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:25:25 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:25:25 - INFO: Scheduler started[0m
+[32m2024-06-10 15:25:25 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:25:25 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:25:25 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:25:25 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:25:26 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:25:26 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:25:26 - INFO: Scheduler started[0m
+[32m2024-06-10 15:25:26 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:25:26 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:25:26 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:26:25 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:27:25 CEST)" (scheduled at 2024-06-10 15:26:25.885167+02:00)[0m
+[32m2024-06-10 15:26:25 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:26:26 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:26:26 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:26:26 - ERROR: Error in hourly_task: Header part ({'AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA'}) from ('Authorization', {'AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA'}) must be of type str or bytes, not <class 'set'>[0m
+[32m2024-06-10 15:26:26 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:27:25 CEST)" executed successfully[0m
+[32m2024-06-10 15:26:26 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:27:26 CEST)" (scheduled at 2024-06-10 15:26:26.891593+02:00)[0m
+[32m2024-06-10 15:26:26 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:26:27 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:26:27 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-10 15:26:27 - ERROR: Error in hourly_task: Header part ({'AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA'}) from ('Authorization', {'AQDxfxQgQlOMUfJHnBPsR3C4OQsQAaY17_ufSHr2g6Pm-iZAAW8MVXN7WHWlBEZAaFT2KpL0UmZdwQUQVnEPe-60t_UqLjLXN2BQAQEp0Xr05r3faXWv0qTsTbqsIKOc9FA'}) must be of type str or bytes, not <class 'set'>[0m
+[32m2024-06-10 15:26:27 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:27:26 CEST)" executed successfully[0m
+[32m2024-06-10 15:27:20 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:27:20 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:27:22 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:27:22 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:27:22 - INFO: Scheduler started[0m
+[32m2024-06-10 15:27:22 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:27:22 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:27:22 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:27:22 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:27:23 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:27:23 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:27:23 - INFO: Scheduler started[0m
+[32m2024-06-10 15:27:23 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:27:23 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:27:23 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:28:22 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:29:22 CEST)" (scheduled at 2024-06-10 15:28:22.476072+02:00)[0m
+[32m2024-06-10 15:28:22 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:28:23 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:28:23 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:28:23 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:29:23 CEST)" (scheduled at 2024-06-10 15:28:23.658718+02:00)[0m
+[32m2024-06-10 15:28:23 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:28:23 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:28:23 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:28:24 - INFO: Recent inserted successfully - Altbau - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:24 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - meinen die uns - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: 127.0.0.1 - - [10/Jun/2024 15:28:25] "[35m[1mPOST /api/service/save HTTP/1.1[0m" 500 -[0m
+[32m2024-06-10 15:28:25 - INFO: Response for user spotifyyanik: {'error': "Error in save_spotify_data: Method 'rollback()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)"}[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:29:23 CEST)" executed successfully[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Heute mit mir - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Für die Strasse - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - rosa rugosa - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - RS5 - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - schwarzer toyota - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:25 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Loin de moi - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Balla Balla - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:26 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Shooting Stars - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - Katana - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:27 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - Manos Al Aire - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: Recent inserted successfully - Alien - for User: spotifyyanik[0m
+[32m2024-06-10 15:28:28 - INFO: 127.0.0.1 - - [10/Jun/2024 15:28:28] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:28:28 - INFO: Response for user spotifyyanik: {'message': 'Spotify data saved successfully'}[0m
+[32m2024-06-10 15:28:28 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:29:22 CEST)" executed successfully[0m
+[32m2024-06-10 15:29:22 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:30:22 CEST)" (scheduled at 2024-06-10 15:29:22.476072+02:00)[0m
+[32m2024-06-10 15:29:22 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:29:22 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:29:22 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:30:23 CEST)" (scheduled at 2024-06-10 15:29:23.658718+02:00)[0m
+[32m2024-06-10 15:29:23 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:29:23 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:29:23 - INFO: Recent inserted successfully - Altbau - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Recent inserted successfully - meinen die uns - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:23 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Heute mit mir - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Für die Strasse - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - rosa rugosa - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - RS5 - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - schwarzer toyota - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: Recent inserted successfully - Loin de moi - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:24 - INFO: 127.0.0.1 - - [10/Jun/2024 15:29:24] "[35m[1mPOST /api/service/save HTTP/1.1[0m" 500 -[0m
+[32m2024-06-10 15:29:24 - INFO: Response for user spotifyyanik: {'error': 'Error in save_spotify_data: This session is provisioning a new connection; concurrent operations are not permitted (Background on this error at: https://sqlalche.me/e/20/isce)'}[0m
+[32m2024-06-10 15:29:24 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:30:23 CEST)" executed successfully[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Balla Balla - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:25 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Shooting Stars - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Katana - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:26 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:27 - INFO: Recent inserted successfully - Manos Al Aire - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:27 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:27 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:27 - INFO: Recent inserted successfully - Alien - for User: spotifyyanik[0m
+[32m2024-06-10 15:29:27 - INFO: 127.0.0.1 - - [10/Jun/2024 15:29:27] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:29:27 - INFO: Response for user spotifyyanik: {'message': 'Spotify data saved successfully'}[0m
+[32m2024-06-10 15:29:27 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:30:22 CEST)" executed successfully[0m
+[32m2024-06-10 15:29:48 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:29:48 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:29:48 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:29:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:29:49 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:29:49 - INFO: Scheduler started[0m
+[32m2024-06-10 15:29:49 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:29:49 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:29:49 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:29:51 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:29:51 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:29:52 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:29:53 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:29:53 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:29:53 - INFO: Scheduler started[0m
+[32m2024-06-10 15:29:53 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:29:53 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:29:53 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:30:22 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:31:22 CEST)" (scheduled at 2024-06-10 15:30:22.476072+02:00)[0m
+[32m2024-06-10 15:30:22 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:30:22 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:30:22 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Altbau - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - meinen die uns - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Heute mit mir - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Für die Strasse - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - rosa rugosa - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:24 - INFO: Recent inserted successfully - Geschichte - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - RS5 - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - HaifischNikez Allstars - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - schwarzer toyota - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Loin de moi - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Toto (feat. RAF Camora) - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Balla Balla - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - Verschwendete Zeit - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:25 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - KETAMIN - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Shooting Stars - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:26 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Katana - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Manos Al Aire - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: Recent inserted successfully - Alien - for User: spotifyyanik[0m
+[32m2024-06-10 15:30:27 - INFO: 127.0.0.1 - - [10/Jun/2024 15:30:27] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:30:27 - INFO: Response for user spotifyyanik: {'message': 'Spotify data saved successfully'}[0m
+[32m2024-06-10 15:30:27 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:31:22 CEST)" executed successfully[0m
+[32m2024-06-10 15:30:32 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:30:32 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:30:32 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:30:33 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:30:36 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:30:36 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:30:36 - INFO: Scheduler started[0m
+[32m2024-06-10 15:30:36 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:30:36 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:30:36 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:30:36 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:30:38 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:30:38 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:30:38 - INFO: Scheduler started[0m
+[32m2024-06-10 15:30:38 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:30:38 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:30:38 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:31:04 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:31:04 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:31:04 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:31:05 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:31:05 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:31:05 - INFO: Scheduler started[0m
+[32m2024-06-10 15:31:05 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:31:05 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:31:05 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:31:36 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:32:36 CEST)" (scheduled at 2024-06-10 15:31:36.869890+02:00)[0m
+[32m2024-06-10 15:31:36 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:31:37 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:31:37 - ERROR: Error in hourly_task: 'error'[0m
+[32m2024-06-10 15:31:37 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:32:36 CEST)" executed successfully[0m
+[32m2024-06-10 15:31:59 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:31:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:32:00 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:32:01 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:32:01 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:32:01 - INFO: Scheduler started[0m
+[32m2024-06-10 15:32:01 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:32:01 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:32:01 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:32:01 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:32:02 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:32:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:32:03 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:32:03 - INFO: Scheduler started[0m
+[32m2024-06-10 15:32:03 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:32:03 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:32:03 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:32:03 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:32:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:32:04 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:32:04 - INFO: Scheduler started[0m
+[32m2024-06-10 15:32:04 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:32:04 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:32:04 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:33:03 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:34:03 CEST)" (scheduled at 2024-06-10 15:33:03.659411+02:00)[0m
+[32m2024-06-10 15:33:03 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:33:04 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:33:04 - ERROR: Error in hourly_task: 'error'[0m
+[32m2024-06-10 15:33:04 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:34:03 CEST)" executed successfully[0m
+[32m2024-06-10 15:33:04 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:34:04 CEST)" (scheduled at 2024-06-10 15:33:04.698386+02:00)[0m
+[32m2024-06-10 15:33:04 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:33:05 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:33:05 - ERROR: Error in hourly_task: 'error'[0m
+[32m2024-06-10 15:33:05 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:34:04 CEST)" executed successfully[0m
+[32m2024-06-10 15:34:02 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:34:02 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:34:02 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:34:03 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:35:03 CEST)" (scheduled at 2024-06-10 15:34:03.659411+02:00)[0m
+[32m2024-06-10 15:34:03 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:34:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:34:03 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:34:03 - INFO: Scheduler started[0m
+[32m2024-06-10 15:34:03 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:34:03 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:34:03 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:34:03 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:34:03 - ERROR: Error in hourly_task: 'error'[0m
+[32m2024-06-10 15:34:03 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:35:03 CEST)" executed successfully[0m
+[32m2024-06-10 15:34:12 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:34:12 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:34:12 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:34:14 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:34:14 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:34:14 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:34:14 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:34:14 - INFO: Scheduler started[0m
+[32m2024-06-10 15:34:14 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:34:14 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:34:14 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:34:56 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:34:56 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:34:56 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:34:58 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:34:58 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:34:58 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:34:58 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:34:58 - INFO: Scheduler started[0m
+[32m2024-06-10 15:34:58 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:34:58 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:34:58 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:35:03 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:36:03 CEST)" (scheduled at 2024-06-10 15:35:03.659411+02:00)[0m
+[32m2024-06-10 15:35:03 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-10 15:35:04 - INFO: Active users retrieved successfully - 1[0m
+[31m2024-06-10 15:35:04 - ERROR: Error in hourly_task: 'error'[0m
+[32m2024-06-10 15:35:04 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:36:03 CEST)" executed successfully[0m
+[32m2024-06-10 15:35:25 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\scheduler\\__init__.py', reloading[0m
+[32m2024-06-10 15:35:25 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:35:25 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:35:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:27 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:35:27 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:35:27 - INFO: Scheduler started[0m
+[32m2024-06-10 15:35:27 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:35:27 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:35:27 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:35:27 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:35:27 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:35:31 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:31 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:31 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:35:31 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:35:31 - INFO: Scheduler started[0m
+[32m2024-06-10 15:35:31 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:35:31 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:35:31 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:35:31 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:35:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:32 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:35:32 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:35:32 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:35:32 - INFO: Scheduler started[0m
+[32m2024-06-10 15:35:32 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:35:32 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:35:32 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:36:31 - INFO: Running job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:37:31 CEST)" (scheduled at 2024-06-10 15:36:31.147962+02:00)[0m
+[32m2024-06-10 15:36:31 - INFO: Spotify Topmix Task ...[0m
+[32m2024-06-10 15:36:31 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:36:31 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:36:32 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 15:36:32 - INFO: Songs retrieved successfully - 723[0m
+[32m2024-06-10 15:36:32 - INFO: Running job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:37:32 CEST)" (scheduled at 2024-06-10 15:36:32.440081+02:00)[0m
+[32m2024-06-10 15:36:32 - INFO: Spotify Topmix Task ...[0m
+[32m2024-06-10 15:36:32 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:36:32 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:36:33 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 15:36:33 - INFO: Playlist not found: TOPMIX 14 Days[0m
+[32m2024-06-10 15:36:33 - INFO: Songs retrieved successfully - 723[0m
+[32m2024-06-10 15:36:34 - INFO: Playlist not found: TOPMIX 14 Days[0m
+[32m2024-06-10 15:36:34 - INFO: 127.0.0.1 - - [10/Jun/2024 15:36:34] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:36:34 - INFO: Response for user spotifyyanik: {'message': 'Topmix updated successfully'}[0m
+[32m2024-06-10 15:36:34 - INFO: Job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:37:31 CEST)" executed successfully[0m
+[32m2024-06-10 15:36:35 - INFO: 127.0.0.1 - - [10/Jun/2024 15:36:35] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:36:35 - INFO: Response for user spotifyyanik: {'message': 'Topmix updated successfully'}[0m
+[32m2024-06-10 15:36:35 - INFO: Job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:37:32 CEST)" executed successfully[0m
+[32m2024-06-10 15:37:31 - INFO: Running job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:38:31 CEST)" (scheduled at 2024-06-10 15:37:31.147962+02:00)[0m
+[32m2024-06-10 15:37:31 - INFO: Spotify Topmix Task ...[0m
+[32m2024-06-10 15:37:31 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:37:31 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:37:31 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 15:37:31 - INFO: Songs retrieved successfully - 723[0m
+[32m2024-06-10 15:37:32 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-10 15:37:32 - INFO: Running job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:38:32 CEST)" (scheduled at 2024-06-10 15:37:32.440081+02:00)[0m
+[32m2024-06-10 15:37:32 - INFO: Spotify Topmix Task ...[0m
+[32m2024-06-10 15:37:32 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-10 15:37:32 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-10 15:37:32 - INFO: 127.0.0.1 - - [10/Jun/2024 15:37:32] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:37:32 - INFO: Response for user spotifyyanik: {'message': 'Topmix updated successfully'}[0m
+[32m2024-06-10 15:37:32 - INFO: Job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:38:31 CEST)" executed successfully[0m
+[32m2024-06-10 15:37:33 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 15:37:33 - INFO: Songs retrieved successfully - 723[0m
+[32m2024-06-10 15:37:33 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-10 15:37:34 - INFO: 127.0.0.1 - - [10/Jun/2024 15:37:34] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 15:37:34 - INFO: Response for user spotifyyanik: {'message': 'Topmix updated successfully'}[0m
+[32m2024-06-10 15:37:34 - INFO: Job "daily_task (trigger: interval[0:01:00], next run at: 2024-06-10 15:38:32 CEST)" executed successfully[0m
+[32m2024-06-10 15:37:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:37:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:38:01 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:38:01 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:38:01 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:38:01 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:38:01 - INFO: Scheduler started[0m
+[32m2024-06-10 15:38:01 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 15:38:01 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 15:38:01 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 15:38:01 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 15:38:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:38:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 15:38:02 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 15:38:02 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 15:38:02 - INFO: Scheduler started[0m
+[32m2024-06-10 15:38:02 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 15:38:02 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 15:38:02 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 15:38:03 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 15:38:04 - INFO: Scheduler has been shut down[0m

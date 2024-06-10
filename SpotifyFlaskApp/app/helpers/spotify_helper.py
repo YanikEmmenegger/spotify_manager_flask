@@ -13,7 +13,12 @@ def handle_rate_limit(response, func, *args, **kwargs):
     Handle Spotify API rate limiting by retrying after the specified wait time.
     """
     if response.status_code == 429:
-        retry_after = int(response.headers.get('Retry-After', 30))
+        retry_after = int(response.headers.get('Retry-After', None))
+
+        if retry_after is None:
+            logging.error(f"Rate limited without Retry-After header: {response.headers}")
+            return {'success': False, 'error': "Rate limited without Retry-After header"}
+
         logging.warning(f"Rate limited. Retrying after {retry_after} seconds")
         time.sleep(retry_after)
         return func(*args, **kwargs)
@@ -138,7 +143,7 @@ def replace_tracks_in_playlist(access_token, playlist_id, track_ids):
     return make_spotify_api_request(access_token, f"playlists/{playlist_id}/tracks", method='PUT', data=data)
 
 
-def create_sorted_collection(tracks, limit):
+def create_sorted_collection(tracks, limit=50):
     """
     Create a sorted collection of tracks based on their frequency.
     """
