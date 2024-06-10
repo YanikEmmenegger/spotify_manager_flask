@@ -116,6 +116,21 @@ class DBService:
             return {'success': False,
                     'error': f"Error occurred in insert_track_into_recent while inserting recent track: {e}"}
 
+    def insert_topmix_exception(self, spotify_uuid, exception_type, value):
+        try:
+            self.db.execute(
+                text("INSERT INTO topmix_exception (spotify_uuid, type, value) VALUES (:spotify_uuid, :type, :value)"),
+                {'spotify_uuid': spotify_uuid, 'type': exception_type, 'value': value}
+            )
+            self.db.commit()
+            logging.info(f"Exception inserted successfully - {exception_type} - {value}")
+            return {'success': True, 'message': 'Exception inserted successfully'}
+        except Exception as e:
+            self.db.rollback()
+            logging.error(f"Error in insert_topmix_exception: {e}")
+            return {'success': False,
+                    'error': f"Error occurred in insert_topmix_exception while inserting exception: {e}"}
+
     def insert_genre(self, genre):
         try:
             result = self.db.execute(
@@ -141,7 +156,8 @@ class DBService:
                 return {'success': True, 'message': 'Genre already in database'}
             return {'success': False, 'error': f"Error occurred in insert_genre while inserting genre: {e}"}
 
-    def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=50000):
+    def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=50000, artist_exceptions=None,
+                        track_exceptions=None):
         try:
             if start_date is None:
                 # Default to last 14 days
@@ -151,13 +167,22 @@ class DBService:
                 end_date = datetime.now().strftime('%Y-%m-%d')
 
             query = """
-            SELECT * FROM recent
-            WHERE uid = :uid AND played_at BETWEEN :start_date AND :end_date
+            SELECT recent.* FROM recent
+            JOIN tracks ON recent.tid = tracks.tid
+            WHERE recent.uid = :uid AND recent.played_at BETWEEN :start_date AND :end_date
             """
             params = {'uid': spotify_uuid, 'start_date': start_date, 'end_date': end_date}
-            if limit > 0:
-                query += " LIMIT :limit"
-                params['limit'] = limit
+
+            if artist_exceptions:
+                query += " AND tracks.artist NOT IN :artist_exceptions"
+                params['artist_exceptions'] = tuple(artist_exceptions)
+
+            if track_exceptions:
+                query += " AND recent.tid NOT IN :track_exceptions"
+                params['track_exceptions'] = tuple(track_exceptions)
+
+            query += " LIMIT :limit"
+            params['limit'] = limit
 
             result = self.db.execute(text(query), params)
             listened_to = [dict(row) for row in result.mappings()]
@@ -183,6 +208,31 @@ class DBService:
             logging.error(f"Error in get_incomplete_artists: {e}")
             return {'success': False,
                     'error': f"Error occurred in get_incomplete_artists while getting incomplete artists: {e}"}
+
+    def get_topmix_exceptions(self, spotify_uuid):
+        try:
+            result = self.db.execute(
+                text("SELECT * FROM topmix_exception WHERE spotify_uuid = :uid"),
+                {'uid': spotify_uuid}
+            )
+            exceptions = [dict(row) for row in result.mappings()]
+
+            # split into two lists, artists and tracks
+            artist_exceptions = []
+            track_exceptions = []
+            for exception in exceptions:
+                if exception['type'] == 'artist':
+                    artist_exceptions.append(exception['value'])
+                elif exception['type'] == 'track':
+                    track_exceptions.append(exception['value'])
+            exceptions = {'artists': artist_exceptions, 'tracks': track_exceptions}
+
+            logging.info(f"Exceptions retrieved successfully - {len(exceptions)}")
+            return {'success': True, 'message': 'Exceptions retrieved successfully', 'data': exceptions}
+        except Exception as e:
+            logging.error(f"Error in get_topmix_exceptions: {e}")
+            return {'success': False,
+                    'error': f"Error occurred in get_topmix_exceptions while getting exceptions: {e}"}
 
     def update_artist(self, artist_id, genres, image):
         if genres is None:

@@ -346,3 +346,34 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/spotipy/oauth2.py", line 139, in _handle_oauth_error
     raise SpotifyOauthError(
 spotipy.oauth2.SpotifyOauthError: error: invalid_client, error_description: Invalid client
+[32m2024-06-08 15:51:54 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:54:42 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:54:57 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:55:29 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:56:41 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:00 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:01 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:01 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:02 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:02 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:03 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:03 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:04 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:04 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:05 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:06 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:06 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:07 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:41 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:41 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:42 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:42 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:43 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:43 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:44 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:44 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:57:45 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-08 15:59:36 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[31m2024-06-09 14:18:49 - ERROR: Error in get_topmix_exceptions: 'id'[0m
+[32m2024-06-09 14:19:35 - INFO: Exceptions retrieved successfully - 2[0m
+[31m2024-06-09 14:19:35 - ERROR: Error in get_listened_to: '>' not supported between instances of 'list' and 'int'[0m

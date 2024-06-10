@@ -62,7 +62,15 @@ def update_topmix():
                 {"error": f"Error in update_topmix (exchange_refresh_token): {access_token_response['error']}"}), 500
 
         access_token = access_token_response['access_token']
-        top_tracks_response = db_service.get_listened_to(None, None, spotify_uuid)
+
+        topmix_exists_response = db_service.get_topmix_exceptions(spotify_uuid)
+        if not topmix_exists_response['success']:
+            return jsonify(
+                {"error": f"Error in update_topmix (get_topmix_exceptions): {topmix_exists_response['error']}"}), 500
+        topmix_exceptions = topmix_exists_response['data']
+
+        top_tracks_response = db_service.get_listened_to(None, None, spotify_uuid, None, topmix_exceptions['artists'],
+                                                         topmix_exceptions['tracks'])
         if not top_tracks_response['success']:
             return jsonify({"error": f"Error in update_topmix (get_listened_to): {top_tracks_response['error']}"}), 500
 

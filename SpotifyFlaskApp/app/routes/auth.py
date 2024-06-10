@@ -41,9 +41,9 @@ def callback():
                                                      token_info['refresh_token'])
             if insert_response['success']:
                 # Create cookies with refresh_token and spotify_uuid
-                response = jsonify({"message": "User profile retrieved successfully! - please close this tab"})
-                response.set_cookie('refresh_token', token_info['refresh_token'], httponly=True, secure=True)
-                response.set_cookie('spotify_uuid', user['id'], httponly=True, secure=True)
+                response = redirect('http://localhost:5173/')  # Redirect user to /
+                response.set_cookie('refresh_token', token_info['refresh_token'], httponly=False, secure=False)
+                response.set_cookie('spotify_uuid', user['id'], httponly=False, secure=False)
                 return response
 
         return jsonify({"error": "Failed to retrieve user profile"}), 500
