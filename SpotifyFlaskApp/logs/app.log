@@ -1,0 +1,550 @@
+[32m2024-06-10 16:12:37 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:12:37 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:12:37 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:12:37 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:12:37 - INFO: Scheduler started[0m
+[32m2024-06-10 16:12:37 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:12:37 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:12:37 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:12:37 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:12:38 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:12:38 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:12:38 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:12:38 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:12:38 - INFO: Scheduler started[0m
+[32m2024-06-10 16:12:38 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:12:38 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:12:39 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:12:46 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 16:12:53 - INFO: Songs retrieved successfully - 68010[0m
+[32m2024-06-10 16:12:53 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-10 16:12:54 - INFO: 127.0.0.1 - - [10/Jun/2024 16:12:54] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:13:34 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 16:13:41 - INFO: Songs retrieved successfully - 68010[0m
+[32m2024-06-10 16:13:42 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-10 16:13:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:13:42] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:15:10 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\services.py', reloading[0m
+[32m2024-06-10 16:15:10 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:15:10 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:15:11 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:15:11 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:15:11 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:15:11 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:15:11 - INFO: Scheduler started[0m
+[32m2024-06-10 16:15:11 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:15:11 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:15:11 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:16:03 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\services.py', reloading[0m
+[32m2024-06-10 16:16:03 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:16:03 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:16:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:16:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:16:04 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:16:04 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:16:04 - INFO: Scheduler started[0m
+[32m2024-06-10 16:16:04 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:16:04 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:16:04 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:16:06 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-10 16:16:06 - INFO: Songs retrieved successfully - 723[0m
+[32m2024-06-10 16:16:07 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-10 16:16:08 - INFO: 127.0.0.1 - - [10/Jun/2024 16:16:08] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:21:26 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-10 16:21:26 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:21:26 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:21:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:21:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:21:27 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:21:27 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:21:27 - INFO: Scheduler started[0m
+[32m2024-06-10 16:21:27 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:21:27 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:21:27 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:22:02 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-10 16:22:02 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:22:02 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:22:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:22:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:22:03 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:22:03 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:22:03 - INFO: Scheduler started[0m
+[32m2024-06-10 16:22:03 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:22:03 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:22:03 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:22:12 - INFO: Songs retrieved successfully - 50[0m
+[32m2024-06-10 16:22:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:22:12] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:24:07 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 16:24:07 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:24:07 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:24:08 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:24:08 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:24:08 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:24:08 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:24:08 - INFO: Scheduler started[0m
+[32m2024-06-10 16:24:08 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:24:08 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:24:08 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:24:08 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:24:09 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:24:09 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:24:09 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:24:09 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:24:09 - INFO: Scheduler started[0m
+[32m2024-06-10 16:24:09 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:24:09 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:24:09 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:24:21 - INFO: Songs retrieved successfully - 50[0m
+[32m2024-06-10 16:24:21 - INFO: 127.0.0.1 - - [10/Jun/2024 16:24:21] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:25:51 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 16:25:51 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:25:52 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:25:58 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:25:58 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:25:58 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:25:58 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:25:58 - INFO: Scheduler started[0m
+[32m2024-06-10 16:25:58 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:25:58 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:25:58 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:25:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:25:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:26:01 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:26:01 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:26:01 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:26:01 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:26:01 - INFO: Scheduler started[0m
+[32m2024-06-10 16:26:01 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:26:01 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:26:01 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:26:01 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:26:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:26:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:26:02 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:26:02 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:26:02 - INFO: Scheduler started[0m
+[32m2024-06-10 16:26:02 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:26:02 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:26:02 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:26:05 - INFO: Songs retrieved successfully - 50[0m
+[32m2024-06-10 16:26:05 - INFO: 127.0.0.1 - - [10/Jun/2024 16:26:05] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:29:01 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 16:29:01 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:29:02 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:29:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:29:02 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:29:02 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:29:02 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:29:02 - INFO: Scheduler started[0m
+[32m2024-06-10 16:29:02 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:29:02 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:29:02 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:29:44 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 16:29:44 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:29:44 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:29:45 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:29:45 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:29:45 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:29:45 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:29:45 - INFO: Scheduler started[0m
+[32m2024-06-10 16:29:45 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:29:45 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:29:45 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:29:46 - INFO: Songs retrieved successfully - 50[0m
+[32m2024-06-10 16:29:46 - INFO: 127.0.0.1 - - [10/Jun/2024 16:29:46] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:30:32 - INFO: Songs retrieved successfully - 100[0m
+[32m2024-06-10 16:30:32 - INFO: 127.0.0.1 - - [10/Jun/2024 16:30:32] "GET /api/user/listened?limit=100 HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:32:26 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-10 16:32:26 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:32:26 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:32:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:32:27 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:32:27 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:32:27 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:32:27 - INFO: Scheduler started[0m
+[32m2024-06-10 16:32:27 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:32:27 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:32:27 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:32:28 - INFO: Songs retrieved successfully - 100[0m
+[32m2024-06-10 16:32:28 - INFO: 127.0.0.1 - - [10/Jun/2024 16:32:28] "GET /api/user/listened?limit=100 HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:34:55 - INFO: 127.0.0.1 - - [10/Jun/2024 16:34:55] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:34:56 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:34:56 - INFO: 127.0.0.1 - - [10/Jun/2024 16:34:56] "[32mGET /api/auth/callback?code=AQCNHp1cpZsG6ow-rnWshf80jGSiShTsTNtt3sSRY796UswU4OBTlfbdOAubX5ccWJyZinioFoWZe719ZFHqhBbMk9AxLvBuUaHY3wwSiueKqdxFPyDZvuywxvPw_sCRMj0IpTH98R4FhMBy47DTAlcmrRpu_8v53cabn_jlm2qls4OUALWVmVTdXQhiJSClc6AWFZ3KlS1JQmbxL0tIk11Njosa8hz8UwfWdd1A24Ekk6IKrhtwcJ1bAbXOVUHc8cCfaMxgnFR5Qz5FqVF38yRl2V8aWdWdkJkffCnhUKt4dC1kzMQQPm9K59Nk4bU06qTuuJi8Kecyo0nu-iX5_y5S33cJED7j2Kh9PBPI86hUzIlu6Lg1NmVuTKFc4V3Nq1t4PzIwwgE-u4fVqzpvtekdVXTwb_mxM825KC_t6ybjc2P8o-NXIL8zuqo6Hkyx7lyfYDelBjl3guwxrzyLMpwzZwt07Coy7f0qOhM892eaQ1trFYWOOKfWeEcQPF-PjIz0Wns-1P-zd2m1gAuJ8-yAWassABapLBPNieCG4BsxBMRRD1izoOKCHhVDusMFNLAW96iCXwlKvFmNtG6ymcQRXe5O-GnNivpc-J6CAQzX5OSJXrlGYYR_eaHZuRv_JKn0bpfm7nyrJKIDanNiwKZW3l-Bix0u-UT23roMYim4fPTKvh79 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:34:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:34:57] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:34:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:34:57] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:34:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:34:57] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:35:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:42] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:35:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:42] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:35:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:42] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:35:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:42] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:35:43 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:43] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:43 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:43] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:43 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:43] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:43 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:43] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:35:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:35:44] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:10] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:10] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:10] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:10] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:11] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:12] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:36:19 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:19] "GET / HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:20 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:20] "GET /assets/index-biOYrmcC.js HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:20 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:20] "GET /assets/index-XaDsYXkX.css HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:36:20 - INFO: 127.0.0.1 - - [10/Jun/2024 16:36:20] "GET /vite.svg HTTP/1.1" 200 -[0m
+[32m2024-06-10 16:39:22 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:22] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:22 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:22] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:22 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:22] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:22 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:22] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:56 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:56] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:39:57 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:39:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:57] "[32mGET /api/auth/callback?code=AQAfckq2y1oJV2unWWdAgJOZ61KyVoMTldjoygbLG_426Mx0134Y6Stpv7vmn0OS-fnjEfC-MbxpXvdq7IKrUEgicWT75fveryP2pG7vC7v0ryyPLe6brynHJQfkcquMEeADHMt2ly02YK4qYfKTnsWyMuX-xqXl2Kgz4WJ0Os4eKoASTNp2Jqb8UFyrKZrUoToH0fFrNRYT6SiwD-s6kRWtx_9sIQ5lldGF4dWRKrJX_buXcEBw6_heR6M6ULFSQAsNpW5jVrcJcDZOE9jOJCIWA56XVeC6OWG3Hug_hvLYz66GjWbZ7eR9uUKbC-vLSOACw8KHB7LNh50OOQmyZVGLKQAHzWYOdI3n5BTw7587OPBhXTKsGJ05UHjmI1YcgvjCBAXMCNV1-89S2Jw-9QsKLRB9V_fDTRcFKEvvHfnU8eNu4GvTlRMO8AKkjHvJJ5YnpUfJ7JCTA4QDKAcIdu6kIwWBBlNuqAnsR3fYlWuhFY4qetHTvpgy6LOq9rGstLS6P1_w1HyddE07I7XeK4mTaK618AthyI9cHuRYSl4kX4s9akAMwQpEwCJI7w4MKbggBYaDoyiFy18ZLIiSP0LXnBtNhIdVA8_BJfUwtL4nzx3mwO9fQgcBG0k9QNX7KXrgUTXG2ulZaH1j4XrxBnzO124JHdQkUFaWrvYtfOq07bU8-Op2 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:39:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:57] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:57] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:39:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:39:57] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:40:03 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 16:40:03 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:40:03 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:40:06 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:40:13 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:13 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:13 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:40:13 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:40:13 - INFO: Scheduler started[0m
+[32m2024-06-10 16:40:13 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:40:13 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:40:13 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:40:13 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:40:22 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:22 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:22 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:40:22 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:40:22 - INFO: Scheduler started[0m
+[32m2024-06-10 16:40:22 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:40:22 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:40:22 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:40:23 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:23] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:40:23 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:23] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:40:23 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:23] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:40:23 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:23] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:40:47 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 16:40:47 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:40:47 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:40:55 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:55 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:55 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:40:55 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:40:55 - INFO: Scheduler started[0m
+[32m2024-06-10 16:40:55 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:40:55 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:40:55 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:40:55 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:40:57 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:57 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:40:57 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:40:57 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:40:57 - INFO: Scheduler started[0m
+[32m2024-06-10 16:40:57 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:40:57 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:40:57 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:40:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:57] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:40:58 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:40:58 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:58] "[32mGET /api/auth/callback?code=AQCHRyCe0t0AP6qpDlDs9aOUhQhaACbmStE2UEq8FxNaTqmcf_3q9t7DPySo6kuVw54pWOcyM9Pc9qDfQpMRHbowtWM_1FgOUD3dbggC4ftrX9TGPKtF3h36cWA7UYrJXvhBHTJuNg8Hs__nZQSYIVALK6y1b3tSaahR3S84ewPwp69c-ecDM2d22ojbw9lao4yZQQRZzzRmRI0JRl4T3uEL7lNBS_UabxJTmJcpgyLZBSdElMqTB9ByPo_LkJvi1lhEKZjVh5M0BAOAxs86stSThvrRqGqV6CDegRE6TrUy2E3xoE8Vg3DQM4bGvaK3HMMLUZzpZEGeEAJp9WlH6rRH3aD_R3LrNDAhVuhGPFtea9XwAgx6roqi1CrKXRxsYrLT5l1-mKR6UTEBI0V7MghziEqscYvsFkbrkFLmlia0F1LLmp1d1mrDUQZupUXdrBjMhhPbDYnhWoQYydPS_6QE0lUXoZWj5I4PnWZPz4SI3GdQVtcU6ZKNWoEJ95PgvzmYNOoYUlkvwKWICDPoLS1MbNWNOgBKXPn3EVMKiJK1lfuH8KBKXwjldifljAeiXgJcZUbbIYov_L4NfFtOnwt-8fXiCx7Cx0wOmn1iZ27a7RFQyI8ENKaRdvJuHVjz4eU-2eQ8QMc1BELYnh4RAXJtshBUfTBzpuxjavH5v2Bx-aPRb7g0 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:40:58 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:58] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:40:59 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:40:59 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:59] "[32mGET /api/auth/callback?code=AQANJMsTSi1jIvKhmu1x-VvYGRdCQkU8naw9KjIm3tY_n1X5rh5__PG1VLVQT174GZRbvJhAOIm33lO__kYwKEEW_CNP718oundqayKxvFUXjvladjkfuqZ2niIVIoK_zXgjHFrSh6q4KhrNGyl65WYNZOd5iNwSKfiMpKo-N7tqKcnl-a3IwRI6guysah1CORcAt1RpEedrgWIg9U0EiQMhkfJDCp-wB0qPIVJGgrXOSfIaC9dnzCt7CE1GwdmGGEeA4EKDnV7WqeeXUuLYSGMI1qZgX3Lm4uH_zgPFW-QGVEMhZOHejdY1a97exVvANBf0vmI9ggRxPsL1xKE8n28uFPjRuBNTAZkNPYbJzm3xqtuVvvmS3CgqNHtPYM19YU3FGnn1pLtivJlRzvt1e4jioDT_rCqW768XI9JtuUMknqAsIB0uSvlxbzMoYkpt4DvRVKVeTxjn5QGxSjCHe1Mqc_mN53JMfC90ekTGyF358pxLtIw-TI6N3ClIypOZmEx2GZBbnACymhUqlfbxn3h-G5LSUu7qXeQc0icwc6SVE11-7ImWWUfs8Dl7CHMQ3cvz4ic_Ky65mWgD7fovSdCmGyE9E99srJ-WNrgylYr7GdQGsWgjy8vO7qHlwX6LZlhi37K-GiZFomIuB-xSunchowHUBTHYoAS65wJHD47MoEvCC3rT HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:40:59 - INFO: 127.0.0.1 - - [10/Jun/2024 16:40:59] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:00 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:41:00 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:00] "[32mGET /api/auth/callback?code=AQAu-p4xgisOKCAu_-hfW-2v1awQF_pGHTebEWqecjKvqarTj-fifSN4lKyCJ0W-5SIlOsgT9id9-gFgHMBRCOrbZ74Ew5k5h_hGKkt6vDN251y_iLKcZR2HNbadc-cMfKr40c8MVm7HYZMJtYQV74qQAd_3eVk2RTKyPYAQ2e7bPboqTj_47EEdo7MX1rMfWaqj8EBoI_kjhHx9qKrzuqXF-iUgPtnkBIFL32DtNaGtmBTzYRlVCxDJbngAAqTdDRUwSn-UdoSWnULgkiVy6PSRzbpCojj_YUg16juNID4nn3Mx6YC179y0_sUjibxhM7Dwpbzhg0iuD6uV_qluS4F31ZD_YXp6apNmiJJXCxPP_41OvxfiwqIojLqGRp0x6uaKfP9pQ27UA3l2AMWIT02YBwYFYkxVbAkYgHlavcAMz-nl2SWlGNgE9GCs-aZjXojtindJwadTK3SHSqpe8l9x4vyBmjECwrhjQg-M32rQ59Z4dP4SL-6iKUCC3YTql__qGiUgRcRfBThOv400oqU_RbYLvhdhbmrt837G2aKy0bH1L4HTHLYg_vqOWHffgEvL_Jp-eu5EBACzlqtKPNydpf7DLJzksJ3-ANHdrhaJ9gdAav1pLTIb_eOAgBOb3braB_QkOCn1FFSC6O_3iEXnkhQASdwXpWcfGp8_RhR1MHh2YcIK HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:00 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:00] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:01 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:41:01 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:01] "[32mGET /api/auth/callback?code=AQAe6QB4D3i-TLlKi-p_8BaG_gGAgiGmCWHieK4gjSnEiq-Rpofmw9OoICXXbNEZwOY1bOXm-b9p7qGyIhPBv7FPT71yUXDLuzwmkJUMhvPv6_sBxSw6BC0hUymA3py8g6mieOXAdkjIahroXQqkqavONzEkbqvcJiZdcwZINDpXyHX22BROekvMdId2QdnVN7olVkopnvKTKITpYb8ALOT13LRBOZbhgaPQZAhxj-gwmRLpLGUpnRRhpUopVBdPZ7erHHWkgWOsyk2DVQUkq0Ehkoa6oPoA0600mmJoAsm0J8oo15dXkSjPcKCwf8WHIft62GcpP0p3_PRCUNHps-JmhJsoOrhLjQV4AI1lZWS5o8lGAjKvsaOWvfVG4dwu2C983OH-2GAwjHK7FDvB2ug4oDcVbgOY5ghKKsqdIMIcSfT4CMMZk34hn2hp1c_dhKJc2QmChSvupLRZ_yi8xjUt80YW8L4AQYihkkScCh6aJbfs-oZF4Vka8C4R-JNZmcrk69EiMztlvhmXY_NSi3xdZtg-vyWpaSLB345MG8v_1_3N6EhI3P7hqAEbld_4PDnOXxURvWixW7qhx9ovedI2l62jIANHqWU5CO_nPGl8CtCnTwhMcjIrpobZGVJhQccMd2iikXOsLrExamxKevnJWAwC2ymfvj_3B0NkQgTarEwsddfb HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:01 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:01] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:02 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:41:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:02] "[32mGET /api/auth/callback?code=AQBiDjaOJpMKznjryJt1GJrHHSlikXidMJeZ2Y_qAPwfzET9WAzj_XWLw4YYKp5ePYhAzW2MBMT8HvOkeMbihpylE9-Sj4DTdMVMl3P3vX-hSXaaqMQ-37trp1XhsgKqR7WKqqsdk0lMNwVzKn4rZHPM0DXVwrHm4KNb-o01zR0yoPwMogMkM7dQuKacxLc-y04xaYLP_K3s6G2qvRt7UaD66aJCBcRRUEAGmZt3Iu9tbuXNn0kyqy9hRg72oVB8zAEyaahdRwS9xQSmykV3ZOoHMwTIzUrw8_-4xLdiKTw4SgkOaNca-QKVaifKjZs6DE4GCyTYxCddmZ_2Ne-1Rm5PErn9kLVIB64GuL8Y8NCu8eNSVNU_zJMhTn1JVAIC1n-3C5OLTWCKgiHxLYXtVN7LwqQNAXOi0AEoCf98dIdalSN0ZUMG8N5lf6PPDThaTnXXJ51gqlaHLZNafDrw4VUJNVmau7Nc5ol3Vd6e4eN7ZSw3mHu4CoOmb39llBKl9EBXDKcSamzErC4G-DONRwGWbcBxbqb01X9pTnuQ2-8JG2aQXSzsRcUbHv0KimIkdA8DUrs0Sddv7tmT-n85LPAQwIqEqL5xUXzeXUyqb4U3MpvHyttW28g7ulfKul1QNfyHyP09OkRubDGDeUVNxjOkRg40TDBX8TQ6ncguE_CWsoRMhjFf HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:02] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:03 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:41:03 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:03] "[32mGET /api/auth/callback?code=AQDjf7S5hm9eG3qpiT75Lz1LvAEWxet9neuqOdY-cwXFNXTsccuaHneVlsh-UmQXadiKlzwFTTTT2sBl05I1yyoR-hKn7Wa_BVH3QGIDDFdhQYv7k_1gEFnmpAKTygwDxQku-0UWXRVW7GoEhYjv642GP9S-xERybPvnsKd4bcMQ5cawc5AeRsT23KPyNy7zRENfa-ti3vvaqTEvN0rFkhN5Bfg2xelbwCEwqEZs_VHuw73wwz4g-rkZFz-6IAlHhMLKPXCFeVn-ROgPC8K46eVf0E__SD54uv1mxac33HyS7qzCrlQ034zCS440Qatc6ZPfWGzGUKbHegr0ZHME00aNYJAu2tVVAZz2MqICQuObEW20rxr0Kj7gUD6aJnBG54LfT_LB1MUQB8VhJFaPfziCgR--WkB-zja9XM86wPqa-ixEiTb7sd-3Udywjp-kR95W8xbjB2E3X2epGsXxMKgLaw7zpm944wXrMTyJ0PFPT68FhsTA0BRBILydccnruzJcKrXwFeFA60HRxT_i-yqKnNgH4qLO1N-mqnhvodgXu5OOQA_3zn5K4mi06R7WXfxjDA7toubVDPy_SFq11fo0A8zaquz9Oy5ZBpu1EG1r4UNl2lA2N6YGvR1l2nXCg-uSL6h9YdkHLor5xXyHv5hqC2hrwA9CCQzAtuyK55JJpwB2aDYz HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:03 - INFO: 127.0.0.1 - - [10/Jun/2024 16:41:03] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:41:04 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:41:04 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:44:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:44:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:44:03 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:44:03 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:44:03 - INFO: Scheduler started[0m
+[32m2024-06-10 16:44:03 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:44:03 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:44:03 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:44:03 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:44:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:44:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:44:04 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:44:04 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:44:04 - INFO: Scheduler started[0m
+[32m2024-06-10 16:44:04 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:44:04 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:44:04 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:44:24 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:24] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:26 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:26 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:26] "[32mGET /api/auth/callback?code=AQB9t0pRhQQZzyixya0hzEUkjRmUsyJcDutJw6tvCheLYWNB1_HqN67lBI8pCMJDjMuTtLfFAUZ2voh0Qteb113JlWHOurUv7mmlGvZqr2scb0Tj5kYUosYsfAoR4mgkzY5l4IDik-hEsIQ7MvauiJRlLRoJ6yfOHSkdU75mMMophqQ4PwsSjE--hGzDVtktISp5AiEvOIMbEw8zVY9gttHpKcVqC3uFHbyJHoHmZttP6YcogGd1qf9AW4gKaqx9Mkshe9O--5vK1KEoUbJH5m4ndQNhcMvH5lMZ-Q-badzOqcDOKY3smkitPV9xLQnOiEbVQvJq5sm9GyzemssCJt2ScsOPEaGhzMHiTNI5EVMXNwXnWk44S1xL2sPjzx7JQMXmdEUt9rriC0RMQTht-WUwVjMuqAixvYdZGHiybDXH6hcjhbl7MsYZCV_mRPhDJCKhoW2W2XROXrjNJrzImsAH6gxzFNFzv_Bi7_P9gcMsCMZ7dJgDX6XlacuzitXqhnjc9WxLpoVNEbiDSG-kLa82zVeyP3-soQTqJOX1j3Lylu1gXVG6cSNoB-DOa5vjWUNvbKDstDsCOuHhS0glQQF7e_iha3ixRdqGUjTma3Sq-ERZwwCTS3JskiaziyeKiDhZJchD4Nlc_6PtTlU1HK0D2LI6IOA_g7QDl81ys5NVw0QxlKZg HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:26 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:26] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:28 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:28 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:28] "[32mGET /api/auth/callback?code=AQCD8vxLwTvu0DltBkMf6VtyUoaAhy78n4fRuBGpjQfgyDkEOA0UFt0wRjjuV89JALUu3cfxW4FzR8ms81zxBbpys_OXxd_hpBm-rwB4c1SvkEl_XTr_srChreJT9lGhUG36VFuOFm0LVaFM3hBN4XN2amwPwj8E0ekyBYrmwfkgGaATtwYiwOEdcpm6MTLGWO6v5mLudMRbkgyQPfo4AYW0Fs1u9l44ytA4DnAOxdnVQps42ndKtuehMbggYM1hdBTnv_Cq7GHdPMQaTW0aaMxPWpLLcu9UKefLXPYbSTT7xONqGLf2s_1jmr_afJl5x9KpWSTWp6LtJr-xmkkPEPgpSFTfjQW1Oo5hkQXI5Dgg-oLKrpN1BSnd13XgICTc8tBc-cxz_j45L9VaNO1H_hM1wU9s6yI8qF0-Jye2yaqjrQbTbIFnOflOPdod2NnqFqKdfjNB-tCrDOyBfvS87QdRtXx7YqyvjlJ2zDYSueFYoiMetndmFpirSflEoXcAZgFVSWDvJ_EONnxscoFXYwjY-mmbYi1AAlKcysJIjf8QPNlcA8UdNKXOI8dd-fDRL4UeTkr4PDlcKYA6hourEQAnjudTkQJoDOpsWKNSAv3iiUS3hwqs9r9KOeeBUCZpd6oB2nalIHLEzO0lm0BIDrHbXwmc7zqXwJNMUQ7XHmy6EFVEVg-p HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:28 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:28] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:30 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:30 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:30] "[32mGET /api/auth/callback?code=AQAdxWZhZqjPGLFgQn4phUuDAd37BxjXuYavWT0F8M0PqN7W1NPLL1edtoI4rLEoAPoK-le2oBBtlL_kr7ZmfmKt3I4jsNHJOvAUIr1Ut2eWKDkptCP1ZrfnU3DKaw4QWXcX3XFrUXgv6Krvq7pqu9ymmlcyWTWh7RFzfZccLA0A8aL_DTe7Soj53TMUyg7hQBZGOV1-rNAfIWmUAVb7YvY9UPzwzVA_y2_ZF3fXlfmlN7lggCD-8GPX3JUZSLNDIivHuJcSOzluoXGz94I0lKzqsrkS10rtTa8nNKCRsnI-tuXRfwPl3Kj-CDL6ICfaSPE4tf-sB8DNR9P_Tp572i8Ybl_d3QZ5SvcwPWbIzgVB6lGE4m2CKKZIAPp76jlfZKZE3BKcdVCzXjklmgR7ioTg_uDauVX3rweT8rvp1bRBwX5z2a9Md9iPBbwIg5CTtWSgOknUoQOhj1NQIBUGz7-YqDhO5CwW-YP_LIUQhmfxXKd__HLRZrno-8hWWKuLPpVXofNV3SUe_kfZflf7tR0UynWd30lzfpcovvGaWZ6E64AphJp0viZvmFp770S4gGlAslNIa3zZa7hsBa9Yyz9JLeXcmUbVhKC-Yy0dPO38DMSUJnwEt7ChCswTXE4kVRxsd-8PCo4JaPD3g4BGSiC4n5tmb6fLwlDlcvKyw60P0sgX1Ff- HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:30 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:30] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:31 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:31 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:31] "[32mGET /api/auth/callback?code=AQDy4Ko5gs0ZY1-QMSETmyKk4C9r_UpOvGBH9j442uzpMm7kuIwsa5tzyl7Qa37H1dJDhzkDTt97fwZDmLvvD1tZ5RgEKa6xEOYhzfE-9e5M5N9dh5E-ef2Pr-QYI3mX2ItBwiOZkfB2jB-RM4ZykRJ7Z7hCmgoCX-70MAJYqc2mNE6SUKW5U2SPi5WWH7STgM4fTVA-Hn6S0M3yicOyw61peka05O9BYmM6_tZg8AXDhzg64K4XGbl22Yy5t3bg7MRHHdBqTcUV2nssGBESBm2H7HN-xfo1V3yWXP1Ce2-fnQ6hzat4xGo312btHDYEzEDGKRELpkKWQJVuwvtViX6iS_9pUNCs1kP6zAabqT7GBMHVnJZ6XitIekaZihvTf1_SHnF698q_LEk45DLmM-A6F6WzmFahp8Prfaji45smxS4m9ILJhmBiej7TrP8C59FPmPql2xZBFc6Dml-aK0peXnZyf4z1XFjWvs4ILNBXEi7FpoDGbXNzaHhn7Vw4o1UCyQT1iarFI5wnGArnLCAx7NJO1GvuS5_Wr-Xu3ehk9AnVafGgVt4TB-HYzF2VUruQ3DlRGove1EkYcemd_5mfUpltd4eBs6yvAMSWwvAnLHxvKGPKts9Hb279AaFIEtVy6cDztlzcpbnmClt2g7HATQILvKKruaTyzIzYD_RTM_6VeHin HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:31 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:31] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:32 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:32 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:32] "[32mGET /api/auth/callback?code=AQC5KkSpLuNrO8lly7Hif7I4aFbgWmY7L7ZsQn76VNI3lI0UzvVcauPwMNrHXDLSHheP-Vy8Y2GOQaN26w48NZwJl-2Z6siM7wVECvi_FHOro-6dnHEYBFYbKa3aVL1MkYLfJMNmbtLwvLE2SRueS8CWe8ubIkyqUG-C82QKw8AKXNNx0VvDdwWJY1Erx-SK9IJ86YsrSInZ_8kjbpcNpsg6-4Q27h6sfekvxrJHtkmOf9x8uLK6PxEstennVkFq5WDYXflm74H9POwdtNRaF6OzMbpPtklElWt9BxWXtHqCT3HaciqBgyH9VzAJXY1HrvQlHiFBi3EmPbgUfVKX0-zRHkbmRZS72ldLKFWNPhMfTE8pU9oeyu1iZvGMBSSJbz-nABYrPmxp24gtu72K2yqVKewG_DqC5YfxyFeP7bVnMbV6NaMa1yMhz0Rr2GwWX_Nse5QKgj8XjRk5eHBC3zLfVSmB6y0n6-64QtVl85bP-RfmAbkK-90SC0XtupJO6nS18yiGZuGF1a8cW6YPnGQ35tvTwtZzBQPQBJ0iH0sZNzf8R5ZiDy-CD0et_ks45SFvxjvao4r_ULPvgp3QL1OBe1zcemcp-wHLl_ZV8HSDEG7pEGhBh2BGX-5GtLVQeEi5DUefwXUqbNGhnb33yspLDa4R-SPQNjTFZVq9SnsyslIHerdI HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:33 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:33] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:34 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:34 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:34] "[32mGET /api/auth/callback?code=AQCX7QtfumZfO02BEC9dowGHck78FHXmrr_Wb__3TVlJUHFWgqgnKzCUOIVg7d2euHup53alM0iKxD0dIfcUAmGXPgW6Id0yKBLPQVH9okMxDWlp3V2j20QWEPW-pn5u0BI4DBYufyg-5KwFrWFrAusWiCjMCF0L1EuruGB_ahb1W7t5r6bodWZPgFEWscGHdUvatloA1rVd9FiGZeajKBEQ67DSzaoVXVToZmHLS_t4ouZNJ0O2mDhpz3zVp6z7SOpinErrb73kQRewftmrOnqUNbZsVEBipp6ydrAh9qG9MV0KWc5g-a0tSMAppeQoN4Fc1f91LF7B7cPjhCuAoYDNAPxpg8UOrhdC_XSHX0tmu_hX_rVFg1vJaSiiwux0_cZr4Xg7ksngIz9yIynU-XSljGaX0fgQJ1SsTD5JbScSjSeJ_t7kO2pSDOPEuYoxdBuYK4Kj_AiFbB1lB4HBWhzZuimH4pRFb7aY01CBGFQNvji4zMl8lsvFjZ9aZpWQRfGgeT_QkCllXICxVwOoxeEkQ_CUDR4JaNlbL6EtH4bXxXdAjlmZ9AqAZYyaThre_48kP2VT30O_h6WhhEryTrlO31b731RdQ99e5Bz6vcEujrqoJnLzHUPl5NFBmgjsEZVVBCC-IheEYgc6Knse6z2tI9bgg7hCurzPFVNJDjKc46xojupU HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:34 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:34] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:35 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:35] "[32mGET /api/auth/callback?code=AQCz-zHlwd4mSHs-A6dJTVTQBLL6R5asS5sAO5kWMm1mFjXTMdvKF6Ev3gJX7URUcG5LvvdDkwYSxbl7SQ8pl6LYZEBFn5wSYWjQI3pGjIqcILgGR6RGM0Q7X__TlUZVL0g8KTs4vIouKaUd1OOrvQzXl-g5ivvQ2JF2c95rzSmMCTyxp7tC5rXxeOyYYFtXVkImvOOP8ZAS7nIQU88DXC3RQtHkOiXH4NV16qnJdi88nIw20SokiZV-rZl6Bc57n5KnQw4g47pOEs22OwsawTbP8HG-qbVTFJTPVqVdkd7GrbmQX1wz-kH_ToGn1RtV7ODB1ToRJ6-407KCl9lb97QZszeTjcdvKPnjVaiC3lHAyZd4COlk2VgBWlcA832Ooe-1ohbkH_KEii7AOqJj0cCwvSH6aTeCAO1YdEkug2VfEs-U4H5kqm6PWh1o-JMGNSyJX4QsNoS9eXl_jFbm2OUeeK1rZaPulbEAhWoLAmZW1UoGQ7w7LcxxzfDwLw8T-aoTVXQGyeVJyff9hMfD_AxgsYwb5WJQfVntk1SGChU-_Wb7iHBwUT_5Rr7f_KPczfrQsaL6DXwTvpLTZwI4WpwR-V1MPb7Xc2YfpuFmU95mcV4rueWuQqFk-O1JzI0v03hHweeD1efSzIFeeNAME7dcuTkYXI5f7-k5ZNnpStBvWFHdhk1J HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:36 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:36] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:37 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:44:37 - INFO: 127.0.0.1 - - [10/Jun/2024 16:44:37] "[32mGET /api/auth/callback?code=AQDY6DIsxrT_VzLbJ2Z621G-MrCWxqdczmwYNEGkFMgU0rzYDDR75FGDP4sc8AhA3qTIwxghvqsRRv3STotvXfoykVxbcOUPvVT-y7oLp4UNyGAEQPf6rm5lbx-6ZQL0qyZVF2CH0z3XQhhv_2wznISrWXTy-fFbgZbXVIW8pWFdECxM8uhZ3p2777vXaYWzmdfOPRyWTharrr-T7YFb8dpiXwSPtOwrTsQZl9rTqMg_ol_o9Jw-k3DdF_Tv5EMTjxorb10h1hADLCwcT2Q3-cKPHGR6PBC1Kfi02p3YE-hTEmOqu2Z9-Cyz_JGPyhwIPmC382Z3cAE96SgTxTWTZhOzzcyg1MdlFxAAVTil1qWwjK3h89351SUiTmSiOVAUzbNLhRFS6CzvboGNqDKHLk5OlNp3nYktHPEitxwl3At6IX1DgwFvyDAq7hpURRYENJszIKkQVmAaiZlwQn6pn7g1dYGw8hxIxdL_U2QgWAe6k0ZcJQFYhrVcBJAjWhhVngM3F35GJ1Bvw7QQckypB61wfqjhuYAa_LnJq-AuOhLz23oB8SL9HYQIxXvjRCsssYOWOs3ZVIvhR7BH77j2aojF4MV9CQG-KbkH361uQewON1dMjh8q0VbEttMOe5py-rMI-eLfhCWlmmICFVsGTyhJkp5thCE38rzBtNpeSjmnUJOgzr7l HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:44:44 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:44:45 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:45:37 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:45:37 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:45:37 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:45:37 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:45:37 - INFO: Scheduler started[0m
+[32m2024-06-10 16:45:37 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:45:37 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:45:37 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:45:37 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:45:38 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:45:38 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:45:38 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:45:38 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:45:38 - INFO: Scheduler started[0m
+[32m2024-06-10 16:45:38 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:45:38 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:45:38 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:45:46 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:46] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:47 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:47 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:47] "[32mGET /api/auth/callback?code=AQDCRFDMsmQ7v7Uua9pVR2pY9nMacvB-YqNiVFkqubdmesjCuKb9XlD7FPNoM1T4-5iJSw2AQzNAwMkGaD6Pwh7ImydQQwZEmw0EUXi7fLFeJpKmzBIHNbiHvMmlGqIS8IbKfa5PyLoHb3awAiEXbeSzLyBnr65-jTGd9Hm72yLuJKLzD4IwD2_MYbcaSWEjWtnmkr1Alrlak4er3uvHcac9IoJKj6aTcgKc7PXj92rGSxYEscQk4HhSu-6B4_ovL1SC1XcUuQm-mZfSDZxwMPUbRzQiEAtzYt5Am5XP-qD5w3UJYlnsgI-fndVBdZBKnpdQN4UFspCjBfdTkPDqmTHnWPMqFcw57U4LP7eOMr2UulJsPBqSOOvGPbpdotOtc10uDFZJ2zo5fYtkvkLK_rrVt9pvxSbkQrkbnjsKr0CskAjVNbwVDz3whPff6Hy07UtgZdbabILpfM-4UrKOBCC9J8gdLKnYCcsUg4AXnlPSn2SvAV_-MzFSSloyEkM3ulv8LwTutwTSJCgmcCV72CxGKDluIceC9vFpiXPisucNcUBIi328mYDVZgIMDBh5JeAjPmjsf8v4XVbgyVdgz0-ajsu8screAPz41_A2CE979wZFzqDUYmiwXuWX7TN9LhWdLxS3uCsN3y2cbw18iXMJurPnFLw4aQmGIRcjH0WX6jQMUhhq HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:47 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:47] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:48 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:48 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:48] "[32mGET /api/auth/callback?code=AQBMrnnvQycXjpJvme8x99I4dqS3uAHD2uIh7slq-cok13DcByNQwyNgjl1YPB4_0VCcIOxkWUiaOxX4TZbVPzitS2CeMlFOg4BegqZxCtewTVvfPcJkrBDVyszdzHewZtmD5lCfVYA95AJS4TYOlid8rRrpjECaq-EJcwVnxere5zsm_voJti56hV0udLrY1i8PVLsERl99qssdTLOMOLr3FPJHR4Zrq5IyYkKcHx2g2Rz80lHW9B8mTcWCNL5hFBZIC6qcT2Okp19rpeQ5yAcPmDIzlRrfelCT4RTZozCLYWsUgpe5EUfYiw1vnCX-1N2KUUd8P5i-qwZ6Qxb5qM-3jubXvm-UjJZM66Y0fHn-QQE76QehwV0RdUr7uRjzjnJw34W69dP1J1hudqJV_wFzmMhDiTWkYrieiWdV2Mn6Qq_lRP5VB1arEwNEogG7WvfAGahI27o1rItBK9nkO9hU1mRRBnUabFmJG31x6euCys9jDwXeN4T0wVBh-XgcqGLQmoYB0hAPjKWm-hcka5qxDnSLhLxkpNVb4DE783cGzZEh57X5iQO91JFTs7CgHm1DPKU9u-S0WvX9x8RyD2C6WWRUy3Y7gDe-MJEv5C-VcwL3SlZ9TQYxwfnw4XXBBjoqsK3noyRjJzxF9U4yb5UVAfWSnHMyo-SW_vUI8Ylu3V8JhDzJ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:48 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:48] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:49 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:49 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:49] "[32mGET /api/auth/callback?code=AQAGniuHxk3_s17rS3_1rWQJAEijtX_jYDtlsR0JHzIzq5pHPDUEZbSKrpr-4j50Qc5TB4cKDyRKG8JuXdD57HPQNIQSXEs0lCzZejEkK7NfuKs67aLoG9_9b29Xq0cmBnrS6VMMoMqE4xeYNv5uWnR__dkM1h6Tljls7RkqQQOpfu-leMqqealnWjRgDMN1U_rxdMeXN_onLQHTr4LeVY7KTrOIYynviCGA5hRA_8p7btl6xmDzuJcmOws3CNK1J_jbJpi2X-G723c7v8p8CK7SPUM3RT7dTqU0F31yfdy5H1amoPcdIrSDb5aPtVvpL7yzHtkpGgQp2aYA76GvwtWe6AOEwICLh2Aq5i2sZ7ceFSY2HfzB8HNCzpeAvAc0Zu8tK2zzk_N-kyo5YHQZSxJKr-2y_4GLQz9fC00bPOfYHCp5n4wlXfeRLvdzPNw2QGWCMOPpd3yM2pqEoHe4CPYVTj3aVGkTbpEBjgDNwXe_QxZ0MRPP7-Hvnn9mdtxIG2gJu91FPKVXcxalXYVylvhIDel-CPToMKmZJffS7o4KCRq_30oUutyiuMcFJ1MVqwPxH62LGa6l8yic6y4RQqwBPEuS6QImHbcW_VGLsmbbOLVivlvcAFgxZtHC8gDrWRTt-L5m6dWVttQb-SSylRiqW5PhDI_5fMQMeluJ19T6laXcOMnH HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:49 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:49] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:50 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:50 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:50] "[32mGET /api/auth/callback?code=AQCe2BJVdh_I3MhWUO9gmYMxC55eAQHk_R0azmAfmwIcLoMTqfBHHhH1dufUJiZkAeV2WBeDJBuZfXdIjQspFO195zsgWrC1ukCZ2n_NNdI21Do-A36WXs610dEEULtqBqMTAXfzlc7Pr6tgvWRfAOUQRMnZXLM9mbWm6mJ5--kJjMxiLtmMB1itWZim-_DUOzVUMX55UrQ4afKJzRm8wP0RL0yKDu1bIg7ZYcnSIPqu2SnSYeCCKPhPQh4e4Bbuwbw7lLhE-atsj1knAVR1z9eJF7cH8ZPABJrrohCb5SijE2n4Yek_lonwp2WJB4eMuPOU2yCZUIXsT5Pfmz5OQZbKzJx9ADtB2RTfmjucLZCtFzPcjElhZBUY__Sd6NhFJ_NqDJHoY99KViKs1ccN87FMeESO-IsNaDA9oG9rrelD6Z2k99jwfR9aeVqs65xcAmBsdvgzT57wTt2EHgJqWcRg8Am-2XYP7qNc5vZd1t8gRS7eC8DzmpVfr7UTeWhaT959QTjqHbYZTyKxp3Ulg-O7XF2zhWmI2qWEDhHHCIi_1cHjmoQDl99zYR1zYu2bdGvTS6fNauwzpyQHanvYe1rC4BbCmFqEvMpceawYwVY9gKiU-3J85GYyRwsTruqY27Q6U5iXVcil6ikwS8ObU9KVzGjBbci01sBadKQOrKvnEAENBBm9 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:50 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:50] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:50 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:50 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:50] "[32mGET /api/auth/callback?code=AQBgNTwM3XPvh5Pr0KGD_ELBUi41anUUK1_3SfJQYglZ9pVyQ8RZywMeN2ID1tT1OyZlnmiqkTSs5NVhkFQt6cTionzBRQNWV5l2jGRD053weweWNc8d8tlULdSBZ5WzN20TUQzNYkm5ZdmYewzFO_ID-RIUFqmu4l338I_ddknJjTwr1u9YHpJUIgv8FewnlCKmlwquo8ZBTU3LGnh2Ch-91CQV4HSg9TTuBTjNmPzdS4akh80kGCoSArp54zToN77b0Dx7313191KJ1w-jmlT4JmMplK6OW-6Prxxz9kYttq4QWQwVn6gUdFw8TE-75tlVovk9h1UB2AgGljdtzta0hLU_HjeUmHpGyFjsxb12rNuQmgoWZGRcUt_PF2LiykECPSdI7KLaTAIu1OERcaxwfy7SEL8b7OblKuPaKX57tI3ZFK5z3jr5aoIEA7f7EnmQjImrnXfpcj3T9fHMgAkupF_FAHAJkoSFPYsLcpxPcHfx9SpNk89QdMUbrMkDjPcLl5GJbfDhWxqnj4StHHIVhbw-z_R0Z0_RajLsibpD5choFOrrlzmFNjXtfgKcmiuEifgiTzPaMuZwb2A5EnMIOY2iwQ_uQy_wyNRw8t2tVwNS3ylJLUP71EfRIlVcptwDFVOyfZB_ZP_SbnvRvLbisOFQ8RVmut1Y8xtd2i7TcZZ4m6IR HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:51 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:51] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:51 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:51 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:51] "[32mGET /api/auth/callback?code=AQCX5jIIiPwnFzbFeTs98A13XVTIxNlgcAQpvydfbI6Wir0xW63ooKfnePcx2qc7FPnkoZP81m5rN3dTa08bAXTU-f1QTqe2aoy9fjnO17d2nI-4xeazNvv1eDnNl3aw05fjeT-2y21YuuU2Et0fLcmKz_hVf9Jz-60-wpI5NQf-hlmEPNzvfT0IDouVX9B4Q7Fo6EZjIeTpwcj1B_uuaEHsQwj16p-oV0JYeC1BlqOuREGrVRQs-F0bQwaAsMUxkhw8KLZBNI0cXYi7bOxyYJGYle83f9JVSc04P-7OlkyjTg9MNVYKSFB0yHSYaVKJ2vgke18eZmk-1FV0eY9GDdWzfMeRWd5nhRJqARdCbFxQ5zwVOhuD7OzijmliWZeZ5wFRSLRuqWRBcM6egbsg_VBM9kDBMAAlnobWPv3wQ96l9kH4uG6QgjcUK0uPkKYiPL0Sa1Q7bJzNkueMU0nzfhw046s_cq292kV39lRHGNFAH0z1NYkpXMfnk94uPP7HirnkzgXD2dtR9hWdjCjmncxsDzCz7B7mR0_RSEgARImG-LWVRjvwXWCxtn2RTossEGuGweGnw6jr6-6Nv8T8nPhBvMXxwi4ftc5VO7jjky3Z0f9COXAo7qtOD8x1ApDsARcOzKyi5SJDAZ1jW67-9rRBbQfp2BnNUbGKRz75TCvvwZJO2Yds HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:51 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:51] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:52 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:52 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:52] "[32mGET /api/auth/callback?code=AQDUs6zloCCPtqrBH4l6qkYo7Bx4e2iALXtlYBIgmb7LwcgEXZHXVnsxfS54UZ8Je9VOdbRb7oS2GL3zjyazjS-rFjeai-zfL8HzLoyeOfLtQD41mMP1J941RS1NfdJqsEGwELBsIXhGzQn45O2vzKP4lT1MxC845jt-nX6k6nseHqZeJFCd_NAjkxHNvt7avmjiM-FyKyvmkxxNMx7hXMg8vMqDg2Qn8NTFBSJWOzI2PygOsaMnkdkImbJW6gHjXXpuc9-IoXdmmYImCQLwXd_4DdQCnrMFBLy6U7Lw7da7Pl0HwU6wCK-Ofdg_LrKndgMi2Q5pBdbBAmdXcyqcxtEZSx9HjZtm2O1-lKvs0hivvCrvAbBHgZcDFkAu_moABO-N5ss89P3J2XBFcaUn-oCB0cu55yiWUFBFbuseUW3XrCSC5CJItCX4l3fIJcPy_UFOnbLLng3udh763TttJJav46Fq5uAzA3dRfx6LO1jCWZJ3kYcV-sDB3bWqvP2_Y7aP5607FD309hFdEmcZuIFlGSgKhLY7o9L8FiSBV963MhIGZdCHJdJ5UJWozcrXQlj734CTpFGS_m9eXMs1K0wMdtaREbAzdYmR-W7fA4j81S5ViilFXIPAKFCaA849cHzwS7-XUzBOOiqocGs7Vepe4x3gN9HmxzX0RPyUuwyQjAMLh0le HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:52 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:52] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:53 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:53 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:53] "[32mGET /api/auth/callback?code=AQCneqwr5IaKla80GTUoOYJcyHm9U06_8kzt3GoTd2MkT5CJ7gBO9COrM8PzCgGmresNP9hrL7MXkmbrFMKEUVkhwzXy75IS0ICF3n8mdEMr5JfazWa6DlbAKCAgiOg5hN6psa3Gsgdl4-QilOKLjJzsTbVb7LSuVNfeDIaubECMEHSScAyPjq17aUjbQQzhqr9oNshncTxLJvOOIT1C96yfUwKHhLx3ni-ZQwQO5GB_RRX5HhtvhENqVZGyNSrCZwIXgk-1vnpm67q5_R1QAJTVdXzHvlv6FIeWhAZKPjm5QxKJ7LcncJd0MX7dEI0gkE7r7vBnY41aSLzsxm73KAn7SBhC4L-UjRD_HQHAUXdUeHMHj0k596ccPR9-1F8qYi3VNvY01Qy21SU5ieaLqc-lmpX5Nq1GDPWpKDf4lzihZiTSigEjQ_OY-fRndSk8A9WNz-WaGZvGy4aLw-TCjrCMDQcKW4akzcFMU2ZkzqPysJC2HQh_HpA3dQshc_8F6D94A3b5E-3-_1OUzAtp7aSkKN45NeQafqX7SE3JDDP6IUopLysLqNT0nWqbhv3ic0js4XSyuH3vF3PPfrpqed3wRqhixlQL6CQThV1FXYlZHFeF3dOAL9FxIaBPgWY0OiHQ_Bs96Lt7O8Ul7DiqtyIysRVQe_TOUNWKXP5PZpkIyWZHE3Gj HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:53 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:53] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:54 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:54 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:54] "[32mGET /api/auth/callback?code=AQBkrXW_oL_4dfjhqvLM_KFebIzTCbsraax0iYofNp68x6PkG1HBZHRtFP6c36Uv1goe9y9MUvuUPHW1ISluiWaQPlT00aen7C8Vmm6A12bkrmfNTysCENJ7USoWJOKiIL6yzCeJKDasLAi_-dH8Oxj83SJnHDe-oYU9fmvNVSP38O33DNWhWKzAvZJYOZe7wWB2VVXEWrLEaqVYN_3Mg7oTFUNcU_Q1wum7Nek9vdzqtOLBNCx5t91DSGdiDuOgL-pCXa1B2nLJDOqSTXetgPqUz2ELSI3NIw7-G3zfJqkrQFDJBYQspHaLxHEorutqdt5VCirfjd_zPd0IPTViiVy4uez_lHwg790NCOmhOpPMfWjQINO1SYy0pPaSdkTJgssBCJ7c56DiQ1IsEptzXYPAU0Sw3FmNFWs_mcEtN8uzu0DD3cQLoeUpSM-45ThE5yjLIN_qazdW2fBMl1j8KBJWBcZrAGVDauHa1KCATAMzfU5cwZFgQEkFFzgpZOc5A9jgrFjlcY-3cDzpQOEGhBM2052aM02NUGEUIJ699hK6Z72CfmXFcLyCdPXVMc3cpYU1II2_vjFYrfVNWoU-LguXjFM-jBAgM3gzEBzURtAhexgCVcUmifR_h2b1T6-7Fu5xmYQUmPas6qE2yo8ouJ3j7qdZOOVrUHc4FuVxENyxobNo_zel HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:54 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:54] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:45:55 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:45:55 - INFO: 127.0.0.1 - - [10/Jun/2024 16:45:55] "[32mGET /api/auth/callback?code=AQBxmOk0BRNFBBOGxtrhgPbdiX401XugAgpX5fxfUV0lOjzDmw7zntluvEdq0V2PBFMU8Mz_ploPX7b34qR0d7onQiKpJHzwCXaV2ukBVk5rGi3P1AffjTnhuulBLhIZyMHJhCpAbV1uYm_DmqYBG0S894sFibi4-C7y2CwhrgfwmjJd-kheXPD5So7wxatXAmobHWGMrsk5mUnnFl562MQIJ4-VT4muHA3twgWj2NnuiNu8UfUGp2Oy0a1FLvsb8bypUun7jQZ4EIxy81845dMkKMqONfBN3ejODRFkqhxlp5XtDa2_dkNfEDsCIeI_OVWWaLj1wmn9QDSKM83SuuVfIOPpUtoixCUxMV_ZNbwU0dzJxC0yZZ4KdmJ10cVuon3osT0r5rXbm7TH1laT2r9qysShjCytQO0bOwWzhb7KG3cF3Qbls9L_Sw85u4ijmw8Py5HcmiOGCqBy-DAkN0GvZgZJRsaANrsMpDiOq57MHLJdlqKlxYkmVeFlFgaD-RmThU4vRHoFKCnDtfq_tDWIemiFM8c2ar4pPvAYqlY6MLpks-bIO48DYEMMyWWDzC6WizpFUMdFNDebWMm-VMcxZk1ewJ1PUfG0wcXR_wNOLmMVV6UWvCyczTxzZOjeAwjNYgNcmISX9ZTmycBJW21fZM3mBy5BLg5d09hfpC5_HfZpEX19 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:46:09 - INFO: 127.0.0.1 - - [10/Jun/2024 16:46:09] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:46:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:46:10] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:46:10 - INFO: 127.0.0.1 - - [10/Jun/2024 16:46:10] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:46:11 - INFO: 127.0.0.1 - - [10/Jun/2024 16:46:11] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:46:13 - INFO: 127.0.0.1 - - [10/Jun/2024 16:46:13] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:47:21 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:47:21 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:47:25 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:47:25 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:47:25 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:47:25 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:47:25 - INFO: Scheduler started[0m
+[32m2024-06-10 16:47:25 - INFO: Scheduler started with minute and daily tasks.[0m
+[32m2024-06-10 16:47:25 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-10 16:47:25 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-10 16:47:25 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:47:26 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:47:26 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:47:26 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:47:26 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:47:26 - INFO: Scheduler started[0m
+[32m2024-06-10 16:47:26 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:47:26 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:47:26 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:47:33 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:33] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:35 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:35] "[32mGET /api/auth/callback?code=AQCbIXgflhIRItICy9s2AOvsuf1mIHbMqM4g_2L1tHp5a7X2iFDf7ZWOc69HHn5ALmxTvB-km-Rp4Y3xjHoyPd_EskJ_OWiKTq4Aqs4txCCyNOI-62WvFbKHLqOPABtoPXrJ_EYNJbfi4qgnIWWMzrE-9gw3fAtAyP5xlVt8wy914B2g-ybVe8LadQHVdiWuOkDhk8kJqCVjgEvc1ho4WRLipkR8LZW4B--0-WecwfEjZxnug1hb2xUUA9p6vyq27HW3UuLnz1P8fPteACQOubXdBxzBFDb5OckkVHyNFEJ-r0YU61zz-Dpov0F7GpqrHtTSY-3gSQAtxOPpwBJE-IrvmE3lyezEywjiGQN-OThkIspAT8Qa2_OTV-Ij_kdPmif9hOhASLRpEPr8SgRMYPOO1Z_ArL-m1imr1j64wNoBfgaw9HE_iJmmf0H-Hj4XkVSOBF_fwFTaWuRmXvqH1a2nbYpN3jI-gJLRPOLtmh3Js-CDKIhS0BwjbDCKXd6dyl9JqxN3VR5z_RNGC7h1mwDum9jbw4saeN8UHK5IfTKMPYfcmhnFQfHO4DXchZ9JosS3wGLKQh_rHr8Tp1eYoXS28lEjvXgR7UUCYxO_Qa2VnGGAtSEwDMiZQyHzVWRmRCMWVnLhBXpvyKMxbS9lfH3PCvqOEZn9-V0CPHbmb5zBUQMYbdTh HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:35] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:37 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:37 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:37] "[32mGET /api/auth/callback?code=AQB6OtHiDEV2r3fnsbCc6FS97vwORceY1w8kOEbmKXBdsziR1uFDW4uK4HOTE8BQcWVnXjqaQUZtu81ZDK-7bPrMo1YSwWJAVnXSvj4uSFjUl5m8khFLT91YqHW-ia8Qwd4rmuL39PxBcf2Rka9hd9oiOb9ix1g1i4k3RcsI-Co--HP_6pUIPaDcTUTOa48EqN5RHelf3bQ5k3L2J84ZcI7U12SYGRr5CDdutlYq8bCTQiWIBHNDu25F3p1JEGRCP0a5Z05pUWod5HtKbSg_x4jDXSAD4ZJmjw6kB-EjT1gJacEmoBDpjt99_uoRtve44AsRd-1bjTeNCVqL8AGPWZ7GPlvFVZcVKeL9LBAQBT-aQb5rNvU9fG8wn5TaRFidYn8MkHiOGIVgepI6bl5hQvwC5axmc_Smlcu6c5C44ARbiyO4F4dFui42B6Ndet7xF5_PXF1yqCWVteEkBQFyYauBix65ooygmBEWb2yt446D_c8kT2jiUmN7BrRvVhDOJlfmj-0k25it0sOxeghfwbJI7SknHIGakxxVSDdzAVwEL2sQNBneDWRsBIXbE0SKScGYCYoLqMyQvqPsb37OFnrOtj5W3WSKw1BVL-GBKrSrMdEsIwbZRSOzfvD1v3xSN1u2M2aqf3Xn7bPgSSZJq8a9xldRXUAVsOm5qwFwMye64fweRwia HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:37 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:37] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:38 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:38 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:38] "[32mGET /api/auth/callback?code=AQBpQKm2CY00cPr7OPD4Nyxg59e0oEeW4R9mw_yDiU5d9u15Qw0M6Luo6waAICNgV8Fis25CdxYv3hJ7jCdKq0zlQimviPgbQ5kH2GY4dHYblsIwCufUiKBozTAET5P1x_lxXDRGatUcNOOiapzw7HmWc5Kj1BoHlvNzeYg_JVffB2_8uwn5cV4XJQ44eGZSJClbCSqsL1ayLZPaG5ijEoUjAC-FGWpoLZVNmnJdduh82P5y7N3XSFK3ZZfZi8BJVW5Wlugw9Fo-s21gfdn0mOyRubLvEruBGOM4a9C9pWrI0oUdZGlJd1sEgSbLyyh6PpdGxrv873toFdziYWJ1YS9FH2TinX9fpJh8skITP672rseiyIhT957JhW4qYj_ExRsXzL4HTV1tN23Ts1xK17__etgt6Q7fPMyGG67g7S5vo6dYHHgTD38SDGPvKIkAPbDVYZAWc8QYkzXhABCGA_4Yh_5ADM8xQnLnROEJ6co_i7Jq3lO9Pv7h_sXUJ_ypuGEEgzZ0GwscI21VNzIqqDZKjkI2mBvwx0L9K3uDoOUxndALbQFQsLEkg7sPd5ZExG8nDkETERtz6rDEvxewv_Oxki3sYmyebuxOn9C2tOJANWfCSiSOzVepefY-y04lza7VAMRl9LUtZ4eISMLAZMXj2KOD74g2Ojc0GUKl7NKX3fljrb7y HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:38 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:38] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:39 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:39 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:39] "[32mGET /api/auth/callback?code=AQAVX3NjUQt4Bpb9n_hk6y2noH1J17JasIih5zOx8JyFvU6jOTl1BN_CyQILGbzuhwmu34-KQ2WOUEnYhPXRYZ0NHjmzQ1sRAkRnlc1pJDxnQtq4UetErzHhYANOK9ax2igl3TNhEunugilv4RkP_kxduNTbpJpMTvsdiffOFQjlTDThjN7cit7hUn9jhsGiqHDJ16qBQlP8W4NleNZjJ7-XFzlUk4HRVYQsxSFDKD9N2Ly0L0B8rNMitZWUkYqBvTQMGcMRTfvZN4GHo_gWbGs8eeGtQZ5K1ydtexqEtJutGpBLVhTwSUl_L438McTvDLSRLTjQXCJglz2rVAWYLyWckE19aGnOTt5TNqCsJpL_2nqQjqCDcr-JbZYc_AjnBfLnd2W4eT-mvuIomzqGp0_7XxFJPRfTkBzXheCB88fWh4LV5fk-7CWGyCFcfufwhstznMxII94xinsoITC5WijnqaRPHVfFsf1afbBAdTNUgQyO_5AQ_pPn9LEtu4drkHaNKros7nDvBJw34vH9Jz1BVHz-PFAgjicGnAcnQVP_xqjsJopzX2Eh1L47w9peWCtAWdTM2V89w8cP8NhwgQ3AGx92l6Cs4iUBOnQ5yt9Wn35AFB2vffsSNQxCIPIcY7azkRiZ7J9mylnIoDtpKxIpPdavCRTCCdbFUCeODWTCKlKfsJQr HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:39 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:39] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:40 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:40 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:40] "[32mGET /api/auth/callback?code=AQDR23TaOJY-lcwnG4vjQlFBCTyQOEbsj2w5JckysIhoaa09-mEj07mZnIFbELDriOJWFikfHyk6WoUEFiucwLnYdiR9g8cw5HD5Ci3kCExw2NW-cuVZ6y2RZNkWDm-zepmSohxH0yXHz5uj3zi0dBKUBES9tXForqxn7H4Bt8ZN4Iry8MTuq33-RJrcsL09P5GF90eaYbKdUzIb_a5E3IPJi3UdI2ICW9RuZkJchm4O3lImNlWl49erWa2gBzMvIc_-rwLpCylctYhgwnYn2ikDikYMskALkO36vQFDJskmXdl3jvzFq5_h2vWJIjlzQUTZLWi7gfBCkQu4DFnsGqsXhVA3J-xegpeaNvhjdUuA6XT1BldJctlgFrLT1o4jhKttyYZpoJ0Rk-c6-_1KINwqBAXL9SVlDCOExmyXPodEh1EvtU6G8l1hhLOjaFvQmzp_fYznO3aOtADCwe1U5uV1AjYm1MSP_7wU87r_PVa_AcB7rdAVvHW7RHrwLEqZ2yOR39FHdaBCS8Br-TQbg03Ri47rNUnYiUzBvLBPBl8Q4Z29zUceFONBfUkXwYNbxiqbC4ykmzmlzuKTiamAZSSoXMA0x744pAdbLWDj9bI_X23g5UwXLd1s4Hdpxhy3QcD-uJnER8xmkKnxs1gDrzSSm1P3yqi6AYbWkgaAa5RL1yxAlp0p HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:40 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:40] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:41 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:41 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:41] "[32mGET /api/auth/callback?code=AQAyBztECrmsqasmA7HerWMv4rOLA9LvzLpR8cpXY0T-Mougjd0e3yrXKE4gOe86p5n8RqMJXt_PJkouQNTvpRFw4VVc8IrhAro1Gf3fzH2OpBMd8V7m8IH-158Kp6zfU8_SdeLvkL0Mrs_6B61pdqX_5iDMsXVxYx9RfSeoUA35dMDuNISiwC_mGOFY24fFRZD0w92R5iIbsgVhP3pys9pWYZaQCmbwh1ayFszrNJ7iitx82m_rLiNv7Y4M2tcN_EOkLVLhdJzIFzR-iGgIedv2Lo89WVYNGusde-UcVgZhZwEaqVmICJmfswr6cZSpxrbpL-omGH2V3LvEOCjoJqACr9fHTnLxYPGMx-xbUifjkj_Zumu5KZrhEzr9P4IPJ8Mx8tyVZcAFgu_2XrsTEwE2NEie1eCJxMSDTkQSzGfzqV6Y6X5rWhwR3c6ndWaSVI8TqdSN4qtHbeoERWSf9AVgBc1v6Ksf9lLfWWbtT5DBIktjvaEgUaXvRMZO3sSEk2tIaIoFjz4rSSDJL_by_gnoG5AaMX_ztoMUiRXbfHPGFn9xhpzL-5ZGiPB7E_2Nrj9ybxQvzTFF2o24kQqbQU7koGVrvLRF1LyuuY4OWeJPbKJQhYTIwQkM8XlNrQTvIBeJ1M4x-Y3iDSUbHqsv3PPZpAVNrpglI_7A_Kk8BZ3aKFkstRMD HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:42 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:42] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:43 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:43 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:43] "[32mGET /api/auth/callback?code=AQB-iYy3YgsI23zL94OLEREmW_-iVrZQF1Nql9uMo4oshSuzFLzMxOK8T5klyb0kpAt2Q1Rhk5AFArh7_0CLEVjo-INxQ7R8blyJwfthqv8JRqAhxJFajjx36mGC5GEd6FRvaLGfaMDsnemR-sDozCO-bMq9RTZd6Omyc3ckKFu6BDqHkNWAtvh1fxkLnxaozMS-MnVcmn3QDC5itKlozJ1-PI8QoAiKR32_Mfcym8tzk2qNtojd7Hey1t56wXhvtR27Rx7EGdfG_G0JI7WSu8IB2XfgUHFeg-jcYqwLNHOBO7ZOSZOx28_d6wZ17vMf_tkSG2LQGf0flASgWUt0i6yClmhW9AT5oNqNLt154rlUexVvClB8eVw8poSrROTnOyRlLEXFxQu2KBHjsLIXkWvLADeAJ6p01qBnzjtNvfUI1-9h3cEls0ipqBNOZxhLpo_z5GV-QSMV_XsDvqpWft8ekxF5vtkXNVw55fmHYii-6jRgl79AfbWFa0xtHXeeUtGNKrR9XAjocQ-tw1nTkdsMMeRUqWnlyN-AXzQyfUBfr3_ty2tCbksFz8630D4uz1_-HaNRncFdymqNDR3Ziqf5Wd4mkAYwe4z1qVbcDILftHM9dMoYGNbOThofJ4iwfVUAn0u1tREJNLyfO64garqcI_h4bN5_7_y_mhWOoVlrLPAaYSFI HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:44 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:44] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:45 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:45 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:45] "[32mGET /api/auth/callback?code=AQCW_qOVC65n70mDeRZpRABEERfh-4fLQOKfbf6LPw6jOsGM_AEsvWZCG3V0yr3cANOzv1YM4OKTHXRxYHXT1sBdig1fxBWoAjIqQSU_yD82rM0njcP4E-9-vAoH_BQ2FLETu3mXfFWLf4xKrPWQ3rP2k_6vmkxM1OMzyDd-9E1Nsm-00asaNvSYbBvcnzZ1eq0nWhj8BtUIoCjWum6vxoHp-ZeBatr0ZaNBYMOnx0EsWWisAsxWOun-cAox3CY48twU1FF_FanLFAGJwXKenbZxkW3jtyZ-I05sk05ueb7hZADrEbpFcMmBWiWOEPN0_XvTXTk3Frd2Hsbx99v8lNS7pHmLMyIK5iVKGYGvXOUGNAyXm91PMZcdNSzTWtSXJSWctqmuiewnhpywPnmWxJK2weWIc2dqE-rCcsofmNLMo1NXqbcm6Zv1w5-MVn5K8vM4h2MkqfEixUGoRlWlJszuAtlegJWeI4PZxkLNZeGxr6A1-UUTtC28v7tjUGsgqO5WAQFgwBmW0V7sf9u8eGEaR2otkO964FiVkyhcC3hkeQYl8M--fdDZxj3njs4vsc_0VmLO9HUJ6rWiBtELDygShj6LjyR4LS5b4qaCJLUF0Hbxq9BNBVBgqFZ3FrDd_cC0sHNa5df0cU7nu9fAMGwRtSYSByRbQB931D80ojp3Gc7yJx4N HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:45 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:45] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:46 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:46 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:46] "[32mGET /api/auth/callback?code=AQClPVBXz_eWfPYIz8vKzqU6vbsS1_2wTXTvWFQ7L65ozOIpvpvVU2OYui_-SrQ1XRiNHaqJYuhHaFtEPSo3zucy-6W0ghZGxolAwrip-iJEVCHPz3CQpYimm6eh1Der0ZgbAY3UlBNJ7AjrAVFP5nhOmvzFhplkOPueCMer2Nm11Svj5Xe93bwQ66Gqwh2QgnXc1Omh1MnKlytWk3zhwhsI6odMJQXL8f8v4HFfTOaqyRgBAbHLySt0QpqQXeBK6btwJK_oqQCKEN_D462xqYez6AcOs5TjzOWHmdqAJLA_zf9cFBq88-2cfNTx9Pj31OQxJBsOV8ZfUnA92SgddB25YKr6k7vaDDRXMVD6j3yvTu5WBBvAM-OLMsczn-hnj_FrH1RvG4uKIRLNC2BIf2aAKYlyui61HBLLWUgIuZ-rTCIJgYmDFeungkjTa7OEVobMiSRgG7_NEpIFiSg_7VseFwlvvBbsp22vn-k0DmjDHHO7YEvQd-NntU9eBAjsnS-_P6FVTiCCecWyyxXwoyq3OIS3kKpdzZ_l-WoSbe-edHE0h3F-y-VUP-w1lfFHjC4XSpcZE37HtDht7G1RoJnC9VVBJnQM_Bily9zWy5FFqz7HBSSP1-zyVyo3NJWp0Mio0s3KfiTgMl88kM1ND4IYhas71YUdC_crm3kCQ2IJDrvltgW9 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:46 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:46] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:47:48 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:47:48 - INFO: 127.0.0.1 - - [10/Jun/2024 16:47:48] "[32mGET /api/auth/callback?code=AQAB8u7btXobv1bvMzhU0KY_ZwhcNNNKF-3AFS_vp3JpsZN0KlYBmhvIWp8VhK-8tk_Slrmva3K2w8bXmpjjdfY4imbgDRdE0FbAyGkhFOoxqdA_ArGOtQQPACOKuGWta1IS2Lbvu_YYrAAVHvGEYQ9HQ4tQUjqAMDuePWS978u96doKj_K9b6Pmzm4WPJrBoGSs4EKaPQUsXejxf3skBjtuIf5yRcRB8LxKRbhQWb9mErrrt3jbwD0SUFjnlNRakxLK-MEOfVLGgBMoMY1CN8pXcMetJvgVJQliIJD91BcCXDtUJMLD5AyrsDtYawLtfT0UVS511JGOmqaIuz-3WeC65OHMbUttlO6LgQmqMNni4Y5WJRPtGLohtaatR943uAPy_qa_M8XeovDOz83meFYjGzkGEM8KB9-p4S0g-YguK5dxt-dRI9pLpK3tgoOwrYSebU1wsfg9MO7HzHtUjK5r8-e6vQ0N7qIqJJ-6PaFdDFxMGKhUn_9L195BUrgkxEJkmVM8xKoWGdBOJXtc9DA8v7mIzZ0eDJbO4FaAoZ4cb7dDtQgNjezhJD2XobiVAKLApDqFXP7Y1PCoQzVlhamKYfIm4CohgRrs-K-4EK4CQTOdpi2rJinM7lYztjz6U3DJR6Qog9SF8CzpR_AISijjiGnelXz6Y1jtMxBflh5SYnXjB64K HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:48:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:48:02] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:48:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:48:02] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:48:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:48:02] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:48:03 - INFO: 127.0.0.1 - - [10/Jun/2024 16:48:03] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:49:46 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\auth.py', reloading[0m
+[32m2024-06-10 16:49:46 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:49:46 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:49:48 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:49:48 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:49:48 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:49:48 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:49:48 - INFO: Scheduler started[0m
+[32m2024-06-10 16:49:48 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:49:48 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:49:48 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:49:54 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:54] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:56 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:49:56 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:56] "[32mGET /api/auth/callback?code=AQDifoh2nY6LftdxQnMurkhZRrbR4PRPycsG7n1g4WJICPKuSEzxLIp0cRRYRCaX_2TxMHAJeVXyHw_Vspfa14UBYFqJ3y01lhBgrFGr0WFHQYJjXefKmRVVQqOsFO_jEElcUt34McuOJH7PM7zc5FIdLcBOkwh9ps5SB9VsbvB7Lx26XWmVXT4SBuwp3WiK3Gw7mroiID0aVXCKzOUUMvWG5eFsf5YhaPQVqOZ1YxEqWXexXJU5mDLiAXCpkNYa9UuEEeKsKXzyqTkNSxlWKlZ1tA23_S2syPnVw0qRQyHjVstT4IkLWkq0h6VvYep-WghiMYNNA-gFhEEx8VsEt0vOrKFWbp4DESHwDhgsXIW-rBHiGL6WBJuaqw8OlinhLFOaCuJv4qkkFW-lMxnYnsIPpOLxxQWvulm4xaCOnAQWnBK2GJMbMyNIATZs-kxYh-6yItOts8ULiBxxAfKr9FhUvCA6OFjyNHnf_jE3oV48FGbQ5dITmCxrIcRi9jhIANKV_MErFH_FHn-C8wTq2eW1qWNUSmZ5f7YpkOCOV7PU3R-PFEjdxA3kFBB4v0I1voCNWqOueE7E6JQSPV4uFtkLK_LuI8Ic07Z9QSKw3bIsCmdXDZWL3UNRAradoVAxRxvDbDzsO2DewiXxgVtr__2OdOKKFrBVZVIyWSL8NoPP5SAq-ni_ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:56 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:56] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:57 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:49:57 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:57] "[32mGET /api/auth/callback?code=AQA--h_ruOM7GOP52ZEi7jNu5QQwxLyys_rINR7bs7LWETeTqC0fzU86OPx08e-7IGax-K28dVDXpUQScESPqNXZ3oj3ki8AhFtEfAy5ef_y-NZYxSEEF5YkjBhlSkhe4m_CHjwtcmgt3KHRgrrWtCtSMnJYrvex1hypOs5MEQdY3Uk1tdpjuMZUorajlThemPzkykvSMO1lM1a6SLpDNsdO0ELuPX46Aiu4ntHxfZ4Nyr8ok0F4YI6-DqVeHwboWIC8Y5qrBOYEowCCraKJVouY4UJbqUxn3iaKXSn_W4MCFo8wN2JAPCsSxCp510NS_3o43ClS4wiyq96lh9B4XN1HdEMwAJ3ZiMgtCZiIE_p8rXBInsk8PTQBkNK4PBOtx70uhCIwO4Qj7KjVKSN4nWxiV5Urzbl_S6WeKKm1duLt_xukI2xzsbofyEbwtJkVA9G9N0lFXQLGMUQhAQl2n343fN6Gzi4_AU-eW5giA_2VLBiFeikJj8yBbKYPTR2Od4mIJFVZrwgjcGKmL0NCKBCsqbyfqY0G8zvNBjPBL9okmYJ4zsdspXj5hN0IUf5bYpkDeRqc3wN8SKQ9xJXsDkd9xDn-iXRc_Tr3HCyMeafxD-7L4FkoKN40JIa64i4Hs-JJsnn0GW24_BmzCuCgdI02PsvyQTPGoSNDZv__yb0xD-mXnkik HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:58 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:58] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:59 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:49:59 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:59] "[32mGET /api/auth/callback?code=AQAZAalZ0eTey4pZ6R2fc9Ej2oYd-2_5n7yR3amybs6zdD_1GOYYSVYCxqlT7irWJKy_t8zfceK3_C-jTkeSQwvQx3JQtfvurwmWzO-yFcNBiH1PTgTrE1cHiHWwsVTQd7prt8SsjAShg_Zv0N9fhc96Tf_qMfNAEl6v0LoD9BdkNilE7M6elyQazTDlmzlO2O6qtouZQdOeASCa8EIuwl_4ODOdXgvK4_Lnwe9tUWDTwa1P7vt8X_Qk16OvN_AQ9YIVQkx0d8Msv5DbR2Z6AmXCpJKes8AdIVX2m-85R92gomPztuCpYoLDCHV0DLmXhLIrcZvNEv8y8Qu4pNnolULq7ggBE5F1f36yXr0p10lvsWaPUlZucgvmvDIDel0Yhlstj_11Mgei5f27_PV8QOar2BW8uvZ0EyzPXnDpsoR1IjhZbUye8bm3d2OwywpLzcAUdcZrbUXDxOsTs4nbOmFBFR4lwsqnC8YHCq5nWu199I7Vyl6n6Fm7v34-S6qsj59FMCQ80PnlOQV2T_hgoUVKXArxSG2T-L5wnbg4Zu_Ux5KZEA_x1q2KEuvFuc3xZFtDNJ7Tv5Pt9v4ynMDQ1dCSiseIcuKlmJWpOJYMxlBfGWYk6FtG_MvZ8mkMbe51GzqEdS_Gid3O3YBKE5ZuHciyg8HiijKSZNW5iR9EnUSLwAboGqe3 HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:49:59 - INFO: 127.0.0.1 - - [10/Jun/2024 16:49:59] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:00 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:50:00 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:00] "[32mGET /api/auth/callback?code=AQAk_uECLh_yoRiRy5PT_kBCsBCXXXRQnZgi2EriRTYjZl7u5NyRZ3-Jm_8JsepJVDkqOY3CXsMJ-pV6wVqsxQtc0U1vMjYKCzX3aUZZ4GfIT0L-Rx06etDbAjqa9EtzkrmuxGgdI4l7vHAsVMUFo1P-76UH_H4KG0MOsS7RrYf8c3fV6WNafayhZgUD8242JLQ6B1O8IDd63vUfG2AM_mHFKINEbgEo0qm6Szmk_-fi6N3bzj-vPIYeouUHfqjFRaRla-b7PSa2aEG0Wq_uEUQ-3ChrQn1A2TVzxKhTApxMS6awsGtHOUY3NK1AP0gBiq6gvo7czHKlDtX8e6ope1am-rPl8LoyyOq1jE4GuZ_XL3yfA5RdlJC12XHAjWOJchv30XiWtAqkGP3B-ibXbRL8c6eO32ZjplmQbdhT6YSkGhGdngZkBRLdGVU55Kf32084zhqw-j_97W1fPJAlUTUoiiPYge0IIe2dUSd5tD6-WudIUTevb8JKsRplw1ytcSqvqdEe0DD-COfg5bXjkFadE_u6lKCV2TLILuK6Qo58PjFgeb180oPUo3eusiOGuodhifv6_W4BBnNqU_Uyfc8vwCJXhglBhybzezpfbMVqaMu1Dxk3JDfiqpmf5-3-Yu7ze21whMwbMXdwQeZSAQAZ_tAtxCuMpdrydPh9QyC2aGGvBEjv HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:00 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:00] "[32mGET /api/auth HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 16:50:00 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:00] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:02 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:50:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:02] "[32mGET /api/auth/callback?code=AQCUXpXoRXQpOihqn6XoZC6kzuV1RAsVIg-oZjqAPVVW-LKn2tIWEp-P_-VnfZk6Tl6D0yndPRZptbpoWvTOFCNDmEyUzCGiE-GMRr5GECLdoayJQJgL11g44RzHG_Dy3a5TNIz0JswTxQEulh8SVPVSk8-2XjjtaHGbYDjNFJzWJUiEHpEl8XSfO9u3qBQPIwgsgFuqbiuGGKOKfGdIei7Kw_bQ3IAIvr4AE9l5o9PMTg41naTF-t8dZX0fLjP9En4WTxJUl-9BlrrnYUstyMT4smHYp8Tkp6q_Crh7R-o6KVWnqDDq7xLkEMwtX4bkuq7Cki4DjQIHegPrFdyfA5eFWg2y_ARZanc09TDwaM_QkbgNf8JuPS6Qr-4oyb8FnRvfJIPt5cklcYPCS0o0N_0ybV1UlY-8TfAOs334U7oUx21fzatRnlU4l6vsCCHGWD9dFDEfmuAF1Jo7S9FmVO7iXw84X-mVPlnBd9PXXZLe-QmJedov36cG24Wt7ZR6W2sRcr68GcNhylFcLY_huxre4OUiRoav-85Sr8WMZzn0PFod-XjsvYyInIPB0AM7tzP9jZG8qQIREPv0BFPI617xLayhBkQKwDWAW9uU8zpfm4LixCl7FYWWunL4b0eIyVkcx2LwvEMdaVT0iqoouu6hkmx9-7X_OpUCVcTPIPwPysaWufGg HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:02 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:02] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:03 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:50:03 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:03] "[32mGET /api/auth/callback?code=AQD8uF067Y0DEggoU_VYcYdv5LJzYszBdhi_DkVtq4QIZdKzJnk4Sv1SdU3Qj2akM9c8FgIDRJjMsx_2qrRypPTjT97BW8Pt46rEL0mnR7v7GzhfYnUgs7gnSGWSZpmxqgOg-f8Pr92fHOTqBkZ-85tVhSbJ4N_VKaF1C1zZrjPXbGZ7rxUQfCxxzpb1utESQGwqpqKJXwfbTVqgvwSXjBuMlfbXLyaF9jZjZ1bqliMPcEo7KX7wvP6f3XMwwYK4644doA8ZY6imKV3faGfmj7TgOCPTz8qNYq3U41elEomLmmsur0ZzvrRIPfYcvVbAGImu-oy1Y1tI56V3UW-boosury6O_BYpnq2HHyx3lDD0HA15HuCTdfMpdDp8AdJnI6GIjnN4oX8j2D3Hnr4OIMZoIoT36v36JZ_LtPMYhIIHzGbTY0TCXVipzU9sdIE7UiKz2QF6t8nVwB1eAljx9XxL5PJGKdvI5Nns5lNASPWuXhTO-6-Z5hgQpOnZMd7dXb4e4lv1258V7e4h5DMDLT7gGsXMCT_IzQApZ5AQmea5Ex33UG027c84LDDzQpHCSywH21phDC1aCrhXivgl-OONV7Mf5z9DPlDTi1Bvsuyy9AYt7GCcRkbbYgyF16pMFC9xnPa61Fq1CTNk2yMMy_bw6yEVPwhJ7rxlYpMpypm0YNBSKw3c HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:03 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:03] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:06 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:50:06 - INFO: 127.0.0.1 - - [10/Jun/2024 16:50:06] "[32mGET /api/auth/callback?code=AQCYoO_8eMmGd_my3s4OcP13CTZxhAM8X0QUQc2c8o0J0cGT_7zLUplkGDqs7prlN_kl0JBXCrPnAf0J-tp80UQNkvZECj-e0eDBRqposRMn3PTf_dVcqzft4x2qaR9yXOl_HXTPATT0UDoLTTGCK6pFNfK4_W63q8So20gQPvMIRMt1-1EHg1eYD-ehnmyUJ9_iihjOZNJRRAz69OaJwpJe63fSflVsZ0s1GrbfaSMf9yTx_l4KCw4hIqfbFstStG0KKK7ZQrFs3Rh5m5GFPBUHyktfDbQ07TOEap09nKOWUYOhlANmpEvGFEVLjUBoVfplin_l0V4_94yD52LtaXc-84G13H01NaLQN7wqij1_jmGbP-425XoIXM0F1nUvPg78D-POfXRho_Bpd3ozLBCb4ucS9tJZBe6hj0VDsXoHFVUZ58ix5oltZ8oLyN8KklnE47vvX40fMsWdFwoTh1WB7FMLPgOMdwyQ_PGAmoWL0q6RCjbqK-omttHMRvWge0U0FphNw-i0qtYG6jqIlnTdmFQrJ4JCWzXSXek_KIkOL9CPLZjNgNhNqtYrNLvoxgBK3S4kPQJKMNm2pPTY3nFf0F4VUQPDljpy8UwbXcmsnlSg_FRg_QFv22ZOEzH6XHWerHORRgNxms4dcLYTMvmKbB0D2GrbNBDmu7s1xC9YLFwh6usw HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:50:35 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-10 16:50:35 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:50:35 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:50:36 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:50:36 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:50:36 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:50:36 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:50:36 - INFO: Scheduler started[0m
+[32m2024-06-10 16:50:36 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:50:36 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:50:36 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:51:04 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:04] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:05 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:05 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:05] "[32mGET /api/auth/callback?code=AQAuGsMMBJPTC0UGqpnL5c1_FUurKoTEa0WDLQZh1L-uAzCQZ1LWnZ3X1_9mGEAGja5dag54ocBF2BnES5sefuXJTnewl1OMV46Not2wTfxi2x-wNbu2vGTjQ3hK3VIETD32BUH27ZPM-1-sXPuH94S7nFcGL4ch4rAloMQ_pNgI5H7UOx7Tg9NMCJyrY2pFqsRlih7jzTDKXI-OF9mMJsXyZuXmM_Sc_BfXmk5wCE4InqFezwMVcyskFFl4gDpAn2k0JqcE1v1f834_yTdvPjwzNbPJcpZ_GTjF5EZ-pPVZzccdeUrJc9D0e40ygNvWvfph6WvH_WkeyGDYaDB-3HARHzj5NdyCXob-sUPsg1X0SqETnN-A03Hh-u_EsbgNm3JD4RQXKUHT9rl5v67FTybRn-Y79byg_SoZ-IJGwdB-fxgnLuQUZPqRkOCuBkfJ31nHGuPpW4nCgp695uLTwfRrVzxUv8IC6L7QBI2wEQbV-QZH1evPffaW8ThllMGBCDwVcoDYPwV9DOokeCzxDpzzWdcxAYdqg8gYw-jHMPwGA0sUj7E2vQJN3CRliuwmxHlIWK0pPrG2PWt8y2imFTJYLo0FMrVOkad4ANZ32Bj5tzqUh5j8SXvajSwEeAeZs44HgmPp5L3FIpJSMozJCctjDZbncdSxUmlxicCxIqIMHZ8GS5Wl HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:06 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:06] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:09 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:09 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:09] "[32mGET /api/auth/callback?code=AQDXe8hSx0GtJlLPzpUEGvKw0NmWjpsoW_Qf-KTLCizQZs_uTlFPFBMC2o08cgx84qpIyXwKEjuZfUiHLxOY530KYZTgk3xEn4hpmVEfJDuPhYbdVUTuZL7N6mKKTfvlP5--DQ89idl4VsKkSgYZi-LNnouaL57WRX57JgqPWsdfF1h5mwOGdlzCVtMzKGdYCPjLb8reQhIL8LCGiho6WzmbK-Kz7WV7qoVLiGphe7ejGAT7AEqKMwmqfAoa-8bBoqysc8fAouRPSrkiumKCRzKb3YSklayvmaxnE5PeadTg7ghAdGB9Q1VahoWv30DQnnbZY9w_PJdRXjgZ3nqfCRO5j1cqhLJfTppRIfXCISFo7Hx3SLEr60_XPMs4GjALRyZQyWyGFJYMXrmk1A0g_fSgGWu7lPPUXBydV9Cu6XkgsvGrtrkl1PnVxGXRLYMrgBKO1Qx00jgrE5fV7oUtebhKpHu-jW9m3rI0Ym50WxtsBQzlYMO0PonFiq8UfmCqYdLybO5iC6hv5tW1AhCzfNWJTgqY88RnldckJx1-e7KGvNlF4LQHQWNMabPeFg_doMhtah8xS2JBowp-UjxoAWjLbdAvG_C1BhHcSPtFN62Rmgts4jEuO_wh47rNTGgtTgK26QxwBPulUk0WKIEc0xJhW4HD5VzVOpHLx7TH8ZjL_RQqeNqw HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:09 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:09] "[32mGET /api/auth HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 16:51:09 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:09] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:12 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:12 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:12] "[32mGET /api/auth/callback?code=AQBl_DLEYn18lMVFxJ30gNEzBnbKR1aIcAfxCKwgwRkZKB9MC-ghu69qD9UQGKqw__uDwIWAzALftxaXMv1TSCG-V69PzIwh-5xQAsMnOr9Yi2twDLZKUi1fTpLqQ9QtcCQOtMEaukOhSnAPNghlBJ5XURVD96awIrQj4qYF6zUga17Ujyc_IaFLG3NowVdpuyJQfmxTagm8mCDrmUoVozLyLkp2bfYFPsy1uNMbMPJR0SClKdkrYEAE2nEG3CVjURcW2YloAUkVq9ZGHNgdzbotTxVkyXTKpgl1HG6gVyFp2S7RgXm3M4VzjpgwgcfoNZXx3nEzYPDWqrHZa1VC4v_FD6LXuvKBa6r7LLpvok1qw2Cpv2i1M-1ji2YRqbDm5knZp4d1gLJdR2mkIuYTcSYE_YVu3Ww1K4WzamWOnN-iC_4MMEiRDc7QPMiUOBDDwmRRlsvWgN1ChNbVWqfJdLDSKe7SnAx1_Bpuz-je21NANskqqzAxUhyqjOaOjwvjpxO7tAUrR0fXk7CVaB3rANAWh2nduTT-FX9aiqLl1ggD-bRA7zZvP2kd7dzc_0A3wnaBDKKXJfH5rmlN_sRIidSCZaMbMG4fRsV92EoP6lT4sgAgNsF_KyTmly4nQkG-RjkWZtDX31TAxCV2oB8vtPzQNBAxGASpc6v4XOvUZZKz0WzLMqCv HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:15 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:15] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:15 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:15] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:15 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:15] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:15 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:15] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:25 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:25] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:26 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:26 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:26] "[32mGET /api/auth/callback?code=AQCHYV5B7ytxX7dtJ2wairB9F3X2kXCTT2DUUX-fKct2opV55LxZlNt8IBMRTF2bYvN6T_dna3a0wfhjGSr4tFRGUjYo2ix8kGUevct2c5Mb85NVeNgq5cyEi6P26U856riwfppMxVT5-nR5O4-P2qAX6K_B92jD1RxicEW04ZvUtGdSRT2bFQZ_LdQMAGz46OVJdec3fNS23w7ynOvHdnTVbs-4VQuVNiizoTtkNe5Dm2ZLhdMexPZrG6aPrtqiMPKIVvITyecTIS0klj_bzhQ3IRXoDNwwJZp8SsDUwXYocUFHvTrXt1OYRYA3BgiQyhae8_aqazYekwmknIzY9PJvWPfd8bOcVJzwt76G3dyPuGAnUu-6Fa6vASYOPomthro6aBcD-LpdwuiSRc_2DSvMbXVPShuYpOUzc7J9oJw4sIQ88dmXUV1mscxerieCwcFks0dDMV0x4KeDPYiiSscR24yqvSwUDMAsNa9OKfVZWd341mgDx1ZEChr_V4t7Otm-_ffDQNOflVRas9EUqL8ZRyXNVyd4QcLdtX0B9rWSy5DrjlqvsAHWbYCf4wbSkQrDHz7qEVo7rKeblJaSTKgYvBFwmXVlTmk6g2PR3dG3khJ_3tcrTOZCY-QQVDFF9SsrhDe2TxF8TRmYi9n1DZGSLnWErjN1B_OEM26iNkYbnVDKkBpm HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:26 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:26] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:27 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:27 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:27] "[32mGET /api/auth/callback?code=AQBHXX6ykgbO5phFLkX_vsoxF6EUnzD9rD70vRgXcllsFSzDdPXSveNqb9pW-UycU2khKLxLSn9mW9J9vivIVl_mRydUxfGLwvTNVDHPdgNNbDgUxF4dJxNCRin_M83n_D4xi9wz72tFvjrrswutDpn-AztkRJIVmFgEYTMn6aHRRi4PxSPtkday0rIuUxCldmQt6ENElw4g8KLNiGdUTU6ZF688uJxLHRbrHgWfOTw6nEW-EbGlOmKlJDQiI18_8eUEupa-OeduotbnyrLqvUUa22onzvtGaRFBWkqDLX8uzBm8iDvMNI0GKOGQJH0xCjm_UyScLvlxXtrSs9oBRmnh7t_aZvZO5Qb0EP2aWlHL2bJDGwDDWdXoO8GxbMxe1GaNiPILkN8rqnoL_Cgi9yc5yOAXGWFfjH9XTMegDR83RPqtR0hR_XPkacCxuuFx4d1tyCwwpFHqgl4ZV75rJHv6lDCSK6aG0zM5PlIDWg7UXTfvxss8WIOZPxiA7uSbMV_3Ca9ckLDljd1IBtDh9xKC43LRvscfyYm2mLdJuzo8DH2xblQ4xY3DDbmJ_lymOXbU-1nt_EMTh3aTvqJ1iqH_w2NX99FuB6YDDyzPg8rfxdo6IKcFV2EH0YRebB6WDSvWHDVI6aUxZ_i9JRBm5PN30Ucqw-tCMWtxlo6QXnhAqG74pykx HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:27 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:27] "[32mGET /api/auth HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 16:51:27 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:27] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:28 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:28 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:28] "[32mGET /api/auth/callback?code=AQDzPpgCbg4hrJDAaeorJtDaBg_hKFN1leUxOsPreFstE0DHcGaEFuTs5YQ5XAdK8u5izA2Dg_Mwngcyc2SKE8JesmkDL0BCuACjiBb-cDY7TDQSdwAZ-tnkjIr09V1kfQKaybkw7ct1iA4zsiYWvFe-7YVLs8YUzZJZa1hA9ISHj8pV4hL6hnVMMFlvuVLY8LuArJuaC8pvZIyK53I8k4ut7tNJurIoQJBHoR9Qpa-KJqKxtUoyl_w6_dY6tuep3i3zHEl18CRSceEAgOMLcmS1xQ7MhUiuxxy7DCgBT6LRCrndS4HB27J9b_XNGalXvzZACB7LaJNdE87aS9lB-UfN5m9uDYl4cLVQq5J3i72R-FxZ2gpKFcT0AJs6YJayKzW3t65tsg0P6zt24MNvgSkHI36WZ6XaIbdBU4y9F0gxnKC3k5Y_Fi4bm3Pk69TH3vJ5xzHO0wqk74ApRRumbU1smS060i05gLsaQDfIZFuTe_oPcuJm9BFO55065rml-tALRIPH-n-KKdAgdOyFKvt8pjAVaQ8Tsz6BB8lFFNrbftAv4pT1J0lA_dSIf7s-UVHTXCzChhVD8bbzgHZxzk3BwL-83VPpXQjORXDnZzO0UJYZGTLNM3VFbO2jZYQaZfsAFZui6zyIvXwDvtC9K_2F3BdrLTFUZk0f_J73aZe_oML0nd0Z HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:29 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:29] "[32mGET /api/auth HTTP/1.1[0m" 308 -[0m
+[32m2024-06-10 16:51:29 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:29] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:30 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:30 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:30] "[32mGET /api/auth/callback?code=AQA7uA4GEXC_iyz3ry-oh1CUHW6igAfnzARmHWmPrnF-8jgHmTq19FLolxfVE7Fphc1nXVHLtOnlqBixPecigRHv4mWjlgtZ-I2QrZBgxHq7Zl89RTp5k2UEK0IvpdITIaMAAe_tLyEVjS4RVItd7utbQ9GmFtLuc-9ICh2heZ5vmOI1Lb99Rq8_JuQv25zR2pQkf0xoT3RJ7HnsKAy2opv9P8ofb7j7JavxtVyNfSeU9F8x72fEhJzj_rNHwWPDnAgZCojT6mnKfr-rWp_cDvQTMTtdJgZGRNkiFHC52NfXZsxbjTnfDlqlE0W_5zT-ON9O4hXRSkf1h7r-R20-BFWFS57JIAB6UHg8hIdkeGeNlQPvJmLySOJf9O2mvsOa3n4zgtWaKVi3kPnmz2MBRmChPJtxrCvrj8zjBY2hd7OEECDjQSgB2eKj3EWjuT4l_ATWjFZvR4HIiLATjFvEGNTjd16h7hVdlxggBWW3YGgfKhOWfd_y9x2sYg_AKFn3CgzRNz2lTMHBBBB8GarsLasTk3LQr03LwcGLEAprpzLYkJHeWmI45uxqxnskCmznpTIJyoD366oylhF8w8lJ9rlUfDQNCkmVEJNdtYjmqpPH6FnAUm_l8BoFVo4hqHO1svyciLl-ACHcUrMfKbFJZOwfIRI_IrBC_KbCq4CfJzORAxgw-P8z HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:30 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:30] "[32mGET /api/auth/ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:32 - INFO: User inserted/updated successfully - spotifyyanik[0m
+[32m2024-06-10 16:51:32 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:32] "[32mGET /api/auth/callback?code=AQC3v1OnBAcLpEfis9drusgpJ6L4ammLK93Y1wG7vgu0kFRbt6tqSyfcm3v5z0S5pgcFEOFGOxF3q4wFuDJBjuYa08m8EEYdyD5cXlATs-dsZOZA54bbhAdDv7bIO9NTglcagsBIR7Jv29b808oeFG87K1Fjc7hy_qVmup3KznXIgYPNpbEd06zUECR-TzSxXC-MHJDeb_2kibGo9uaayFcFx_UjOK07FBNu-avGtCcfA5QYdm9TO7mBTZVpZYA5dfCJ_55iThBYGcXgzDTBdeGLBArGMGSRnMxNcXUm4kMNdGklGQ5q0Uj9yF-dgLyO7ABgNPIolEAmbBpMbI5AbJ52SjUhDLndBH8a8thT2fxNUTSsLdz2Ea-jq4tPhGWusveMqNtdIzYdysr9SOt_Jgn217dwCVEasPsVWWUxvUco8sa0ESfGGGTWbMxCsIiWoDaaIZyG7ODm0fa0pUexI1xY5iBYfF5xlMm8LvE8y5ut9U1Z8sOre2r3U0rsRt9-4E8I9ZmJ4GMb4a9XrjCmVyL30PcVIZlRaxYIGfD8l2WQSmxH_s4BTTU6tv9zuFJru7DdvDbLQ8qSDR4TL1E4_q94vSmv46mp4vga7kLlWlQHeKj7SJ8tauyD3bJfhbclDrjd8eatP6hdUMbrEHpOa0ndozOInYE6s80q8EMLqCYW-KHph6q_ HTTP/1.1[0m" 302 -[0m
+[32m2024-06-10 16:51:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:35] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:35] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:35] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:35 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:35] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:36 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:36] "[36mGET / HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:36 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:36] "[36mGET /assets/index-biOYrmcC.js HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:36 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:36] "[36mGET /assets/index-XaDsYXkX.css HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:36 - INFO: 127.0.0.1 - - [10/Jun/2024 16:51:36] "[36mGET /vite.svg HTTP/1.1[0m" 304 -[0m
+[32m2024-06-10 16:51:59 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-10 16:51:59 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:51:59 - INFO:  * Restarting with stat[0m
+[32m2024-06-10 16:52:00 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:52:00 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-10 16:52:00 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-10 16:52:00 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-10 16:52:00 - INFO: Scheduler started[0m
+[32m2024-06-10 16:52:00 - INFO: Scheduler started with minute and daily tasks.[0m
+[33m2024-06-10 16:52:00 - WARNING:  * Debugger is active![0m
+[32m2024-06-10 16:52:00 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-10 16:55:53 - INFO: Scheduler has been shut down[0m
+[32m2024-06-10 16:55:53 - INFO: Scheduler has been shut down[0m

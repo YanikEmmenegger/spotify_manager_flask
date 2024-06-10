@@ -2,6 +2,7 @@ from flask import Flask, send_from_directory
 from app.configs import Config, configure_logging
 from app.routes import services_bp, auth_bp, user_bp, playlist_bp
 from app.scheduler import start_scheduler
+from flask_cors import CORS
 
 
 def create_app():
