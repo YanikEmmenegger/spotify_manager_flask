@@ -68,7 +68,7 @@ def daily_task():
             # Create HTTP request with headers Authorization: refresh_token and Spotify-UUID: spotify_uuid
             headers = {
                 'Authorization': refresh_token,
-                'Spotify-UUID': spotify_uuid
+                'SpotifyUUID': spotify_uuid
             }
 
             print(headers)
