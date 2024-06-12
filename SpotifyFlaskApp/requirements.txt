@@ -8,3 +8,4 @@ gunicorn
 colorlog
 sqlalchemy
 apscheduler
+flask-restful

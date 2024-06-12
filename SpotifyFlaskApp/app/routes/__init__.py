@@ -1,8 +1,14 @@
-# app/routes/__init__.py
+from flask_restful import Api
 
-from .services import bp as services_bp
-from .auth import bp as auth_bp
-from .user import bp as user_bp
-from .playlist import bp as playlist_bp
+from .auth import AuthResource, AuthCallbackResource
+from .user import GetUser, GetListenedTracks
+from .services import SaveSpotifyData, UpdateTopmix
 
-__all__ = ['services_bp', 'auth_bp', 'user_bp', 'playlist_bp']
+
+def register_routes(api: Api):
+    api.add_resource(AuthResource, '/api/auth/')
+    api.add_resource(AuthCallbackResource, '/api/auth/callback')
+    api.add_resource(GetUser, '/api/user/')
+    api.add_resource(GetListenedTracks, '/api/user/listened')
+    api.add_resource(SaveSpotifyData, '/api/service/save')
+    api.add_resource(UpdateTopmix, '/api/service/topmix')

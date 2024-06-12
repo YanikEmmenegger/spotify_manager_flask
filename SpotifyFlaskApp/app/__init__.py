@@ -1,22 +1,23 @@
 from flask import Flask, send_from_directory
 from app.configs import Config, configure_logging
-from app.routes import services_bp, auth_bp, user_bp, playlist_bp
+from flask_restful import Api
+from app.routes import register_routes
 from app.scheduler import start_scheduler
 from flask_cors import CORS
 
 
 def create_app():
     app = Flask(__name__, static_folder="./static", static_url_path="/")
+    api = Api(app)
+
+    # Set CORS to allow all origins
+    CORS(app, resources={r"*": {"origins": "*"}})
 
     app.config.from_object(Config)
-
+    # Set logging configuration
     configure_logging()
-
-    with app.app_context():
-        app.register_blueprint(services_bp, url_prefix='/api/service')
-        app.register_blueprint(auth_bp, url_prefix='/api/auth')
-        app.register_blueprint(user_bp, url_prefix='/api/user')
-        app.register_blueprint(playlist_bp, url_prefix='/api/playlist')
+    # Register all routes from /routes
+    register_routes(api)
 
     @app.route('/')
     def index():
@@ -27,6 +28,6 @@ def create_app():
         return send_from_directory(app.static_folder, path)
 
     # Start the scheduler
-    start_scheduler()
+    # start_scheduler()
 
     return app
