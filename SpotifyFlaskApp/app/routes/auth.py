@@ -32,7 +32,7 @@ class AuthCallbackResource(Resource):
                 if insert_response['success']:
                     response = redirect('http://localhost:5173/')
                     response.set_cookie('refresh_token', token_info['refresh_token'], httponly=False, secure=False)
-                    response.set_cookie('spotify_uuid', user['id'], httponly=False, secure=False)
+                    #response.set_cookie('spotify_uuid', user['id'], httponly=False, secure=False)
                     return response
 
             return {"error": "Failed to retrieve user profile"}, 500

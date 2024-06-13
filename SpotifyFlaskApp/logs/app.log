@@ -1739,6 +1739,72 @@ DETAIL:  Key (tid)=(4fHkeC525tT1F9cVPgRPP8) is not present in table "tracks".
 [32m2024-06-12 14:09:43 - INFO:  * Restarting with stat[0m
 [33m2024-06-12 14:11:15 - WARNING:  * Debugger is active![0m
 [32m2024-06-12 14:11:15 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 12:32:28 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 12:32:28 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 12:32:28 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 12:32:29 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 12:32:29 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - Safari - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - Safari - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - Schï¿½neberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:09 - INFO: Recent inserted successfully - Cinnamon Roll - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Au Revoir (feat. Sido) - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Artist already exists - Timal[0m
+[32m2024-06-13 12:33:10 - INFO: Track inserted successfully - RR Phantom[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - RR Phantom - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - 92 Explorer - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Mï¿½lodie - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Millionï¿½r - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Artist already exists - Saliou[0m
+[32m2024-06-13 12:33:10 - INFO: Track inserted successfully - Frozen[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Frozen - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:10 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - J'picole - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Right Round - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - petit frï¿½re - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - COACHELLA - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Fieber - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Punto - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Artist already exists - GIMS[0m
+[32m2024-06-13 12:33:11 - INFO: Track inserted successfully - SPIDER[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - SPIDER - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:11 - INFO: Artist already exists - Tim Bendzko[0m
+[32m2024-06-13 12:33:11 - INFO: Track inserted successfully - Nur noch kurz die Welt retten[0m
+[32m2024-06-13 12:33:12 - INFO: Recent inserted successfully - Nur noch kurz die Welt retten - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:12 - INFO: Artist already exists - Ryan Castro[0m
+[32m2024-06-13 12:33:12 - INFO: Track inserted successfully - EL RITMO QUE NOS UNE (feat. Selecciï¿½n Colombia)[0m
+[32m2024-06-13 12:33:12 - INFO: Recent inserted successfully - EL RITMO QUE NOS UNE (feat. Selecciï¿½n Colombia) - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Anders - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Drink Ist Kalt - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Avant - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Hold You - Hold Yuh - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:13 - INFO: Recent inserted successfully - Adriana - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - Spacecar - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - Cosmos - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - bhz - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: Recent inserted successfully - Perfekt (feat. Sofiane) - for User: spotifyyanik[0m
+[32m2024-06-13 12:33:14 - INFO: 127.0.0.1 - - [13/Jun/2024 12:33:14] "POST /api/service/save HTTP/1.1" 200 -[0m
 [32m2024-06-12 16:14:40 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
 [32m2024-06-12 16:14:40 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
 [32m2024-06-12 16:14:40 - INFO: Added job "hourly_task" to job store "default"[0m
@@ -1842,3 +1908,440 @@ DETAIL:  Key (tid)=(4fHkeC525tT1F9cVPgRPP8) is not present in table "tracks".
 [32m2024-06-12 16:18:28 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-12 16:19:27 CEST)" executed successfully[0m
 [32m2024-06-12 16:18:44 - INFO: Scheduler has been shut down[0m
 [32m2024-06-12 16:18:44 - INFO: Scheduler has been shut down[0m
+[32m2024-06-13 14:37:41 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:37:41 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:37:41 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-13 14:37:41 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-13 14:37:41 - INFO: Scheduler started[0m
+[32m2024-06-13 14:37:41 - INFO: Scheduler started with hourly and daily tasks.[0m
+[32m2024-06-13 14:37:41 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 14:37:41 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 14:37:41 - INFO:  * Restarting with stat[0m
+[32m2024-06-13 14:37:43 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:37:43 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:37:43 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-13 14:37:43 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-13 14:37:43 - INFO: Scheduler started[0m
+[32m2024-06-13 14:37:43 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-13 14:37:43 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:37:43 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:38:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:39:41 CEST)" (scheduled at 2024-06-13 14:38:41.725533+02:00)[0m
+[32m2024-06-13 14:38:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:38:42 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:38:42 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:38:42 - INFO: 127.0.0.1 - - [13/Jun/2024 14:38:42] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:38:42 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:38:42 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:39:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:38:43 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:39:43 CEST)" (scheduled at 2024-06-13 14:38:43.190780+02:00)[0m
+[32m2024-06-13 14:38:43 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:38:43 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:38:43 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:38:43 - INFO: 127.0.0.1 - - [13/Jun/2024 14:38:43] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:38:43 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:38:43 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:39:43 CEST)" executed successfully[0m
+[32m2024-06-13 14:38:47 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 14:38:47 - INFO: Scheduler has been shut down[0m
+[32m2024-06-13 14:38:47 - INFO:  * Restarting with stat[0m
+[32m2024-06-13 14:38:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:38:49 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-13 14:38:49 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-13 14:38:49 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-13 14:38:49 - INFO: Scheduler started[0m
+[32m2024-06-13 14:38:49 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-13 14:38:49 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:38:49 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:38:53 - INFO: 127.0.0.1 - - [13/Jun/2024 14:38:53] "[33mGET /user HTTP/1.1[0m" 404 -[0m
+[32m2024-06-13 14:39:20 - INFO: 127.0.0.1 - - [13/Jun/2024 14:39:20] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-13 14:39:20 - INFO: 127.0.0.1 - - [13/Jun/2024 14:39:20] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 14:39:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:40:41 CEST)" (scheduled at 2024-06-13 14:39:41.725533+02:00)[0m
+[32m2024-06-13 14:39:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:39:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:39:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:39:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:39:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:39:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:39:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:40:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:39:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:40:49 CEST)" (scheduled at 2024-06-13 14:39:49.206589+02:00)[0m
+[32m2024-06-13 14:39:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:39:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:39:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:39:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:39:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:39:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:39:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:40:49 CEST)" executed successfully[0m
+[32m2024-06-13 14:40:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:41:41 CEST)" (scheduled at 2024-06-13 14:40:41.725533+02:00)[0m
+[32m2024-06-13 14:40:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:40:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:40:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:40:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:40:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:40:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:40:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:41:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:40:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:41:49 CEST)" (scheduled at 2024-06-13 14:40:49.206589+02:00)[0m
+[32m2024-06-13 14:40:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:40:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:40:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:40:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:40:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:40:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:40:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:41:49 CEST)" executed successfully[0m
+[32m2024-06-13 14:41:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:42:41 CEST)" (scheduled at 2024-06-13 14:41:41.725533+02:00)[0m
+[32m2024-06-13 14:41:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:41:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:41:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:41:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:41:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:41:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:41:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:42:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:41:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:42:49 CEST)" (scheduled at 2024-06-13 14:41:49.206589+02:00)[0m
+[32m2024-06-13 14:41:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:41:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:41:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:41:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:41:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:41:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:41:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:42:49 CEST)" executed successfully[0m
+[32m2024-06-13 14:42:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:43:41 CEST)" (scheduled at 2024-06-13 14:42:41.725533+02:00)[0m
+[32m2024-06-13 14:42:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:42:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:42:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:42:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:42:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:42:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:42:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:43:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:42:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:43:49 CEST)" (scheduled at 2024-06-13 14:42:49.206589+02:00)[0m
+[32m2024-06-13 14:42:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:42:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:42:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:42:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:42:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:42:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:42:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:43:49 CEST)" executed successfully[0m
+[32m2024-06-13 14:43:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:44:41 CEST)" (scheduled at 2024-06-13 14:43:41.725533+02:00)[0m
+[32m2024-06-13 14:43:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:43:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:43:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:43:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:43:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:43:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:43:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:44:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:43:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:44:49 CEST)" (scheduled at 2024-06-13 14:43:49.206589+02:00)[0m
+[32m2024-06-13 14:43:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:43:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:43:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:43:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:43:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:43:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:43:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:44:49 CEST)" executed successfully[0m
+[33m2024-06-13 14:44:44 - WARNING: Run time of job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:45:41 CEST)" was missed by 0:00:03.163386[0m
+[33m2024-06-13 14:44:52 - WARNING: Run time of job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:45:49 CEST)" was missed by 0:00:03.171732[0m
+[32m2024-06-13 14:45:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:46:41 CEST)" (scheduled at 2024-06-13 14:45:41.725533+02:00)[0m
+[32m2024-06-13 14:45:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:45:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:45:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:45:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:45:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:45:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:45:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:46:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:45:49 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:46:49 CEST)" (scheduled at 2024-06-13 14:45:49.206589+02:00)[0m
+[32m2024-06-13 14:45:49 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:45:49 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:45:49 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:45:49 - INFO: 127.0.0.1 - - [13/Jun/2024 14:45:49] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:45:49 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:45:49 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:46:49 CEST)" executed successfully[0m
+[32m2024-06-13 14:46:08 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\__init__.py', reloading[0m
+[32m2024-06-13 14:46:08 - INFO: Scheduler has been shut down[0m
+[32m2024-06-13 14:46:09 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 14:46:25 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:46:25 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:46:41 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:47:41 CEST)" (scheduled at 2024-06-13 14:46:41.725533+02:00)[0m
+[32m2024-06-13 14:46:41 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-13 14:46:41 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-13 14:46:41 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-13 14:46:41 - INFO: 127.0.0.1 - - [13/Jun/2024 14:46:41] "[31m[1mPOST /http://127.0.0.1:5000/api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-13 14:46:41 - ERROR: Error in hourly_task: <!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+[0m
+[32m2024-06-13 14:46:41 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-13 14:47:41 CEST)" executed successfully[0m
+[32m2024-06-13 14:46:53 - INFO: Scheduler has been shut down[0m
+[32m2024-06-13 14:46:58 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 14:46:58 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 14:46:58 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 14:47:00 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:47:00 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:47:33 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 14:47:33 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 14:47:34 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:47:34 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:47:38 - INFO: 127.0.0.1 - - [13/Jun/2024 14:47:38] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-13 14:47:38 - INFO: 127.0.0.1 - - [13/Jun/2024 14:47:38] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 14:56:10 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-13 14:56:10 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 14:56:13 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 14:56:13 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 14:56:15 - INFO: 127.0.0.1 - - [13/Jun/2024 14:56:15] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-13 14:56:15 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 14:56:15 - INFO: 127.0.0.1 - - [13/Jun/2024 14:56:15] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 14:56:37 - INFO: 127.0.0.1 - - [13/Jun/2024 14:56:37] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-13 14:56:37 - INFO: 127.0.0.1 - - [13/Jun/2024 14:56:37] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:35:44 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 15:35:44 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 15:35:44 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:35:45 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:35:45 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:36:16 - INFO: 127.0.0.1 - - [13/Jun/2024 15:36:16] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[31m2024-06-13 15:36:16 - ERROR: Error in get_user_by_token: list index out of range[0m
+[32m2024-06-13 15:36:16 - INFO: 127.0.0.1 - - [13/Jun/2024 15:36:16] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:36:57 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-13 15:36:58 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:37:00 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:37:00 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:37:10 - INFO: 127.0.0.1 - - [13/Jun/2024 15:37:10] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[31m2024-06-13 15:37:10 - ERROR: Error in get_user_by_token: list index out of range[0m
+[32m2024-06-13 15:37:10 - INFO: 127.0.0.1 - - [13/Jun/2024 15:37:10] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:37:28 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:37:28 - INFO:  * Restarting with stat[0m
+[32m2024-06-13 15:37:33 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 15:37:33 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 15:37:33 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:37:34 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:37:34 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:37:50 - INFO: 127.0.0.1 - - [13/Jun/2024 15:37:50] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[31m2024-06-13 15:37:50 - ERROR: Error in get_user_by_token: list index out of range[0m
+[32m2024-06-13 15:37:50 - INFO: 127.0.0.1 - - [13/Jun/2024 15:37:50] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:38:17 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\services\\db_service.py', reloading[0m
+[32m2024-06-13 15:38:18 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:38:19 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:38:19 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:38:28 - INFO: 127.0.0.1 - - [13/Jun/2024 15:38:28] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[32m2024-06-13 15:38:29 - INFO: 127.0.0.1 - - [13/Jun/2024 15:38:29] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:38:46 - INFO: 127.0.0.1 - - [13/Jun/2024 15:38:46] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:39:21 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:39:22 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:39:26 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:39:26 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:39:27 - INFO: 127.0.0.1 - - [13/Jun/2024 15:39:27] "[31m[1mGET /api/user/ HTTP/1.1[0m" 401 -[0m
+[32m2024-06-13 15:39:59 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:39:59 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:40:10 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:40:10 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:43:34 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 15:43:34 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:43:36 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:43:36 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:44:02 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:44:03 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:44:05 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:44:05 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:44:09 - INFO: 127.0.0.1 - - [13/Jun/2024 15:44:09] "[31m[1mGET /api/user/ HTTP/1.1[0m" 401 -[0m
+[32m2024-06-13 15:45:44 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:45:44 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:45:47 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:45:47 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:47:29 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:47:29 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:47:34 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:47:34 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:47:35 - INFO: 127.0.0.1 - - [13/Jun/2024 15:47:35] "[31m[1mGET /api/user/ HTTP/1.1[0m" 401 -[0m
+[32m2024-06-13 15:48:00 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:48:03 - INFO: 127.0.0.1 - - [13/Jun/2024 15:48:03] "GET /api/user/ HTTP/1.1" 200 -[0m
+[31m2024-06-13 15:48:32 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-13 15:48:32 - INFO: 127.0.0.1 - - [13/Jun/2024 15:48:32] "[35m[1mGET /api/user/ HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:49:08 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 15:49:08 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:49:10 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:49:10 - INFO:  * Debugger PIN: 257-693-699[0m
+[31m2024-06-13 15:49:14 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-13 15:49:14 - INFO: 127.0.0.1 - - [13/Jun/2024 15:49:14] "[35m[1mGET /api/user/ HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:49:42 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 15:49:42 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:49:46 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:49:46 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:52:14 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 15:52:14 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:52:17 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:52:17 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:53:18 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:53:19 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:53:21 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:53:21 - INFO:  * Debugger PIN: 257-693-699[0m
+[31m2024-06-13 15:53:22 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-13 15:53:22 - INFO: 127.0.0.1 - - [13/Jun/2024 15:53:22] "[35m[1mGET /api/user/ HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:53:47 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:53:48 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:53:49 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:53:49 - INFO:  * Debugger PIN: 257-693-699[0m
+[31m2024-06-13 15:53:56 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-13 15:53:56 - INFO: 127.0.0.1 - - [13/Jun/2024 15:53:56] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:54:46 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\user.py', reloading[0m
+[32m2024-06-13 15:54:46 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:54:47 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:54:47 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:55:17 - INFO:  * Detected change in 'C:\\Users\\e541750\\PycharmProjects\\spotify_manager_flask\\SpotifyFlaskApp\\app\\routes\\route_helper.py', reloading[0m
+[32m2024-06-13 15:55:18 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:55:19 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:55:19 - INFO:  * Debugger PIN: 257-693-699[0m
+[31m2024-06-13 15:55:28 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-13 15:55:28 - INFO: 127.0.0.1 - - [13/Jun/2024 15:55:28] "[31m[1mGET /api/user/ HTTP/1.1[0m" 401 -[0m
+[32m2024-06-13 15:55:35 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:55:36 - INFO: 127.0.0.1 - - [13/Jun/2024 15:55:36] "GET /api/user/ HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:55:57 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-13 15:55:57 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-13 15:55:57 - INFO:  * Restarting with stat[0m
+[33m2024-06-13 15:55:58 - WARNING:  * Debugger is active![0m
+[32m2024-06-13 15:55:58 - INFO:  * Debugger PIN: 257-693-699[0m
+[32m2024-06-13 15:56:24 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:56:25 - INFO: Songs retrieved successfully - 200[0m
+[32m2024-06-13 15:56:25 - INFO: 127.0.0.1 - - [13/Jun/2024 15:56:25] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:56:44 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Kreta 3.0 - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - istanbul freestyle - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Onizuka - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Powerade - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Cotton Candy Sky - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - AVRIL LAVIGNE - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:46 - INFO: Recent inserted successfully - Dior 2001 - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Scusi Sorry (feat. SIRA) - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Trapstar - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Congratulations - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Safari - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Safari - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Schöneberg/Kreuzberg - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Patient - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Cinnamon Roll - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - T'abuses - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - Au Revoir (feat. Sido) - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:47 - INFO: Recent inserted successfully - RR Phantom - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Snow (Hey Oh) - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Dankbarkeit - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - 92 Explorer - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Millionär - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Frozen - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - J'picole - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Right Round - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - petit frère - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - COACHELLA - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Fieber - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:48 - INFO: Recent inserted successfully - Punto - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - SPIDER - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Nur noch kurz die Welt retten - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - EL RITMO QUE NOS UNE (feat. Selección Colombia) - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Pleins phares - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Sandaletten - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:49 - INFO: Recent inserted successfully - Anders - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:50 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:50 - INFO: Recent inserted successfully - SURVIE - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:50 - INFO: Recent inserted successfully - Drink Ist Kalt - for User: spotifyyanik[0m
+[32m2024-06-13 15:56:50 - INFO: 127.0.0.1 - - [13/Jun/2024 15:56:50] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:57:17 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:57:17 - INFO: Exceptions retrieved successfully - 2[0m
+[31m2024-06-13 15:57:17 - ERROR: Error in get_listened_to: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type bigint: "{}"
+LINE 10:             LIMIT NULL OFFSET '{}'
+                                       ^
+
+[SQL: 
+            SELECT recent.*, tracks.name AS track_name, tracks.image AS track_image, tracks.* FROM recent
+            JOIN tracks ON recent.tid = tracks.tid
+            
+            WHERE recent.uid = %(uid)s
+            AND recent.played_at BETWEEN %(start_date)s AND %(end_date)s
+            
+            
+            ORDER BY recent.played_at DESC
+            LIMIT %(limit)s OFFSET %(offset)s
+            ]
+[parameters: {'uid': 'spotifyyanik', 'start_date': '2024-05-30', 'end_date': '2024-06-13', 'limit': None, 'offset': []}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)[0m
+[32m2024-06-13 15:57:17 - INFO: 127.0.0.1 - - [13/Jun/2024 15:57:17] "[35m[1mPOST /api/service/topmix HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:57:35 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:57:36 - INFO: Songs retrieved successfully - 200[0m
+[32m2024-06-13 15:57:36 - INFO: 127.0.0.1 - - [13/Jun/2024 15:57:36] "GET /api/user/listened HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:58:07 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:58:08 - INFO: Songs retrieved successfully - 1[0m
+[32m2024-06-13 15:58:08 - INFO: 127.0.0.1 - - [13/Jun/2024 15:58:08] "GET /api/user/listened?limit=1&offset=2&start_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-13 15:58:25 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:58:26 - INFO: 127.0.0.1 - - [13/Jun/2024 15:58:26] "[35m[1mGET /api/user/listened?limit=1&offset=2&start_date=2024-06-13&end_date=2024-06-13 HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:58:36 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:58:36 - INFO: 127.0.0.1 - - [13/Jun/2024 15:58:36] "[35m[1mGET /api/user/listened?limit=1&offset=2&start_date=2024-06-12&end_date=2024-06-12 HTTP/1.1[0m" 500 -[0m
+[32m2024-06-13 15:58:44 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-13 15:58:45 - INFO: Songs retrieved successfully - 1[0m
+[32m2024-06-13 15:58:45 - INFO: 127.0.0.1 - - [13/Jun/2024 15:58:45] "GET /api/user/listened?limit=1&offset=2 HTTP/1.1" 200 -[0m

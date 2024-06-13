@@ -10,16 +10,11 @@ db_service = DBService()
 class SaveSpotifyData(Resource):
     def post(self):
         try:
-            refresh_token, spotify_uuid = get_tokens_from_headers()
-            if not refresh_token or not spotify_uuid:
-                return {"error": "Missing refresh token or Spotify UUID in headers"}, 400
+            token = get_tokens_from_headers()
+            if not token['success']:
+                return {'message': 'Unauthorized, wrong or missing Authorization Bearer'}, 401
+            access_token, spotify_uuid = token['access_token'], token['spotify_uuid']
 
-            access_token_response = spotify_service.exchange_refresh_token(refresh_token)
-            if not access_token_response['success']:
-                return {
-                    "error": f"Error in save_spotify_data (exchange_refresh_token): {access_token_response['error']}"}, 500
-
-            access_token = access_token_response['access_token']
             recently_played_response = spotify_service.get_recently_played(access_token)
             if not recently_played_response['success']:
                 return {
@@ -41,16 +36,10 @@ class SaveSpotifyData(Resource):
 class UpdateTopmix(Resource):
     def post(self):
         try:
-            refresh_token, spotify_uuid = get_tokens_from_headers()
-            if not refresh_token or not spotify_uuid:
-                return {"error": "Missing refresh token or Spotify UUID in headers"}, 400
-
-            access_token_response = spotify_service.exchange_refresh_token(refresh_token)
-            if not access_token_response['success']:
-                return {
-                    "error": f"Error in update_topmix (exchange_refresh_token): {access_token_response['error']}"}, 500
-
-            access_token = access_token_response['access_token']
+            token = get_tokens_from_headers()
+            if not token['success']:
+                return {'message': 'Unauthorized, wrong or missing Authorization Bearer'}, 401
+            access_token, spotify_uuid = token['access_token'], token['spotify_uuid']
 
             topmix_exceptions_response = db_service.get_topmix_exceptions(spotify_uuid)
             if not topmix_exceptions_response['success']:

@@ -11,22 +11,26 @@ db_service = DBService()
 
 class GetUser(Resource):
     def get(self):
-        try:
-            refresh_token, spotify_uuid = get_tokens_from_headers()
-            if not refresh_token or not spotify_uuid:
-                return {"message": "Missing required headers"}, 400
-            # Get user info from DB
-            return {"message": "BOILERPLATE TO GET USER INFOS"}, 200
-        except Exception as e:
-            return {"error": f"Error in GetUser: {e}"}, 500
+        token = get_tokens_from_headers()
+        print(token)
+        if not token['success']:
+            return {'message': 'Unauthorized, wrong or missing Authorization Bearer'}, 401
+        access_token, spotify_uuid = token['access_token'], token['spotify_uuid']
+        return {
+            'message': 'User found',
+            'access_token': access_token,
+            'spotify_uuid': spotify_uuid
+        }, 200
 
 
 class GetListenedTracks(Resource):
     def get(self):
         try:
-            refresh_token, spotify_uuid = get_tokens_from_headers()
-            if not refresh_token or not spotify_uuid:
-                return {"message": "Missing required headers"}, 400
+            token_response = get_tokens_from_headers()
+            if not token_response['success']:
+                return {'message': 'Unauthorized, wrong or missing Authorization Bearer'}, 401
+
+            access_token, spotify_uuid = token_response['access_token'], token_response['spotify_uuid']
 
             # Get all query parameters
             args = request.args

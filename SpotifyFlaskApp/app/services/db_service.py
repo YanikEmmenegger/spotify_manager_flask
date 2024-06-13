@@ -55,6 +55,22 @@ class DBService:
             logging.error(f"Error in get_active_users: {e}")
             return {'success': False, 'error': f"Error occurred in get_active_users while getting active users: {e}"}
 
+    def get_user_by_token(self, token):
+        try:
+            result = self.db.execute(
+                text("SELECT * FROM users WHERE spotify_key = :token"),
+                {'token': token}
+            )
+            user = [dict(row) for row in result.mappings()]
+
+            if not user:
+                return {'success': False, 'error': 'No user found'}
+            logging.info(f"User retrieved successfully - {user[0]['name']}")
+            return {'success': True, 'message': 'User retrieved successfully', 'data': user[0]}
+        except Exception as e:
+            logging.error(f"Error in get_user_by_token: {e}")
+            return {'success': False, 'error': f"Error occurred in get_user_by_token while getting user: {e}"}
+
     def insert_artist(self, artist):
         try:
             artist_exists = self.db.execute(
@@ -149,7 +165,8 @@ class DBService:
 
         try:
             self.db.execute(
-                text("INSERT INTO topmix_exception (spotify_uuid, type, value) VALUES (:spotify_uuid, :type, :value) ON CONFLICT DO NOTHING"),
+                text(
+                    "INSERT INTO topmix_exception (spotify_uuid, type, value) VALUES (:spotify_uuid, :type, :value) ON CONFLICT DO NOTHING"),
                 {'spotify_uuid': spotify_uuid, 'type': exception_type, 'value': value}
             )
             self.db.commit()
@@ -195,7 +212,8 @@ class DBService:
             logging.error(f"Error in insert_genre: {e}")
             return {'success': False, 'error': f"Error occurred in insert_genre while inserting genre: {e}"}
 
-    def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=200, offset=0, artist_exceptions=None,
+    def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=200, offset=0,
+                        artist_exceptions=None,
                         track_exceptions=None, extended=False):
         try:
             query = """
@@ -278,7 +296,8 @@ class DBService:
                 return {'success': False, 'error': 'No songs found'}
 
             logging.info(f"Songs retrieved successfully - {len(listened_to)}")
-            return {'success': True, 'message': 'Songs retrieved successfully', 'data': listened_to, 'total_count': total_count}
+            return {'success': True, 'message': 'Songs retrieved successfully', 'data': listened_to,
+                    'total_count': total_count}
 
         except Exception as e:
             logging.error(f"Error in get_listened_to: {e}")
