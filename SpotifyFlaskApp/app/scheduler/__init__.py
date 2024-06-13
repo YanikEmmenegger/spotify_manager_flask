@@ -9,13 +9,13 @@ from app.services.db_service import DBService  # Correct the import statement
 
 def start_scheduler():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(func=hourly_task, trigger="interval", hours=1)  # Pass the function without calling it
+    scheduler.add_job(func=hourly_task, trigger="interval", minutes=1)  # Pass the function without calling it
     scheduler.add_job(func=daily_task, trigger="cron", hour=0, minute=0)
     scheduler.start()
 
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
-    logging.info("Scheduler started with minute and daily tasks.")
+    logging.info("Scheduler started with hourly and daily tasks.")
 
 
 def hourly_task():
@@ -35,11 +35,11 @@ def hourly_task():
             # Create HTTP request with headers Authorization: refresh_token and Spotify-UUID: spotify_uuid
             headers = {
                 'Authorization': refresh_token,
-                'Spotify-UUID': spotify_uuid
+                'SpotifyUUID': spotify_uuid
             }
 
             print(headers)
-            response = requests.post(Config.BASE_URL + "/api/service/save", headers=headers)
+            response = requests.post(Config.BASE_URL + "http://127.0.0.1:5000/api/service/save", headers=headers)
             if response.status_code != 200:
                 logging.error(f"Error in hourly_task: {response.text}")
                 continue

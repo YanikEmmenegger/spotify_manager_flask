@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2006b91a-96b1-4df5-b160-f1649d2fe152" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/RecentlyListened.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/spotify_manager_flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/spotify_manager_flask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/app/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/app/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpotifyFlaskApp/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SpotifyFlaskApp/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +110,7 @@
       <workItem from="1717844145530" duration="59000" />
       <workItem from="1717844241786" duration="3425000" />
       <workItem from="1718043051187" duration="794000" />
-      <workItem from="1718044831819" duration="438000" />
+      <workItem from="1718044831819" duration="1362000" />
     </task>
     <servers />
   </component>
