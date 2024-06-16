@@ -28,6 +28,6 @@ def create_app():
         return send_from_directory(app.static_folder, path)
 
     # Start the scheduler
-    # start_scheduler()
+    start_scheduler()
 
     return app

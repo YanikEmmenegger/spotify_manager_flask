@@ -2345,3 +2345,392 @@ LINE 10:             LIMIT NULL OFFSET '{}'
 [32m2024-06-13 15:58:44 - INFO: User retrieved successfully - spotifyyanik[0m
 [32m2024-06-13 15:58:45 - INFO: Songs retrieved successfully - 1[0m
 [32m2024-06-13 15:58:45 - INFO: 127.0.0.1 - - [13/Jun/2024 15:58:45] "GET /api/user/listened?limit=1&offset=2 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:48:14 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-14 12:48:14 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-14 12:48:14 - INFO:  * Restarting with stat[0m
+[33m2024-06-14 12:48:15 - WARNING:  * Debugger is active![0m
+[32m2024-06-14 12:48:15 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-14 12:49:04 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-14 12:49:04 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-14 12:49:04 - INFO:  * Restarting with stat[0m
+[33m2024-06-14 12:49:04 - WARNING:  * Debugger is active![0m
+[32m2024-06-14 12:49:04 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-14 12:49:36 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:49:37 - INFO: 127.0.0.1 - - [14/Jun/2024 12:49:37] "GET /api/user/listened?limit=1&offset=1&start_date=2024-06-13&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:49:58 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:49:58 - INFO: Songs retrieved successfully - 1[0m
+[32m2024-06-14 12:49:58 - INFO: 127.0.0.1 - - [14/Jun/2024 12:49:58] "GET /api/user/listened?limit=1&offset=1&start_date=2024-06-12&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:50:30 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/routes/user.py', reloading[0m
+[32m2024-06-14 12:50:30 - INFO:  * Restarting with stat[0m
+[33m2024-06-14 12:50:31 - WARNING:  * Debugger is active![0m
+[32m2024-06-14 12:50:31 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-14 12:50:33 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:50:34 - INFO: 127.0.0.1 - - [14/Jun/2024 12:50:34] "[31m[1mGET /api/user/listened?limit=1&offset=1&start_date=2024-07-12&end_date=2024-06-13 HTTP/1.1[0m" 400 -[0m
+[32m2024-06-14 12:50:43 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:50:44 - INFO: 127.0.0.1 - - [14/Jun/2024 12:50:44] "GET /api/user/listened?limit=1&offset=1&start_date=2024-06-13&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:51:04 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:51:05 - INFO: Songs retrieved successfully - 26[0m
+[32m2024-06-14 12:51:05 - INFO: 127.0.0.1 - - [14/Jun/2024 12:51:05] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-12&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:51:14 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:51:15 - INFO: 127.0.0.1 - - [14/Jun/2024 12:51:15] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-12&end_date=2024-06-12 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:53:20 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/services/db_service.py', reloading[0m
+[32m2024-06-14 12:53:20 - INFO:  * Restarting with stat[0m
+[33m2024-06-14 12:53:20 - WARNING:  * Debugger is active![0m
+[32m2024-06-14 12:53:20 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-14 12:53:28 - INFO: User retrieved successfully - spotifyyanik[0m
+[31m2024-06-14 12:53:29 - ERROR: Error in get_listened_to: (psycopg2.errors.SyntaxError) syntax error at or near ":"
+LINE 6:             AND recent.played_at::date = :start_date::date
+                                                 ^
+
+[SQL: 
+            SELECT recent.*, tracks.name AS track_name, tracks.image AS track_image, tracks.*, artists.* FROM recent
+            JOIN tracks ON recent.tid = tracks.tid
+            JOIN artists ON tracks.artist = artists.aid
+            WHERE recent.uid = %(uid)s
+            AND recent.played_at::date = :start_date::date
+            
+            
+            ORDER BY recent.played_at DESC
+            LIMIT %(limit)s OFFSET %(offset)s
+            ]
+[parameters: {'uid': 'spotifyyanik', 'limit': 200, 'offset': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)[0m
+[32m2024-06-14 12:53:29 - INFO: 127.0.0.1 - - [14/Jun/2024 12:53:29] "[35m[1mGET /api/user/listened?limit=200&offset=1&start_date=2024-06-12&end_date=2024-06-12 HTTP/1.1[0m" 500 -[0m
+[32m2024-06-14 12:55:15 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/services/db_service.py', reloading[0m
+[32m2024-06-14 12:55:15 - INFO:  * Restarting with stat[0m
+[33m2024-06-14 12:55:15 - WARNING:  * Debugger is active![0m
+[32m2024-06-14 12:55:15 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-14 12:55:19 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:55:19 - INFO: Songs retrieved successfully - 26[0m
+[32m2024-06-14 12:55:19 - INFO: 127.0.0.1 - - [14/Jun/2024 12:55:19] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-12&end_date=2024-06-12 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:55:43 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:55:43 - INFO: Songs retrieved successfully - 200[0m
+[32m2024-06-14 12:55:43 - INFO: 127.0.0.1 - - [14/Jun/2024 12:55:43] "GET /api/user/listened?limit=200&offset=1 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:55:47 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:55:47 - INFO: Songs retrieved successfully - 200[0m
+[32m2024-06-14 12:55:47 - INFO: 127.0.0.1 - - [14/Jun/2024 12:55:47] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-12 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:55:51 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:55:51 - INFO: Songs retrieved successfully - 200[0m
+[32m2024-06-14 12:55:51 - INFO: 127.0.0.1 - - [14/Jun/2024 12:55:51] "GET /api/user/listened?limit=200&offset=1&end_date=2024-06-12 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:56:09 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:56:09 - INFO: Songs retrieved successfully - 26[0m
+[32m2024-06-14 12:56:09 - INFO: 127.0.0.1 - - [14/Jun/2024 12:56:09] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-12&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-14 12:56:19 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-14 12:56:19 - INFO: Songs retrieved successfully - 38[0m
+[32m2024-06-14 12:56:19 - INFO: 127.0.0.1 - - [14/Jun/2024 12:56:19] "GET /api/user/listened?limit=200&offset=1&start_date=2024-06-13&end_date=2024-06-13 HTTP/1.1" 200 -[0m
+[32m2024-06-15 12:09:35 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-15 12:09:35 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-15 12:09:35 - INFO:  * Restarting with stat[0m
+[33m2024-06-15 12:09:36 - WARNING:  * Debugger is active![0m
+[32m2024-06-15 12:09:36 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-15 12:09:43 - INFO: 127.0.0.1 - - [15/Jun/2024 12:09:43] "[31m[1mPOST /api/api/service/save HTTP/1.1[0m" 405 -[0m
+[32m2024-06-15 12:10:09 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/routes/services.py', reloading[0m
+[32m2024-06-15 12:10:09 - INFO:  * Restarting with stat[0m
+[33m2024-06-15 12:10:09 - WARNING:  * Debugger is active![0m
+[32m2024-06-15 12:10:09 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-15 12:10:16 - INFO: 127.0.0.1 - - [15/Jun/2024 12:10:16] "[33mGET /api/api/service/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:52:44 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:44] "[33mGET /api HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:52:44 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:52:44 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:52:44 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:52:49 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:49] "[32mGET /api/user HTTP/1.1[0m" 308 -[0m
+[31m2024-06-16 12:52:49 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-16 12:52:49 - INFO: 127.0.0.1 - - [16/Jun/2024 12:52:49] "[31m[1mGET /api/user/ HTTP/1.1[0m" 401 -[0m
+[31m2024-06-16 12:53:00 - ERROR: Missing or invalid token in headers[0m
+[32m2024-06-16 12:53:00 - INFO: 127.0.0.1 - - [16/Jun/2024 12:53:00] "[31m[1mGET /api/service/save HTTP/1.1[0m" 401 -[0m
+[32m2024-06-16 12:53:12 - INFO: 127.0.0.1 - - [16/Jun/2024 12:53:12] "[33mGET /api/api/service/save HTTP/1.1[0m" 404 -[0m
+[32m2024-06-16 12:53:22 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-16 12:53:23 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:23 - INFO: Track inserted successfully - Moltisanti[0m
+[32m2024-06-16 12:53:23 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:23 - INFO: Artist already exists - Dante YN[0m
+[32m2024-06-16 12:53:23 - INFO: Track inserted successfully - 23 Freestyle[0m
+[32m2024-06-16 12:53:23 - INFO: Recent inserted successfully - 23 Freestyle - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:23 - INFO: Artist already exists - Monk[0m
+[32m2024-06-16 12:53:23 - INFO: Track inserted successfully - Juana[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Love Yourself - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:24 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Hold You - Hold Yuh - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - bhz - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:25 - INFO: Track inserted successfully - 2007 skit (hk beatz)[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:25 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - bhz - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:26 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:27 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:27 - INFO: Track inserted successfully - Nokia 3310 - Bonus Track[0m
+[32m2024-06-16 12:53:27 - INFO: Recent inserted successfully - Nokia 3310 - Bonus Track - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:28 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:28 - INFO: Track inserted successfully - 1. Mai[0m
+[32m2024-06-16 12:53:28 - INFO: Recent inserted successfully - 1. Mai - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:29 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:29 - INFO: Track inserted successfully - U1 Freestyle[0m
+[32m2024-06-16 12:53:29 - INFO: Recent inserted successfully - U1 Freestyle - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:30 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:30 - INFO: Track inserted successfully - Jede Saison[0m
+[32m2024-06-16 12:53:30 - INFO: Recent inserted successfully - Jede Saison - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:31 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:31 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:31 - INFO: Track inserted successfully - Duty Free[0m
+[32m2024-06-16 12:53:31 - INFO: Recent inserted successfully - Duty Free - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:31 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:31 - INFO: Track inserted successfully - Bis hierhin liefs noch ganz gut[0m
+[32m2024-06-16 12:53:31 - INFO: Recent inserted successfully - Bis hierhin liefs noch ganz gut - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 12:53:32 - INFO: Track inserted successfully - GTA[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - GTA - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - Adriana - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:32 - INFO: Artist inserted successfully - 6PM RECORDS[0m
+[32m2024-06-16 12:53:32 - INFO: Track inserted successfully - JUNGE BALLER[0m
+[32m2024-06-16 12:53:32 - INFO: Recent inserted successfully - JUNGE BALLER - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - mietfrei - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Tempo - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - 10K - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Cardio - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Wari - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Au Revoir (feat. Sido) - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Letztes Mal - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: Recent inserted successfully - Mélodie - for User: spotifyyanik[0m
+[32m2024-06-16 12:53:33 - INFO: 127.0.0.1 - - [16/Jun/2024 12:53:33] "GET /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-16 12:53:44 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-16 12:53:44 - INFO: Exceptions retrieved successfully - 2[0m
+[31m2024-06-16 12:53:44 - ERROR: Error in get_listened_to: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type bigint: "{}"
+LINE 10:             LIMIT NULL OFFSET '{}'
+                                       ^
+
+[SQL: 
+            SELECT recent.*, tracks.name AS track_name, tracks.image AS track_image, tracks.* FROM recent
+            JOIN tracks ON recent.tid = tracks.tid
+            
+            WHERE recent.uid = %(uid)s
+            AND recent.played_at BETWEEN %(start_date)s AND %(end_date)s
+            
+            
+            ORDER BY recent.played_at DESC
+            LIMIT %(limit)s OFFSET %(offset)s
+            ]
+[parameters: {'uid': 'spotifyyanik', 'start_date': '2024-06-02', 'end_date': '2024-06-16', 'limit': None, 'offset': []}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)[0m
+[32m2024-06-16 12:53:44 - INFO: 127.0.0.1 - - [16/Jun/2024 12:53:44] "[35m[1mPOST /api/service/topmix HTTP/1.1[0m" 500 -[0m
+[32m2024-06-16 14:07:25 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-16 14:07:25 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-16 14:07:25 - INFO:  * Restarting with stat[0m
+[33m2024-06-16 14:07:25 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:07:25 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:07:36 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-16 14:07:37 - INFO: Exceptions retrieved successfully - 2[0m
+[32m2024-06-16 14:07:37 - INFO: Songs retrieved successfully - 510[0m
+[32m2024-06-16 14:07:37 - INFO: Playlist found: TOPMIX 14 Days[0m
+[32m2024-06-16 14:07:37 - INFO: 127.0.0.1 - - [16/Jun/2024 14:07:37] "POST /api/service/topmix HTTP/1.1" 200 -[0m
+[32m2024-06-16 14:09:51 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/__init__.py', reloading[0m
+[32m2024-06-16 14:09:51 - INFO:  * Restarting with stat[0m
+[32m2024-06-16 14:09:51 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:09:51 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:09:51 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:09:51 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:09:51 - INFO: Scheduler started[0m
+[32m2024-06-16 14:09:51 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-16 14:09:51 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:09:51 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:10:51 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:11:51 CEST)" (scheduled at 2024-06-16 14:10:51.628383+02:00)[0m
+[32m2024-06-16 14:10:51 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:10:52 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:10:52 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-16 14:10:52 - ERROR: Error in hourly_task: HTTPConnectionPool(host='localhosthttp', port=80): Max retries exceeded with url: //127.0.0.1:5000/api/service/save (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10470f1d0>: Failed to resolve 'localhosthttp' ([Errno 8] nodename nor servname provided, or not known)"))[0m
+[32m2024-06-16 14:10:52 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:11:51 CEST)" executed successfully[0m
+[32m2024-06-16 14:11:16 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/scheduler/__init__.py', reloading[0m
+[32m2024-06-16 14:11:16 - INFO: Scheduler has been shut down[0m
+[32m2024-06-16 14:11:16 - INFO:  * Restarting with stat[0m
+[32m2024-06-16 14:11:16 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:11:16 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:11:16 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:11:16 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:11:16 - INFO: Scheduler started[0m
+[32m2024-06-16 14:11:16 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-16 14:11:16 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:11:16 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:12:16 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:13:16 CEST)" (scheduled at 2024-06-16 14:12:16.976235+02:00)[0m
+[32m2024-06-16 14:12:16 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:12:17 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:12:17 - INFO: Processing user: spotifyyanik[0m
+[31m2024-06-16 14:12:17 - ERROR: Error in hourly_task: HTTPConnectionPool(host='localhosthttp', port=80): Max retries exceeded with url: //127.0.0.1:5000/api/service/save (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x107a0edd0>: Failed to resolve 'localhosthttp' ([Errno 8] nodename nor servname provided, or not known)"))[0m
+[32m2024-06-16 14:12:17 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:13:16 CEST)" executed successfully[0m
+[32m2024-06-16 14:12:46 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/scheduler/__init__.py', reloading[0m
+[32m2024-06-16 14:12:46 - INFO: Scheduler has been shut down[0m
+[32m2024-06-16 14:12:46 - INFO:  * Restarting with stat[0m
+[32m2024-06-16 14:12:46 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:12:46 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:12:46 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:12:46 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:12:46 - INFO: Scheduler started[0m
+[32m2024-06-16 14:12:46 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-16 14:12:46 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:12:46 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:13:03 - INFO: Scheduler has been shut down[0m
+[32m2024-06-16 14:13:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:13:03 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:13:03 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:13:03 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:13:03 - INFO: Scheduler started[0m
+[32m2024-06-16 14:13:03 - INFO: Scheduler started with hourly and daily tasks.[0m
+[32m2024-06-16 14:13:03 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000[0m
+[32m2024-06-16 14:13:03 - INFO: [33mPress CTRL+C to quit[0m
+[32m2024-06-16 14:13:03 - INFO:  * Restarting with stat[0m
+[32m2024-06-16 14:13:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:13:04 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:13:04 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:13:04 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:13:04 - INFO: Scheduler started[0m
+[32m2024-06-16 14:13:04 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-16 14:13:04 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:13:04 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:14:03 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:15:03 CEST)" (scheduled at 2024-06-16 14:14:03.793143+02:00)[0m
+[32m2024-06-16 14:14:03 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:14:04 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:15:04 CEST)" (scheduled at 2024-06-16 14:14:04.058441+02:00)[0m
+[32m2024-06-16 14:14:04 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:14:04 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:14:04 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-16 14:14:04 - INFO: 127.0.0.1 - - [16/Jun/2024 14:14:04] "[31m[1mPOST /api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-16 14:14:04 - ERROR: Error in hourly_task: {
+    "message": "The method is not allowed for the requested URL."
+}
+[0m
+[32m2024-06-16 14:14:04 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:15:03 CEST)" executed successfully[0m
+[32m2024-06-16 14:14:04 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:14:04 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-16 14:14:04 - INFO: 127.0.0.1 - - [16/Jun/2024 14:14:04] "[31m[1mPOST /api/service/save HTTP/1.1[0m" 405 -[0m
+[31m2024-06-16 14:14:04 - ERROR: Error in hourly_task: {
+    "message": "The method is not allowed for the requested URL."
+}
+[0m
+[32m2024-06-16 14:14:04 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:15:04 CEST)" executed successfully[0m
+[32m2024-06-16 14:14:18 - INFO:  * Detected change in '/Users/yanik/PycharmProjects/spotify_manager_flask/SpotifyFlaskApp/app/routes/services.py', reloading[0m
+[32m2024-06-16 14:14:18 - INFO: Scheduler has been shut down[0m
+[32m2024-06-16 14:14:18 - INFO:  * Restarting with stat[0m
+[32m2024-06-16 14:14:18 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:14:18 - INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts[0m
+[32m2024-06-16 14:14:18 - INFO: Added job "hourly_task" to job store "default"[0m
+[32m2024-06-16 14:14:18 - INFO: Added job "daily_task" to job store "default"[0m
+[32m2024-06-16 14:14:18 - INFO: Scheduler started[0m
+[32m2024-06-16 14:14:18 - INFO: Scheduler started with hourly and daily tasks.[0m
+[33m2024-06-16 14:14:18 - WARNING:  * Debugger is active![0m
+[32m2024-06-16 14:14:18 - INFO:  * Debugger PIN: 720-212-121[0m
+[32m2024-06-16 14:15:03 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:16:03 CEST)" (scheduled at 2024-06-16 14:15:03.793143+02:00)[0m
+[32m2024-06-16 14:15:03 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:15:03 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:15:03 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-16 14:15:04 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-16 14:15:05 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:05 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:05 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:05 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - Punto - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:06 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - Spacecar - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Artist already exists - Pashanim[0m
+[32m2024-06-16 14:15:07 - INFO: Track inserted successfully - 2000[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - 2000 - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:07 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - Palmen aus Gold - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:08 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - 23 Freestyle - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Love Yourself - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:09 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - Hold You - Hold Yuh - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:10 - INFO: Recent inserted successfully - bhz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:11 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:12 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:12 - INFO: Recent inserted successfully - bhz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:12 - INFO: 127.0.0.1 - - [16/Jun/2024 14:15:12] "POST /api/service/save HTTP/1.1" 200 -[0m
+[32m2024-06-16 14:15:12 - INFO: Response for user spotifyyanik: {'message': 'Spotify data saved successfully'}[0m
+[32m2024-06-16 14:15:12 - INFO: Job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:16:03 CEST)" executed successfully[0m
+[32m2024-06-16 14:15:18 - INFO: Running job "hourly_task (trigger: interval[0:01:00], next run at: 2024-06-16 14:16:18 CEST)" (scheduled at 2024-06-16 14:15:18.456904+02:00)[0m
+[32m2024-06-16 14:15:18 - INFO: Spotify Saver Task ...[0m
+[32m2024-06-16 14:15:18 - INFO: Active users retrieved successfully - 1[0m
+[32m2024-06-16 14:15:18 - INFO: Processing user: spotifyyanik[0m
+[32m2024-06-16 14:15:18 - INFO: User retrieved successfully - spotifyyanik[0m
+[32m2024-06-16 14:15:19 - INFO: Recent inserted successfully - Notice Me - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:19 - INFO: Recent inserted successfully - Airwaves - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:19 - INFO: Recent inserted successfully - Baddies - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:19 - INFO: Recent inserted successfully - Flasche Luft - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:20 - INFO: Recent inserted successfully - Go Flex - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:20 - INFO: Recent inserted successfully - Punto - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:20 - INFO: Recent inserted successfully - BLUEBERRY YUM YUM - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:20 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:20 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:21 - INFO: Recent inserted successfully - Cripwalks (with Pashanim & Monk) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:21 - INFO: Recent inserted successfully - Prollz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:21 - INFO: Recent inserted successfully - Quevedo: Bzrp Music Sessions, Vol. 52 - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:21 - INFO: Recent inserted successfully - Spacecar - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:22 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:22 - INFO: Recent inserted successfully - 2000 - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:22 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:22 - INFO: Recent inserted successfully - Sommergewitter - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:22 - INFO: Recent inserted successfully - Mittelmeer - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:23 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:23 - INFO: Recent inserted successfully - Palmen aus Gold - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:23 - INFO: Recent inserted successfully - Florenz - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:23 - INFO: Recent inserted successfully - 2007 skit (hk beatz) - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:23 - INFO: Recent inserted successfully - Juana - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:24 - INFO: Recent inserted successfully - Moltisanti - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:24 - INFO: Recent inserted successfully - HINTERM BLOCK - for User: spotifyyanik[0m
+[32m2024-06-16 14:15:24 - INFO: Scheduler has been shut down[0m

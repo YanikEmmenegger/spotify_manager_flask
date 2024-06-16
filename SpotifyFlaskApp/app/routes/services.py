@@ -49,7 +49,7 @@ class UpdateTopmix(Resource):
 
             start_date = (datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')
             end_date = datetime.now().strftime('%Y-%m-%d')
-            top_tracks_response = db_service.get_listened_to(start_date, end_date, spotify_uuid, None,
+            top_tracks_response = db_service.get_listened_to(start_date, end_date, spotify_uuid, None, None,
                                                              topmix_exceptions['artists'],
                                                              topmix_exceptions['tracks'], None)
             if not top_tracks_response['success']:

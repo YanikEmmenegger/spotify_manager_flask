@@ -213,8 +213,7 @@ class DBService:
             return {'success': False, 'error': f"Error occurred in insert_genre while inserting genre: {e}"}
 
     def get_listened_to(self, start_date=None, end_date=None, spotify_uuid=None, limit=200, offset=0,
-                        artist_exceptions=None,
-                        track_exceptions=None, extended=False):
+                        artist_exceptions=None, track_exceptions=None, extended=False):
         try:
             query = """
             SELECT recent.*, tracks.name AS track_name, tracks.image AS track_image, tracks.*{artist_fields} FROM recent
@@ -241,8 +240,12 @@ class DBService:
             params = {'uid': spotify_uuid, 'limit': limit, 'offset': offset}
 
             if start_date and end_date:
-                date_condition = "AND recent.played_at BETWEEN :start_date AND :end_date"
-                params.update({'start_date': start_date, 'end_date': end_date})
+                if start_date == end_date:
+                    date_condition = "AND DATE(recent.played_at) = :start_date"
+                    params.update({'start_date': start_date})
+                else:
+                    date_condition = "AND recent.played_at BETWEEN :start_date AND :end_date"
+                    params.update({'start_date': start_date, 'end_date': end_date})
             else:
                 date_condition = ""
 
@@ -293,7 +296,7 @@ class DBService:
                     item['played_at'] = item['played_at'].isoformat()
 
             if not listened_to:
-                return {'success': False, 'error': 'No songs found'}
+                return {'success': True, 'data': listened_to, 'total_count': total_count}
 
             logging.info(f"Songs retrieved successfully - {len(listened_to)}")
             return {'success': True, 'message': 'Songs retrieved successfully', 'data': listened_to,

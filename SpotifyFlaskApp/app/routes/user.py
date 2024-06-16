@@ -63,6 +63,10 @@ class GetListenedTracks(Resource):
             if end_date and not re.match(date_regex, end_date):
                 return {"error": "end_date must be in format YYYY-MM-DD"}, 400
 
+            # check if start_date is before end_date
+            if start_date and end_date and start_date > end_date:
+                return {"error": "start_date must be before end_date"}, 400
+
             listened_tracks_response = db_service.get_listened_to(start_date, end_date, spotify_uuid, limit, offset,
                                                                   None, None, True)
             if not listened_tracks_response['success']:
