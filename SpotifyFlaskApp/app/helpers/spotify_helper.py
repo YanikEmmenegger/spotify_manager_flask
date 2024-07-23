@@ -53,6 +53,9 @@ def make_spotify_api_request(access_token, endpoint, method='GET', data=None, pa
     try:
         url = f"{SPOTIFY_API_BASE_URL}/{endpoint}"
         headers = {"Authorization": f"Bearer {access_token}"}
+
+        print(url)
+        print(headers)
         response = None
 
         if method == 'GET':

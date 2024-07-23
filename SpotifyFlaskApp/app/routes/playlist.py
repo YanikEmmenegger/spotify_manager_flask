@@ -1,7 +1,7 @@
 # app/routes/playlist.py
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify
 
-from app.routes.route_helper import get_tokens_from_headers
+from app.helpers.route_helper import get_tokens_from_headers
 from app.services import SpotifyService, DBService
 
 # Define the Blueprint

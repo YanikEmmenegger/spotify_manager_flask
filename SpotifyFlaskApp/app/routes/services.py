@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from app.routes.route_helper import get_tokens_from_headers
+from app.helpers.route_helper import get_tokens_from_headers
 from app.services import SpotifyService, DBService
 from datetime import datetime, timedelta
 

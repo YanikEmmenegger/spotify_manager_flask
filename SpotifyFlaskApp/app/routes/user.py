@@ -2,8 +2,10 @@ import re
 
 from flask import request
 from flask_restful import Resource, url_for
+
+from app.scheduler import update_tracks_task
 from app.services import SpotifyService, DBService
-from app.routes.route_helper import get_tokens_from_headers
+from app.helpers.route_helper import get_tokens_from_headers
 
 spotify_service = SpotifyService()
 db_service = DBService()
@@ -11,16 +13,8 @@ db_service = DBService()
 
 class GetUser(Resource):
     def get(self):
-        token = get_tokens_from_headers()
-        print(token)
-        if not token['success']:
-            return {'message': 'Unauthorized, wrong or missing Authorization Bearer'}, 401
-        access_token, spotify_uuid = token['access_token'], token['spotify_uuid']
-        return {
-            'message': 'User found',
-            'access_token': access_token,
-            'spotify_uuid': spotify_uuid
-        }, 200
+        update_tracks_task()
+        return {"message": "User updated"}, 200
 
 
 class GetListenedTracks(Resource):

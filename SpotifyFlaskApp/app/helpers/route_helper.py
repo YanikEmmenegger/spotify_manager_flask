@@ -12,7 +12,7 @@ def get_tokens_from_headers():
         if not token or len(token.split(' ')) != 2:
             # Log and return error if the token is missing or invalid
             logging.error("Missing or invalid token in headers")
-            return {'success': False, 'error': "Missing or invalid token in headers"}
+            return {'success': False, 'error': "Missing or invalid token in headers"+ token}
 
         token = token.split(' ')[1]
         # Check if token is valid in the database

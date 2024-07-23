@@ -386,8 +386,8 @@ class DBService:
             return {'success': False,
                     'error': f"Error occurred in get_incomplete_tracks while getting incomplete tracks: {e}"}
 
-    def update_track(self, track_id, danceability, energy, key, loudness, mode, speechiness, acousticness,
-                     instrumentalness, liveness, valence, tempo):
+    def update_track(self, track_id, danceability=None, energy=None, key=None, loudness=None, mode=None, speechiness=None, acousticness=None,
+                     instrumentalness=None, liveness=None, valence=None, tempo=None):
         try:
             self.db.execute(
                 text(
